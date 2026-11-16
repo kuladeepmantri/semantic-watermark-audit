@@ -1,5 +1,7 @@
 # Semantic watermark audit
 
+**Paper:** [What Does a Semantic Watermark Verify? An Audit of SEAL and a Tested Thumbnail Repair Candidate (PDF)](paper/semantic-watermark-audit.pdf). arXiv link coming soon.
+
 This repository contains evaluation code and saved numerical records for *What Does a Semantic Watermark Verify? An Audit of SEAL and a Tested Thumbnail Repair Candidate* by Kuladeep Mantri. It checks every exported numeric or identifier macro used by the captured manuscript input graph, currently 534, including the white-box, SEAL reproduction, external-reference and distortion results. The checks run on a CPU with Python's standard library. They verify arithmetic, record integrity and recorded decisions; they do not regenerate images or rerun model inference.
 
 ## Selected results
