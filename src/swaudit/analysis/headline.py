@@ -485,9 +485,14 @@ def primary_sources(groups: Any) -> Any:
     null = [r for r in r5 if r["condition"] == "negative"]
     require(len(hon) == len(null) == 200, "Run005 diagnostic coverage")
     model = {}
-    for cut in (3, 12):
+    patches = protocol_cutoff("patch_count")
+    bits = protocol_cutoff("bit_exponent")
+    require(type(patches) is int and patches > 0, "Invalid protocol patch_count")
+    require(type(bits) is int and bits > 0, "Invalid protocol bit_exponent")
+    for cut in (protocol_cutoff("local_m"), protocol_cutoff("published_m")):
         predicted = math.fsum(
-            (binomial_sf(cut, 1024, (1 - r["theta"] / 180) ** 7 * r["oracle"] / 1024) for r in hon)
+            binomial_sf(cut, patches, (1 - r["theta"] / 180) ** bits * r["oracle"] / patches)
+            for r in hon
         )
         model["M_gt_" + str(cut)] = dict(
             observed=sum((r["M"] > cut for r in hon)), predicted=predicted

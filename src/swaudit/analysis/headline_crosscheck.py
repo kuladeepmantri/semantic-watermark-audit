@@ -11,6 +11,7 @@ from typing import Any
 from swaudit.analysis.format_numbers import formatted
 from swaudit.analysis.headline import attribution, build_master, extras, frontier, primary_sources
 from swaudit.analysis.legacy_numbers import render as legacy_render
+from swaudit.outputs import output_run, write_report
 from swaudit.protocol import cutoff
 from swaudit.recompute import BASE, read, require, verify_manifest
 from swaudit.recompute import analyze as repair_analysis
@@ -75,6 +76,7 @@ def run() -> Any:
     }
     skipped = []
     replay_sources = set(policy["aggregate_replay_sources"])
+    special_sources = set(policy["special_recount_sources"])
     methods = {}
     verified = []
     aggregate = []
@@ -85,14 +87,13 @@ def run() -> Any:
             old = operands[ref["key"]]["value"]
             src = sources[ref["source"]]["path"]
             require(
-                src in derived
-                or src in replay_sources
-                or src.endswith("a4_verifiers_and_geometry.json"),
+                src in derived or src in replay_sources or src in special_sources,
                 "Undeclared crosscheck source: " + spec["macro"],
             )
             actual = None
             checked = False
-            if src in derived and ref["path"]:
+            if src in derived:
+                require(bool(ref["path"]), "Empty derived selector: " + spec["macro"])
                 try:
                     actual = at(derived[src], ref["path"])
                     checked = True
@@ -118,6 +119,8 @@ def run() -> Any:
                     else sum((r["M"] >= cutoff("theory_m") for r in theory))
                 )
                 checked = True
+            if src in special_sources:
+                require(checked, "Unresolved derived selector: " + spec["macro"])
             if checked:
                 require(close(actual, old), "Derived selector differs: " + spec["macro"])
                 checks += 1
@@ -230,47 +233,47 @@ def main() -> Any:
     ap.add_argument("--output", type=pathlib.Path, required=True)
     args = ap.parse_args()
     out = args.output.resolve() if args.output else None
-    if out:
-        require(not out.is_relative_to(BASE), "Output must stay outside release")
-    try:
+    with output_run(out, BASE):
         (report, generated, details) = run()
-    except (ValueError, KeyError, AssertionError, OSError) as exc:
-        report = dict(
-            author="Kuladeep Mantri", status="FAIL", mismatches=None, uncovered=[], error=str(exc)
+        if report["status"] != "PASS":
+            write_report(out, report)
+            print(json.dumps(report, indent=2))
+            raise SystemExit(1)
+        out.mkdir(parents=True, exist_ok=True)
+        used = read("used-macros.json")["used"]
+        expected = read("expected-all.json")["values"]
+
+        def tex(vals: Any) -> Any:
+            """Format a numerical value for its TeX macro."""
+            return (
+                "% Generated for Kuladeep Mantri.\n"
+                + "\n".join(
+                    (
+                        "\\newcommand{\\" + n + "}{" + vals[n] + "}"
+                        for n in sorted(used)
+                        if n in vals
+                    )
+                )
+                + "\n"
+            )
+
+        actual = tex(generated)
+        target = tex(expected)
+        (out / "numbers-used.tex").write_text(actual)
+        (out / "numbers-used.diff").write_text(
+            "".join(
+                difflib.unified_diff(
+                    target.splitlines(True),
+                    actual.splitlines(True),
+                    fromfile="expected",
+                    tofile="recomputed",
+                )
+            )
         )
+        (out / "DETAILS.json").write_text(json.dumps(details, indent=2, sort_keys=True) + "\n")
+        (out / "RESULT.json").write_text(json.dumps(report, indent=2, sort_keys=True) + "\n")
         print(json.dumps(report, indent=2))
-        raise SystemExit(1)
-    out.mkdir(parents=True, exist_ok=True)
-    used = read("used-macros.json")["used"]
-    expected = read("expected-all.json")["values"]
-
-    def tex(vals: Any) -> Any:
-        """Format a numerical value for its TeX macro."""
-        return (
-            "% Generated for Kuladeep Mantri.\n"
-            + "\n".join(
-                ("\\newcommand{\\" + n + "}{" + vals[n] + "}" for n in sorted(used) if n in vals)
-            )
-            + "\n"
-        )
-
-    actual = tex(generated)
-    target = tex(expected)
-    (out / "numbers-used.tex").write_text(actual)
-    (out / "numbers-used.diff").write_text(
-        "".join(
-            difflib.unified_diff(
-                target.splitlines(True),
-                actual.splitlines(True),
-                fromfile="expected",
-                tofile="recomputed",
-            )
-        )
-    )
-    (out / "RESULT.json").write_text(json.dumps(report, indent=2, sort_keys=True) + "\n")
-    (out / "DETAILS.json").write_text(json.dumps(details, indent=2, sort_keys=True) + "\n")
-    print(json.dumps(report, indent=2))
-    raise SystemExit(report["status"] != "PASS")
+        raise SystemExit(report["status"] != "PASS")
 
 
 if __name__ == "__main__":

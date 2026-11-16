@@ -5,6 +5,7 @@
     5,
     6
   ],
+  "bit_exponent": 7,
   "bootstrap_replicates": 10000,
   "bootstrap_seeds": [
     2026111101,
@@ -27,6 +28,7 @@
   "not_constructed": "n/c",
   "not_registered": "n/r",
   "old_gate": 38,
+  "patch_count": 1024,
   "payload_patches": 102,
   "predicted_recoveries": 6,
   "prediction_checks": {

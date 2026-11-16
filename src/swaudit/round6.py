@@ -17,8 +17,18 @@ def precision(record: dict[str, Any], summary: dict[str, Any]) -> dict[str, Any]
     rows = record["ablation"]
     unique(rows, ("index",))
     require({r["index"] for r in rows} == set(range(20)), "Precision cohort differs")
+    variants = set(rows[0]["counts"])
+    require(
+        variants == set(summary["precision"])
+        and all(set(row["counts"]) == variants for row in rows),
+        "Precision variant set differs",
+    )
     result = {}
     for variant, expected in summary["precision"].items():
+        require(
+            isinstance(expected["exact_95_ci"], list) and len(expected["exact_95_ci"]) == 2,
+            "Precision interval must contain two bounds",
+        )
         k = sum(r["counts"][variant] > cutoff("published_m") for r in rows)
         require(k == expected["k"] and len(rows) == expected["n"], "Precision count differs")
         require(math.isclose(k / len(rows), expected["rate"]), "Precision rate differs")

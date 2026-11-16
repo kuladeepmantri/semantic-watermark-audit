@@ -10,7 +10,7 @@ from typing import Any
 from swaudit.analysis.frozen_rules import p20
 from swaudit.paths import RECORDS
 from swaudit.protocol import cutoff
-from swaudit.recompute import require, unique
+from swaudit.recompute import require, unique, verify_manifest
 
 Row = dict[str, Any]
 
@@ -194,6 +194,7 @@ def run() -> Row:
 
 def main() -> None:
     """Print all round-five numerators and denominators as JSON."""
+    verify_manifest()
     print(json.dumps(run(), indent=2, sort_keys=True))
 
 

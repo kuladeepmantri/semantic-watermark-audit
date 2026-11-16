@@ -276,5 +276,8 @@
         "M_strict_gt"
       ]
     }
+  ],
+  "special_recount_sources": [
+    "research/model-deep-dive/results/a4_verifiers_and_geometry.json"
   ]
 }

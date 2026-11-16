@@ -9,6 +9,7 @@ import sys
 from typing import Any
 
 from swaudit.analysis.legacy_numbers import render as legacy_render
+from swaudit.outputs import output_run
 from swaudit.recompute import BASE, read, require, verify_manifest
 from swaudit.recompute import analyze as repair_analysis
 
@@ -22,14 +23,18 @@ def run_part(index: int) -> tuple[dict[str, str], dict[str, Any]]:
         capture_output=True,
         text=True,
     )
-    require(child.returncode == 0, "Headline part%d failed: " % index + child.stderr[-500:])
     try:
         result = json.loads(child.stdout)
-    except ValueError:
-        raise ValueError("Headline part%d did not emit JSON" % index)
+    except ValueError as exc:
+        raise ValueError("Headline part%d failed: " % index + child.stderr[-500:]) from exc
+    require(isinstance(result, dict), "Headline part%d returned invalid JSON" % index)
     mismatches = result.get("mismatches")
     count = len(mismatches) if isinstance(mismatches, list) else mismatches
-    require(count == 0, "Headline part%d reports mismatches" % index)
+    require(
+        count == 0,
+        "Headline part%d reports mismatches: " % index + json.dumps(mismatches, sort_keys=True),
+    )
+    require(child.returncode == 0, "Headline part%d failed: " % index + child.stderr[-500:])
     numbers = result.get("rendered", result.get("values", result.get("numbers")))
     require(
         isinstance(numbers, dict) and numbers,
@@ -154,49 +159,44 @@ def main() -> None:
     )
     args = parser.parse_args()
     out = args.output.resolve() if args.output else None
-    try:
-        if out:
-            require(not out.is_relative_to(BASE), "Output must stay outside records")
+    with output_run(out, BASE):
         (report, generated, details) = run(args.manuscript)
-    except (ValueError, KeyError, AssertionError, OSError) as exc:
-        print(json.dumps(dict(status="FAIL", error=str(exc))))
-        raise SystemExit(1) from exc
-    if out:
-        out.mkdir(parents=True, exist_ok=True)
-        if report["status"] != "PASS":
-            (out / "RESULT.json").write_text(json.dumps(report, indent=2) + "\n")
-            print(json.dumps(report))
-            raise SystemExit(1)
-        used = report["used_macro_names"]
+        if out:
+            out.mkdir(parents=True, exist_ok=True)
+            if report["status"] != "PASS":
+                (out / "RESULT.json").write_text(json.dumps(report, indent=2) + "\n")
+                print(json.dumps(report))
+                raise SystemExit(1)
+            used = report["used_macro_names"]
 
-        def tex(names: list[str]) -> str:
-            """Format a numerical value for its TeX macro."""
-            return (
-                "% Generated for Kuladeep Mantri.\n"
-                + "\n".join(
-                    ("\\newcommand{\\" + n + "}{" + generated[n] + "}" for n in sorted(names))
+            def tex(names: list[str]) -> str:
+                """Format a numerical value for its TeX macro."""
+                return (
+                    "% Generated for Kuladeep Mantri.\n"
+                    + "\n".join(
+                        ("\\newcommand{\\" + n + "}{" + generated[n] + "}" for n in sorted(names))
+                    )
+                    + "\n"
                 )
-                + "\n"
+
+            (out / "numbers-used.tex").write_text(tex(used))
+            (out / "numbers-all.tex").write_text(tex(list(generated)))
+            (out / "DETAILS.json").write_text(json.dumps(details, indent=2, sort_keys=True) + "\n")
+            (out / "RESULT.json").write_text(json.dumps(report, indent=2, sort_keys=True) + "\n")
+            print(json.dumps(report, indent=2))
+        else:
+            print(
+                f"{report['status']}: {report['checked']}/{report['used_macros']} manuscript macros; {report['mismatches']} mismatches; {len(report['uncovered'])} uncovered"
             )
-
-        (out / "numbers-used.tex").write_text(tex(used))
-        (out / "numbers-all.tex").write_text(tex(list(generated)))
-        (out / "RESULT.json").write_text(json.dumps(report, indent=2, sort_keys=True) + "\n")
-        (out / "DETAILS.json").write_text(json.dumps(details, indent=2, sort_keys=True) + "\n")
-        print(json.dumps(report, indent=2))
-    else:
-        print(
-            f"{report['status']}: {report['checked']}/{report['used_macros']} manuscript macros; {report['mismatches']} mismatches; {len(report['uncovered'])} uncovered"
-        )
-        print(f"Exports checked: {report['all_exported_macros_checked']}")
-        for name, values in report["round5"].items():
-            for cohort, value in values.items():
-                counts = value.get("accepted", {k: v for (k, v) in value.items() if k != "n"})
-                print(
-                    f"{name}/{cohort}: "
-                    + ", ".join((f"{k}={v}/{value['n']}" for (k, v) in counts.items()))
-                )
-    raise SystemExit(report["status"] != "PASS")
+            print(f"Exports checked: {report['all_exported_macros_checked']}")
+            for name, values in report["round5"].items():
+                for cohort, value in values.items():
+                    counts = value.get("accepted", {k: v for (k, v) in value.items() if k != "n"})
+                    print(
+                        f"{name}/{cohort}: "
+                        + ", ".join((f"{k}={v}/{value['n']}" for (k, v) in counts.items()))
+                    )
+        raise SystemExit(report["status"] != "PASS")
 
 
 if __name__ == "__main__":

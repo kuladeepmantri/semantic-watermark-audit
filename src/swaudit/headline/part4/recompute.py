@@ -45,7 +45,9 @@ def recompute(data: Any) -> Any:
         )
     limits = protocol()["prediction_checks"]
     (H, Z) = (data["honest"], data["unwatermarked"])
-    (n, bits) = (data["model_design"]["patch_count"], data["model_design"]["bits"])
+    n, bits = cutoff("patch_count"), cutoff("bit_exponent")
+    if (n, bits) != (data["model_design"]["patch_count"], data["model_design"]["bits"]):
+        raise ValueError("Prediction model design differs from protocol")
 
     def rho(h):
         return (1 - h["theta"] / 180.0) ** bits

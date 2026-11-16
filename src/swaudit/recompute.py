@@ -12,6 +12,7 @@ from typing import Any
 from swaudit.analysis.format_numbers import rounded
 from swaudit.analysis.frozen_rules import digest, full_boundary, p20, scalar_rules
 from swaudit.analysis.statistics import exact_interval, paired
+from swaudit.outputs import output_run, write_report
 from swaudit.paths import RECORDS as BASE
 from swaudit.protocol import cutoff
 
@@ -615,60 +616,61 @@ def main() -> Any:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--output", type=pathlib.Path)
     args = ap.parse_args()
-    verify_manifest()
-    (result, details) = analyze()
-    target = (BASE / "expected/repair-numbers.tex").read_text()
-    expected = parse_tex(target)
-    mismatches = [
-        dict(macro=k, expected=expected.get(k), actual=result.get(k))
-        for k in sorted(set(result) | set(expected))
-        if result.get(k) != expected.get(k)
-    ]
-    report = dict(
-        author="Kuladeep Mantri",
-        macros=len(expected),
-        generated=len(result),
-        mismatches=len(mismatches),
-        differences=mismatches,
-        design_macros=len(details["design_macros"]),
-        observed_or_derived_macros=len(result) - len(details["design_macros"]),
-    )
-    if args.output:
-        out = args.output.resolve()
-        require(not out.is_relative_to(BASE), "Output must be outside immutable package")
-        out.mkdir(parents=True, exist_ok=True)
-        lines = target.splitlines()
-        generated = (
-            "\n".join(
-                (
-                    re.sub(
-                        "^(\\\\newcommand\\{\\\\(\\w+)\\}\\{).*(\\})$",
-                        lambda m: m[1] + result.get(m[2], "<MISSING>") + m[3],
-                        line,
+    out = args.output.resolve() if args.output else None
+    with output_run(out, BASE):
+        verify_manifest()
+        (result, details) = analyze()
+        target = (BASE / "expected/repair-numbers.tex").read_text()
+        expected = parse_tex(target)
+        mismatches = [
+            dict(macro=k, expected=expected.get(k), actual=result.get(k))
+            for k in sorted(set(result) | set(expected))
+            if result.get(k) != expected.get(k)
+        ]
+        report = dict(
+            author="Kuladeep Mantri",
+            macros=len(expected),
+            generated=len(result),
+            mismatches=len(mismatches),
+            differences=mismatches,
+            design_macros=len(details["design_macros"]),
+            observed_or_derived_macros=len(result) - len(details["design_macros"]),
+        )
+        report["status"] = "FAIL" if mismatches else "PASS"
+        if out and mismatches:
+            write_report(out, report)
+        if out and not mismatches:
+            lines = target.splitlines()
+            generated = (
+                "\n".join(
+                    (
+                        re.sub(
+                            "^(\\\\newcommand\\{\\\\(\\w+)\\}\\{).*(\\})$",
+                            lambda m: m[1] + result.get(m[2], "<MISSING>") + m[3],
+                            line,
+                        )
+                        for line in lines
                     )
-                    for line in lines
                 )
+                + "\n"
             )
-            + "\n"
-        )
-        (out / "repair-numbers.tex").write_text(generated)
-        (out / "RESULT.json").write_text(
-            json.dumps(dict(report, details=details), indent=2, sort_keys=True) + "\n"
-        )
-        import difflib
+            (out / "repair-numbers.tex").write_text(generated)
+            import difflib
 
-        (out / "repair-numbers.diff").write_text(
-            "".join(
-                difflib.unified_diff(
-                    target.splitlines(True),
-                    generated.splitlines(True),
-                    fromfile="expected/repair-numbers.tex",
-                    tofile="regenerated/repair-numbers.tex",
+            (out / "repair-numbers.diff").write_text(
+                "".join(
+                    difflib.unified_diff(
+                        target.splitlines(True),
+                        generated.splitlines(True),
+                        fromfile="expected/repair-numbers.tex",
+                        tofile="regenerated/repair-numbers.tex",
+                    )
                 )
             )
-        )
-    print(json.dumps(report, indent=2))
-    raise SystemExit(bool(mismatches))
+        if out and not mismatches:
+            write_report(out, dict(report, details=details))
+        print(json.dumps(report, indent=2))
+        raise SystemExit(bool(mismatches))
 
 
 if __name__ == "__main__":
