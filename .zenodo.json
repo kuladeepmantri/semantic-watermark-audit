@@ -1,0 +1,22 @@
+{
+  "title": "Semantic watermark audit: code and records for \"What Does a Semantic Watermark Verify? An Audit of SEAL and a Tested Thumbnail Repair Candidate\"",
+  "upload_type": "software",
+  "description": "Evaluation code, saved numerical records and the paper PDF for an audit of SEAL (ICCV 2025), a semantic watermark for Stable Diffusion images, against CSI semantic forgeries. One command recomputes every number cited in the paper from the saved records. The paper PDF is in paper/semantic-watermark-audit.pdf.",
+  "creators": [
+    {
+      "name": "Mantri, Kuladeep",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "watermarking",
+    "diffusion models",
+    "semantic watermark",
+    "forgery attacks",
+    "security evaluation",
+    "image provenance",
+    "reproducibility"
+  ],
+  "version": "1.0.0"
+}

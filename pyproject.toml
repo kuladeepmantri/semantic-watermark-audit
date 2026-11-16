@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "semantic-watermark-audit"
-version = "0.1.0"
+version = "1.0.0"
 description = "Saved-record evaluation for a semantic watermark audit"
 requires-python = ">=3.10"
 authors = [{name = "Kuladeep Mantri"}]
