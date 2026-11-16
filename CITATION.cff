@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using this code or its numerical records."
+type: software
+title: "What Does a Semantic Watermark Verify? An Audit of SEAL and a Tested Thumbnail Repair Candidate"
+authors:
+  - family-names: Mantri
+    given-names: Kuladeep
+version: 0.1.0
+date-released: 2026-11-15
+license: MIT
+abstract: "Saved-record evaluation by Kuladeep Mantri. Preprint arXiv identifier: TBD."
