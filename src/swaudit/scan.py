@@ -38,7 +38,7 @@ PATTERNS = {
 EXTENSIONS = {".py", ".json", ".md", ".tex", ".toml", ".yml", ".yaml", ".cff", ".txt", ""}
 # Reviewed binaries allowed in the distribution, pinned by SHA-256.
 PINNED_BINARIES = {
-    "paper/semantic-watermark-audit.pdf": "3fe5d7c6a784e7b3aa2aaa8da02a3e4af8d7e5b92ab9f4449fb44e6f8e530a2e",
+    "paper/semantic-watermark-audit.pdf": "19e74a8d0e4cb5fd9b3a16960c946c649966e7e8ab58ff416671afdd1fb5607e",
 }
 IGNORED = {".git", ".venv", "__pycache__", ".pytest_cache", ".ruff_cache", "build", "dist"}
 

@@ -6,6 +6,7 @@ authors:
   - family-names: Mantri
     given-names: Kuladeep
 version: 1.0.0
+doi: 10.5281/zenodo.24268671
 date-released: 2026-11-15
 license: MIT
 abstract: "Evaluation code and saved numerical records for an audit of the SEAL semantic watermark against CSI forgeries. Reproduces every number in the accompanying paper."
