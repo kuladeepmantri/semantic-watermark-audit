@@ -14,6 +14,7 @@ import math
 from pathlib import Path
 from typing import Any
 
+from swaudit.analysis import statistics as stats
 from swaudit.analysis.format_numbers import rounded
 from swaudit.paths import RECORDS
 from swaudit.protocol import cutoff as protocol_cutoff
@@ -33,27 +34,12 @@ CONTEXTS = {
 }
 
 
-def binomial_cdf(k: int, n: int, p: float) -> float:
-    """Compute P(X <= k) for a binomial random variable."""
-    return math.fsum((math.comb(n, j) * p**j * (1 - p) ** (n - j) for j in range(k + 1)))
-
-
 @functools.lru_cache(None)
-def interval(k: Any, n: Any) -> Any:
-    """Return a binomial count with its exact 95% interval."""
-
-    def root(j: Any, probability: Any) -> Any:
-        """Invert a binomial tail by bisection."""
-        (low, high) = (0.0, 1.0)
-        for _ in range(100):
-            mid = (low + high) / 2
-            if binomial_cdf(j, n, mid) > probability:
-                low = mid
-            else:
-                high = mid
-        return (low + high) / 2
-
-    return (0.0 if k == 0 else root(k - 1, 0.975), 1.0 if k == n else root(k, 0.025))
+def interval(k: int, n: int) -> tuple[float, float]:
+    """Return the shared exact 95% binomial interval."""
+    if n <= 0:
+        raise ValueError("Invalid binomial counts")
+    return tuple(stats.exact_interval(k, n))
 
 
 def frontier(groups: Any, request: Any) -> Any:

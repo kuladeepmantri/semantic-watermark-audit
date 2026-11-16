@@ -13,6 +13,7 @@ import math
 from pathlib import Path
 from typing import Any
 
+from swaudit.analysis import statistics as stats
 from swaudit.analysis.format_numbers import rounded
 from swaudit.paths import RECORDS
 from swaudit.protocol import cutoff
@@ -38,42 +39,11 @@ def percentile(values: list[float], q: float) -> float:
     return values[lo] + (values[hi] - values[lo]) * (index - lo)
 
 
-def binomial_probability(n: int, j: int, p: float) -> float:
-    """Compute the binomial probability of exactly j successes."""
-    return math.comb(n, j) * p**j * (1 - p) ** (n - j)
-
-
-def bisect_probability(function: Any, target: Any, increasing: Any) -> Any:
-    """Invert a monotone probability function on the unit interval."""
-    (lo, hi) = (0.0, 1.0)
-    for _ in range(100):
-        mid = (lo + hi) / 2
-        if (function(mid) < target) == increasing:
-            lo = mid
-        else:
-            hi = mid
-    return (lo + hi) / 2
-
-
 def exact95(k: int, n: int) -> list[float]:
-    """Compute a two-sided 95% Clopper-Pearson interval."""
-    lower = (
-        0.0
-        if k == 0
-        else bisect_probability(
-            lambda p: math.fsum((binomial_probability(n, j, p) for j in range(k, n + 1))),
-            0.025,
-            True,
-        )
-    )
-    upper = (
-        1.0
-        if k == n
-        else bisect_probability(
-            lambda p: math.fsum((binomial_probability(n, j, p) for j in range(k + 1))), 0.025, False
-        )
-    )
-    return [lower, upper]
+    """Return the shared two-sided 95% binomial interval."""
+    if n <= 0:
+        raise ValueError("Invalid binomial counts")
+    return stats.exact_interval(k, n)
 
 
 def derive(data: Any) -> Any:

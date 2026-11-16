@@ -1,7 +1,7 @@
 """Recompute part 1 using only de-identified scalars.
 
 Counts are the audited master-table aggregate k,n fields, not a raw-score
-replay. Exact two-sided Clopper-Pearson bounds use the source's 64-step
+replay. Exact two-sided Clopper-Pearson bounds use the shared
 binomial-tail inversion. Expected values never supply computed inputs.
 """
 
@@ -11,34 +11,16 @@ import math
 from pathlib import Path
 from typing import Any
 
+from swaudit.analysis import statistics as stats
 from swaudit.analysis.format_numbers import rounded
 from swaudit.paths import RECORDS
 
 
-def exact_interval(k: Any, n: Any, confidence_percent: Any) -> Any:
-    """Compute an exact two-sided binomial interval."""
-    if not isinstance(k, int) or not isinstance(n, int) or (not 0 <= k <= n) or (n <= 0):
+def exact_interval(k: int, n: int, confidence_percent: float) -> list[float]:
+    """Compute an exact interval at the component's declared confidence level."""
+    if n <= 0:
         raise ValueError("Invalid binomial counts")
-    tail_probability = (1 - confidence_percent / 100) / 2
-
-    def solve(tail: Any, increasing: Any) -> Any:
-        """Find the probability matching the requested tail mass."""
-        (lo, hi) = (0.0, 1.0)
-        for _ in range(64):
-            mid = (lo + hi) / 2
-            if (tail(mid) < tail_probability) == increasing:
-                lo = mid
-            else:
-                hi = mid
-        return (lo + hi) / 2
-
-    def mass(i: Any, p: Any) -> Any:
-        """Evaluate the binomial tail at a candidate probability."""
-        return math.comb(n, i) * p**i * (1 - p) ** (n - i)
-
-    lower = 0.0 if k == 0 else solve(lambda p: sum((mass(i, p) for i in range(k, n + 1))), True)
-    upper = 1.0 if k == n else solve(lambda p: sum((mass(i, p) for i in range(k + 1))), False)
-    return [lower, upper]
+    return stats.exact_interval(k, n, confidence_percent=confidence_percent)
 
 
 def recompute(data: Any, expected: Any) -> Any:

@@ -37,11 +37,13 @@ def binomial_sf(k: int, n: int, p: float) -> float:
     return binomial_cdf(n - k - 1, n, 1 - p)
 
 
-def exact_interval(k: Any, n: Any) -> Any:
+def exact_interval(k: int, n: int, *, confidence_percent: float = 95) -> list[float] | None:
     """Compute an exact two-sided binomial interval."""
     require(isinstance(k, int) and isinstance(n, int) and (0 <= k <= n), "Invalid interval counts")
+    require(0 < confidence_percent < 100, "Invalid interval confidence")
     if n == 0:
         return None
+    tail = (100 - confidence_percent) / 200
 
     def invert(predicate: Any) -> Any:
         """Bisect a monotone predicate on the unit interval."""
@@ -54,8 +56,8 @@ def exact_interval(k: Any, n: Any) -> Any:
                 lo = mid
         return (lo + hi) / 2
 
-    lower = 0.0 if k == 0 else invert(lambda p: binomial_sf(k - 1, n, p) >= 0.025)
-    upper = 1.0 if k == n else invert(lambda p: binomial_cdf(k, n, p) <= 0.025)
+    lower = 0.0 if k == 0 else invert(lambda p: binomial_sf(k - 1, n, p) >= tail)
+    upper = 1.0 if k == n else invert(lambda p: binomial_cdf(k, n, p) <= tail)
     return [lower, upper]
 
 
