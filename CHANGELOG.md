@@ -2,8 +2,9 @@
 
 Maintainer: Kuladeep Mantri.
 
-## Unreleased
+## 1.0.1 - 2026-11-15
 
+- Correct the archive and citation abstracts: the recount covers exported manuscript macros, not every number in the paper.
 - Reorganize documentation: short README, docs split into reproduce, results, data and architecture. No change to code, records or numbers.
 
 ## 1.0.0 - 2026-11-15

@@ -5,7 +5,7 @@ title: "What Does a Semantic Watermark Verify? An Audit of SEAL and a Tested Thu
 authors:
   - family-names: Mantri
     given-names: Kuladeep
-version: 1.0.0
+version: 1.0.1
 doi: 10.5281/zenodo.24268671
 date-released: 2026-11-15
 license: MIT

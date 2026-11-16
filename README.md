@@ -99,7 +99,7 @@ Use this code to inspect evidence, test verification assumptions and compare exp
   author = {Kuladeep Mantri},
   title = {Semantic watermark audit: code and records},
   year = {2026},
-  version = {1.0.0},
+  version = {1.0.1},
   doi = {10.5281/zenodo.24268671}
 }
 ```
