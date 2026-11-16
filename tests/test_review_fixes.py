@@ -172,3 +172,19 @@ def test_no_assert_based_validation_in_package():
         assert not any(
             isinstance(node, ast.Assert) for node in ast.walk(ast.parse(path.read_text()))
         )
+
+
+def test_pinned_binary_passes_only_with_matching_hash(tmp_path, monkeypatch):
+    monkeypatch.setattr(scan, "BASE", tmp_path)
+    pdf = tmp_path / "paper" / "report.pdf"
+    pdf.parent.mkdir()
+    pdf.write_bytes(b"%PDF-1.5\n\xff\xfe binary")
+    import hashlib
+
+    digest = hashlib.sha256(pdf.read_bytes()).hexdigest()
+    monkeypatch.setattr(scan, "PINNED_BINARIES", {"paper/report.pdf": digest})
+    assert scan.scan()["status"] == "clean"
+    pdf.write_bytes(b"%PDF-1.5\n\xff\xfe changed")
+    result = scan.scan()
+    assert result["status"] == "failed"
+    assert any(f["rule"] == "pinned_binary_changed" for f in result["findings"])

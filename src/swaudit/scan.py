@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import pathlib
 import re
@@ -35,6 +36,10 @@ PATTERNS = {
     "rule_16": "(?i)(?:api[_-]?key|access[_-]?\\x74oken|client[_-]?secret|\\x70assword)\\s*[:=]\\s*[\"'][A-Za-z0-9_+/=-]{16,}[\"']",
 }
 EXTENSIONS = {".py", ".json", ".md", ".tex", ".toml", ".yml", ".yaml", ".cff", ".txt", ""}
+# Reviewed binaries allowed in the distribution, pinned by SHA-256.
+PINNED_BINARIES = {
+    "paper/semantic-watermark-audit.pdf": "3fe5d7c6a784e7b3aa2aaa8da02a3e4af8d7e5b92ab9f4449fb44e6f8e530a2e",
+}
 IGNORED = {".git", ".venv", "__pycache__", ".pytest_cache", ".ruff_cache", "build", "dist"}
 
 
@@ -88,6 +93,10 @@ def scan(names: Sequence[str] = ()) -> dict[str, Any]:
         files.append(rel)
         if path.is_symlink():
             findings.add((rel, 0, "symlink"))
+            continue
+        if rel in PINNED_BINARIES:
+            if hashlib.sha256(path.read_bytes()).hexdigest() != PINNED_BINARIES[rel]:
+                findings.add((rel, 0, "pinned_binary_changed"))
             continue
         if path.suffix not in EXTENSIONS or any(p.startswith(".env") for p in relative.parts):
             findings.add((rel, 0, "forbidden_file"))
