@@ -9,10 +9,18 @@ version: 1.0.0
 doi: 10.5281/zenodo.24268671
 date-released: 2026-11-15
 license: MIT
-abstract: "Evaluation code and saved numerical records for an audit of the SEAL semantic watermark against CSI forgeries. Reproduces every number in the accompanying paper."
+abstract: "Evaluation code and saved numerical records for an audit of the SEAL semantic watermark against CSI forgeries. Recomputes every exported numeric or identifier macro used by the manuscript from saved records. Does not regenerate images or rerun models."
 repository-code: "https://github.com/kuladeepmantri/semantic-watermark-audit"
 keywords:
   - watermarking
   - diffusion models
   - security evaluation
   - image provenance
+preferred-citation:
+  type: unpublished
+  title: "What Does a Semantic Watermark Verify? An Audit of SEAL and a Tested Thumbnail Repair Candidate"
+  authors:
+    - family-names: Mantri
+      given-names: Kuladeep
+  year: 2026
+  notes: "Preprint; arXiv identifier pending."
