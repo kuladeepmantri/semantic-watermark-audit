@@ -1,0 +1,498 @@
+{
+  "ConfidenceLevelPercent": {
+    "value": 95.0,
+    "rendered": "95\\%"
+  },
+  "MasterInclusivePaperCorrectedFreshCleanFraction": {
+    "value": [
+      129,
+      200
+    ],
+    "rendered": "129/200"
+  },
+  "MasterInclusivePaperCorrectedFreshConsequentialFraction": {
+    "value": [
+      6,
+      37
+    ],
+    "rendered": "6/37"
+  },
+  "MasterInclusivePaperCorrectedFreshJpegSevenFiveFraction": {
+    "value": [
+      92,
+      200
+    ],
+    "rendered": "92/200"
+  },
+  "MasterInclusivePaperCorrectedRunZeroZeroFiveCleanFraction": {
+    "value": [
+      124,
+      200
+    ],
+    "rendered": "124/200"
+  },
+  "MasterInclusivePaperCorrectedRunZeroZeroFiveNegativeFraction": {
+    "value": [
+      0,
+      200
+    ],
+    "rendered": "0/200"
+  },
+  "MasterInclusivePaperCorrectedRunZeroZeroFourCalibrationCleanFraction": {
+    "value": [
+      122,
+      200
+    ],
+    "rendered": "122/200"
+  },
+  "MasterInclusivePaperCorrectedRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+    "value": [
+      90,
+      200
+    ],
+    "rendered": "90/200"
+  },
+  "MasterInclusivePaperCorrectedRunZeroZeroSixConsequentialFraction": {
+    "value": [
+      8,
+      40
+    ],
+    "rendered": "8/40"
+  },
+  "MasterInclusivePaperReleasedFreshCleanFraction": {
+    "value": [
+      136,
+      200
+    ],
+    "rendered": "136/200"
+  },
+  "MasterInclusivePaperReleasedFreshConsequentialFraction": {
+    "value": [
+      5,
+      37
+    ],
+    "rendered": "5/37"
+  },
+  "MasterInclusivePaperReleasedFreshJpegSevenFiveFraction": {
+    "value": [
+      103,
+      200
+    ],
+    "rendered": "103/200"
+  },
+  "MasterInclusivePaperReleasedRunZeroZeroFiveCleanFraction": {
+    "value": [
+      123,
+      200
+    ],
+    "rendered": "123/200"
+  },
+  "MasterInclusivePaperReleasedRunZeroZeroFiveNegativeFraction": {
+    "value": [
+      0,
+      200
+    ],
+    "rendered": "0/200"
+  },
+  "MasterInclusivePaperReleasedRunZeroZeroFourCalibrationCleanFraction": {
+    "value": [
+      127,
+      200
+    ],
+    "rendered": "127/200"
+  },
+  "MasterInclusivePaperReleasedRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+    "value": [
+      106,
+      200
+    ],
+    "rendered": "106/200"
+  },
+  "MasterInclusivePaperReleasedRunZeroZeroSixConsequentialFraction": {
+    "value": [
+      9,
+      40
+    ],
+    "rendered": "9/40"
+  },
+  "MasterPaperCorrectedFreshCleanFraction": {
+    "value": [
+      123,
+      200
+    ],
+    "rendered": "123/200"
+  },
+  "MasterPaperCorrectedFreshConsequentialCIHighPercent": {
+    "value": 0.2877477973105723,
+    "rendered": "28.77\\%"
+  },
+  "MasterPaperCorrectedFreshConsequentialCILowPercent": {
+    "value": 0.04537199234199395,
+    "rendered": "4.54\\%"
+  },
+  "MasterPaperCorrectedFreshConsequentialFraction": {
+    "value": [
+      5,
+      37
+    ],
+    "rendered": "5/37"
+  },
+  "MasterPaperCorrectedFreshConsequentialYieldFraction": {
+    "value": [
+      5,
+      200
+    ],
+    "rendered": "5/200"
+  },
+  "MasterPaperCorrectedFreshHumanQualifiedYieldFraction": {
+    "value": [
+      5,
+      200
+    ],
+    "rendered": "5/200"
+  },
+  "MasterPaperCorrectedFreshJpegSevenFiveFraction": {
+    "value": [
+      86,
+      200
+    ],
+    "rendered": "86/200"
+  },
+  "MasterPaperCorrectedRunZeroZeroFiveCleanFraction": {
+    "value": [
+      117,
+      200
+    ],
+    "rendered": "117/200"
+  },
+  "MasterPaperCorrectedRunZeroZeroFiveNegativeFraction": {
+    "value": [
+      0,
+      200
+    ],
+    "rendered": "0/200"
+  },
+  "MasterPaperCorrectedRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+    "value": [
+      89,
+      200
+    ],
+    "rendered": "89/200"
+  },
+  "MasterPaperCorrectedRunZeroZeroSixConsequentialCIHighPercent": {
+    "value": 0.2983526668395765,
+    "rendered": "29.84\\%"
+  },
+  "MasterPaperCorrectedRunZeroZeroSixConsequentialCILowPercent": {
+    "value": 0.05710225815452585,
+    "rendered": "5.71\\%"
+  },
+  "MasterPaperCorrectedRunZeroZeroSixConsequentialFraction": {
+    "value": [
+      6,
+      40
+    ],
+    "rendered": "6/40"
+  },
+  "MasterPaperCorrectedRunZeroZeroSixConsequentialYieldFraction": {
+    "value": [
+      6,
+      200
+    ],
+    "rendered": "6/200"
+  },
+  "MasterPaperCorrectedRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": {
+    "value": [
+      4,
+      200
+    ],
+    "rendered": "4/200"
+  },
+  "MasterPaperReleasedFreshCleanFraction": {
+    "value": [
+      133,
+      200
+    ],
+    "rendered": "133/200"
+  },
+  "MasterPaperReleasedFreshConsequentialCIHighPercent": {
+    "value": 0.2877477973105723,
+    "rendered": "28.77\\%"
+  },
+  "MasterPaperReleasedFreshConsequentialCILowPercent": {
+    "value": 0.04537199234199395,
+    "rendered": "4.54\\%"
+  },
+  "MasterPaperReleasedFreshConsequentialFraction": {
+    "value": [
+      5,
+      37
+    ],
+    "rendered": "5/37"
+  },
+  "MasterPaperReleasedFreshConsequentialYieldFraction": {
+    "value": [
+      5,
+      200
+    ],
+    "rendered": "5/200"
+  },
+  "MasterPaperReleasedFreshHumanQualifiedYieldFraction": {
+    "value": [
+      5,
+      200
+    ],
+    "rendered": "5/200"
+  },
+  "MasterPaperReleasedFreshJpegSevenFiveFraction": {
+    "value": [
+      97,
+      200
+    ],
+    "rendered": "97/200"
+  },
+  "MasterPaperReleasedRunZeroZeroFiveCleanFraction": {
+    "value": [
+      118,
+      200
+    ],
+    "rendered": "118/200"
+  },
+  "MasterPaperReleasedRunZeroZeroFiveNegativeFraction": {
+    "value": [
+      0,
+      200
+    ],
+    "rendered": "0/200"
+  },
+  "MasterPaperReleasedRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+    "value": [
+      105,
+      200
+    ],
+    "rendered": "105/200"
+  },
+  "MasterPaperReleasedRunZeroZeroSixConsequentialCIHighPercent": {
+    "value": 0.3564780186792348,
+    "rendered": "35.65\\%"
+  },
+  "MasterPaperReleasedRunZeroZeroSixConsequentialCILowPercent": {
+    "value": 0.09052240939999068,
+    "rendered": "9.05\\%"
+  },
+  "MasterPaperReleasedRunZeroZeroSixConsequentialFraction": {
+    "value": [
+      8,
+      40
+    ],
+    "rendered": "8/40"
+  },
+  "MasterPaperReleasedRunZeroZeroSixConsequentialYieldFraction": {
+    "value": [
+      8,
+      200
+    ],
+    "rendered": "8/200"
+  },
+  "MasterPaperReleasedRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": {
+    "value": [
+      6,
+      200
+    ],
+    "rendered": "6/200"
+  },
+  "MasterPrimaryFreshCleanFraction": {
+    "value": [
+      191,
+      200
+    ],
+    "rendered": "191/200"
+  },
+  "MasterPrimaryFreshConsequentialCIHighPercent": {
+    "value": 0.6307804298934601,
+    "rendered": "63.08\\%"
+  },
+  "MasterPrimaryFreshConsequentialCILowPercent": {
+    "value": 0.29487312822864453,
+    "rendered": "29.49\\%"
+  },
+  "MasterPrimaryFreshConsequentialFraction": {
+    "value": [
+      17,
+      37
+    ],
+    "rendered": "17/37"
+  },
+  "MasterPrimaryFreshConsequentialYieldFraction": {
+    "value": [
+      17,
+      200
+    ],
+    "rendered": "17/200"
+  },
+  "MasterPrimaryFreshHumanQualifiedYieldFraction": {
+    "value": [
+      17,
+      200
+    ],
+    "rendered": "17/200"
+  },
+  "MasterPrimaryFreshJpegSevenFiveFraction": {
+    "value": [
+      161,
+      200
+    ],
+    "rendered": "161/200"
+  },
+  "MasterPrimaryRunZeroZeroFiveCleanFraction": {
+    "value": [
+      195,
+      200
+    ],
+    "rendered": "195/200"
+  },
+  "MasterPrimaryRunZeroZeroFiveNegativeFraction": {
+    "value": [
+      0,
+      200
+    ],
+    "rendered": "0/200"
+  },
+  "MasterPrimaryRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+    "value": [
+      166,
+      200
+    ],
+    "rendered": "166/200"
+  },
+  "MasterPrimaryRunZeroZeroSixConsequentialCIHighPercent": {
+    "value": 0.7074116499601202,
+    "rendered": "70.74\\%"
+  },
+  "MasterPrimaryRunZeroZeroSixConsequentialCILowPercent": {
+    "value": 0.3849067945340132,
+    "rendered": "38.49\\%"
+  },
+  "MasterPrimaryRunZeroZeroSixConsequentialFraction": {
+    "value": [
+      22,
+      40
+    ],
+    "rendered": "22/40"
+  },
+  "MasterPrimaryRunZeroZeroSixConsequentialYieldFraction": {
+    "value": [
+      22,
+      200
+    ],
+    "rendered": "22/200"
+  },
+  "MasterPrimaryRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": {
+    "value": [
+      17,
+      200
+    ],
+    "rendered": "17/200"
+  },
+  "MasterPrimaryStrengthFreshCleanFraction": {
+    "value": [
+      184,
+      200
+    ],
+    "rendered": "184/200"
+  },
+  "MasterPrimaryStrengthFreshConsequentialCIHighPercent": {
+    "value": 0.32013707586767126,
+    "rendered": "32.01\\%"
+  },
+  "MasterPrimaryStrengthFreshConsequentialCILowPercent": {
+    "value": 0.06192572133339633,
+    "rendered": "6.19\\%"
+  },
+  "MasterPrimaryStrengthFreshConsequentialFraction": {
+    "value": [
+      6,
+      37
+    ],
+    "rendered": "6/37"
+  },
+  "MasterPrimaryStrengthFreshConsequentialYieldFraction": {
+    "value": [
+      6,
+      200
+    ],
+    "rendered": "6/200"
+  },
+  "MasterPrimaryStrengthFreshHumanQualifiedYieldFraction": {
+    "value": [
+      6,
+      200
+    ],
+    "rendered": "6/200"
+  },
+  "MasterPrimaryStrengthFreshJpegSevenFiveFraction": {
+    "value": [
+      87,
+      200
+    ],
+    "rendered": "87/200"
+  },
+  "MasterPrimaryStrengthRunZeroZeroFiveCleanFraction": {
+    "value": [
+      188,
+      200
+    ],
+    "rendered": "188/200"
+  },
+  "MasterPrimaryStrengthRunZeroZeroFiveNegativeFraction": {
+    "value": [
+      0,
+      200
+    ],
+    "rendered": "0/200"
+  },
+  "MasterPrimaryStrengthRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+    "value": [
+      110,
+      200
+    ],
+    "rendered": "110/200"
+  },
+  "MasterPrimaryStrengthRunZeroZeroSixConsequentialCIHighPercent": {
+    "value": 0.3277901333615859,
+    "rendered": "32.78\\%"
+  },
+  "MasterPrimaryStrengthRunZeroZeroSixConsequentialCILowPercent": {
+    "value": 0.0733827293520852,
+    "rendered": "7.34\\%"
+  },
+  "MasterPrimaryStrengthRunZeroZeroSixConsequentialFraction": {
+    "value": [
+      7,
+      40
+    ],
+    "rendered": "7/40"
+  },
+  "MasterPrimaryStrengthRunZeroZeroSixConsequentialYieldFraction": {
+    "value": [
+      7,
+      200
+    ],
+    "rendered": "7/200"
+  },
+  "MasterPrimaryStrengthRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": {
+    "value": [
+      7,
+      200
+    ],
+    "rendered": "7/200"
+  },
+  "RunSixNaturalnessAnswered": {
+    "value": 199,
+    "rendered": "199"
+  },
+  "RunSixNaturalnessN": {
+    "value": 200,
+    "rendered": "200"
+  }
+}

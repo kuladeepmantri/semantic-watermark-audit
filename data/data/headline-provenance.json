@@ -1,0 +1,76 @@
+{
+  "author": "Kuladeep Mantri",
+  "source_files": [
+    {
+      "path": "paper/build/frontier/inputs-projected.csv",
+      "sha256": "c9fadd9715a6a986baa611dcbc7950a26fe2ad23180e601520b1f37b710c82f6"
+    },
+    {
+      "path": "paper/build/frontier/frontier-results.json",
+      "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c"
+    },
+    {
+      "path": "paper/build/frontier/audit-AUDIT-FRONTIER.md",
+      "sha256": "8de04098a73682c7aed8ab1733e3dca76069a2dc6c238ea70fddab8c7bd74cec"
+    },
+    {
+      "path": "paper/build/numbers/MASTER-TABLE.json",
+      "sha256": "01b40997ab53f842b25a1bb25ef6d81d71c3a6f422ce50e7850f3483fad19398"
+    },
+    {
+      "path": "paper/build/numbers/audit-AUDIT-MASTER.md",
+      "sha256": "fea627a00df0a639ea74713dabffa4c94a2330b4087746bca82ed5122097a2d9"
+    },
+    {
+      "path": "paper/build/friends/results/AGREEMENT.json",
+      "sha256": "3bf31018d2d1ac096ea9aa2df8aa5c72f5666a2a384c9ff432ae1736b8ff7ad1"
+    },
+    {
+      "path": "paper/build/friends/audit-AUDIT.md",
+      "sha256": "c5b02e288391dfbadcd690a7d882171aa22c2da0311514891e65fe70d5ffbef1"
+    },
+    {
+      "path": "research/audits/audit/AUDIT-O4-CORE.md",
+      "sha256": "d1e2c8abe3b70a990e26ef81e7960d9946ccd7433cd8e207bacfd79f57df3b86"
+    },
+    {
+      "path": "paper/v1/overnight/NUMBER-AUDIT.md",
+      "sha256": "fba1fcf35329baf3f1a6acd77652692056a067d5c2e4729a37f4ff7af7c0d190"
+    },
+    {
+      "path": "paper/v1/overnight/round2/NUMBERS-FINAL.md",
+      "sha256": "f3ee7e88d5093e027d317e6c2b57dee414cbe837fca01504e2c90d960b778526"
+    },
+    {
+      "path": "research/model-deep-dive/data/patch_level.csv",
+      "sha256": "4349117f65ce27ffa9479773bc6741487d8d5d151eb6f8a8eb95e3e0883ebddb"
+    },
+    {
+      "path": "experiments/seal-csi/run-006-csi-fakes/scores-private.json",
+      "sha256": "8baeca976f33d649606042667e82f7cde84b4aa390b478ee57e6ff2647243cda"
+    },
+    {
+      "path": "paper/build/repro/anonymous/data/paper_number_sources.json",
+      "sha256": "3301a780e114d6a22131328303737a00f54ec49d3901994f2604cd46aaa56fdf"
+    },
+    {
+      "path": "paper/build/repro/anonymous/data/paper_number_values.json",
+      "sha256": "d6b4e95e12382a2ac608ab07e3bf4ffe2d21bbf88f1d7c3da51da93d95d60f44"
+    },
+    {
+      "path": "paper/build/repro/anonymous/paper_numbers.py",
+      "sha256": "5ef7206b9eee4f2c89fd5400deea7eaa2700b0218ed50120fc696bf02d8e917e"
+    },
+    {
+      "path": "paper/build/numbers/generate_numbers.py",
+      "sha256": "bb4cf717bf7b1238dbe117e6b3aa45f33d1daeadc40a341169583b61faa8db11"
+    }
+  ],
+  "transformations": [
+    "Legacy numeric-selector specs retain only selectors, formatting and hash bindings; contexts/prompts omitted.",
+    "Scalar rows retain IDs, cohort, score fields only; image references and source mappings omitted.",
+    "Volunteer data retain two friend-only panel aggregates, no answers or identities.",
+    "Current TeX source usage stores macro names, line locations and source hashes, no manuscript text.",
+    "Identifier and remaining numeric selectors export their source-bound leaves, not original files."
+  ]
+}

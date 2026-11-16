@@ -1,0 +1,1750 @@
+{
+  "author": "Kuladeep Mantri",
+  "base_commit": "3e05758c7d2205c7588286d44fe23efb8917b39c",
+  "sources": [
+    {
+      "export": "data/exp1b.json",
+      "retained_fields": "case IDs, scalar scores, decision booleans, image digest",
+      "source": "research/sprint/exp1b/execution/scores.json",
+      "source_sha256": "c4d31ef915ba0ce77129c168984919af79f078a4e271fc34feefa7c1944d4b39"
+    },
+    {
+      "export": "data/selection1b.json",
+      "retained_fields": "IDs, generation/status flags, digest, recovery totals",
+      "source": "research/sprint/exp1b/execution/selection.json",
+      "source_sha256": "dce8fbaf66d9dc96d1e292c28c568b3cabea7172bb06c29f9338cf5696f6a0f8"
+    },
+    {
+      "export": "data/calibration1b.json",
+      "retained_fields": "threshold and tie digest, payload counts",
+      "source": "research/sprint/exp1b/execution/calibration.json",
+      "source_sha256": "2d30f751cfb0b65debe45095f1578b2bdb76fc7991cb865b2ef2249761986ee7"
+    },
+    {
+      "export": "data/exp2.json",
+      "retained_fields": "IDs, scalar scores, decision booleans, image digest",
+      "source": "research/sprint/exp2/stage-b/execution/private/scores-sealed.json",
+      "source_sha256": "b1a543aa6c246bcf5aaac076aa0e58f2b1786627a5ef9425ca0f61c0caf979e9"
+    },
+    {
+      "export": "data/calibration2.json",
+      "retained_fields": "boundary scalar and tie digests",
+      "source": "research/sprint/exp2/stage-b/execution/private/calibration-commitment.json",
+      "source_sha256": "0e0c1248ac6472abef1f84813645532200ea3dfbe9ecb8a50a625128ce2c5afd"
+    },
+    {
+      "export": "data/allocation2.json",
+      "retained_fields": "allocated IDs only",
+      "source": "research/sprint/exp2/design-v3.json",
+      "source_sha256": "da821cfad8c5305a0f82d322359135b25c80ea07a21c94d45d48e125ba7d37bb"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E089/q1.json",
+      "source_sha256": "87c19fa1a5bf830c2221fd11c3c3fbf3dd9685b96055e10d3641d8013f70827c"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E089/q2.json",
+      "source_sha256": "85a1a30f3a461cefe8b1024071aa51d3d7ec1ceae4cd84a701b2157364769c3e"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E089/q3.json",
+      "source_sha256": "9f23ddab223b9983430af5295934f5888351de77de925654817a5e6f89b0a083"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E020/q1.json",
+      "source_sha256": "cb6b4a2f644f3ae8337ff88d83c9b477ffc95a02f3290682e11716fd2116612b"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E020/q2.json",
+      "source_sha256": "005e45b2b59572602f8cfe4796129de7cef591ac9c73a3041afbaf740f3145f1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E020/q3.json",
+      "source_sha256": "fbb8784513a987cbd25353c9c5f65e1d65face80366dbb1f9b8fb45ccbfa0fa4"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E078/q1.json",
+      "source_sha256": "ec3a4e414b716242396647533282a03acb89f66e9459b2d5b76976fea53b8b05"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E078/q2.json",
+      "source_sha256": "09e308c8eca363a5d2aa8028144af9301c5ee6d60bfe087787517d2569658604"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E078/q3.json",
+      "source_sha256": "3b7e456c551a6dd1bb776c2dfa3c07c538208718bc93fbd4281b6fa5a99fc38a"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E064/q1.json",
+      "source_sha256": "a59815ce525fa5f070818d9cb53d5a038587061f0419739ee7f3f9ec2f736434"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E064/q2.json",
+      "source_sha256": "86dc71ecb340213f44e2519e87b912ae81870f31881c19ae2e4075dee350700d"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E064/q3.json",
+      "source_sha256": "93df40a64bdbad49b41d8dc4ead10c6236c09591b7aa501343ad2200cddd89e8"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E080/q1.json",
+      "source_sha256": "2be95d9cd105f0706b16f18e1ef1c1960eddd1bd57d14ee3e5b61c80d968c11b"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E080/q2.json",
+      "source_sha256": "a2a6a68366c4e8f20eb6eb3931fe4b603d773df76dda9095a667b4eb95c783ce"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E080/q3.json",
+      "source_sha256": "b34ecfdca4edb4b8a6c2a902856e92a814a0b4bd6701121f8721a9f5ae9285fd"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E003/q1.json",
+      "source_sha256": "086caeeaae3bfde5df58b689353610abdbbdf22d1cf224a9503dc550ad6679d7"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E003/q2.json",
+      "source_sha256": "a1047b2982b586bd2e45d028d38cbfae4235466e3fb9eb0cd525137b06a0f25f"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E003/q3.json",
+      "source_sha256": "a946fd4578786f0885ed2538a938c9a86568775072c781f9d57ad641c2134c59"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E037/q1.json",
+      "source_sha256": "f1c5f71750f133e3c1ab968140c44d8567d13bdd6ffa2e8003993ed08a5c5e73"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E037/q2.json",
+      "source_sha256": "b46dfdec57ba7c562adaa1c724a64e568a1d72cf074707e053af5e7f0ae4b2e1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E037/q3.json",
+      "source_sha256": "0622e7da7de85004596115fb8f39014deb1610eea0ad9f9ee21702140dec91f1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E002/q1.json",
+      "source_sha256": "659c21a49d0a5495e7a7aafecd546ba0d3082904a43a9aab61c08b36814530ae"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E002/q2.json",
+      "source_sha256": "f9c8d384c20bbb2b85a0af5788bd03a2945b2648b1fe27bb958be5df7fd0cc5c"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E002/q3.json",
+      "source_sha256": "52dd1d274d57641f515bb073edc4b43063f2923d0f39db78c522413e46eddeab"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E093/q1.json",
+      "source_sha256": "0bc9a1bc07a07f6e4ebe6399254f141aacf932dd9a97e7d3530087ee1386c2f0"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E093/q2.json",
+      "source_sha256": "c248204c5699d856b513a48cb9ac94f8d851c68176b6d461f7abf743a0275301"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E093/q3.json",
+      "source_sha256": "75c7ef24173415cee4941a51f1ffef99c17f11de9d1be18b2644a241db3fe98b"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E071/q1.json",
+      "source_sha256": "064e1dd72e6583274781d783871e293ea2c97ea44d8e6ea3d66879453d07a8ce"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E071/q2.json",
+      "source_sha256": "47e70dc6c11730c0b51d2db79a61ec0e42000eb186351b86044725a38819e5b9"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E071/q3.json",
+      "source_sha256": "ba123ebef2acb3c80b08a09d82daaf85ffde1198e800eaf215f08016a0caec27"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E014/q1.json",
+      "source_sha256": "2734c160cd12c54e39ab7458611a0e9091d0841f3a315419b2152546fce575a2"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E014/q2.json",
+      "source_sha256": "b4e2f8b8f98061927753a299e9936deb9bd0611a852325f129f6d3b158631387"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E014/q3.json",
+      "source_sha256": "b9118dc910d17e7cd4d9570394c5d8f574ced867712591b20bb7a9ce017cde49"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E034/q1.json",
+      "source_sha256": "f9ff004d7c25c3cfb2aea39c3862d34f8b2dc98e7279bdeb3a9474a8797d486d"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E034/q2.json",
+      "source_sha256": "895b618b7acccf53b1420e8945b3d907b68cd05a0c054f469e1757e842ec4160"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E034/q3.json",
+      "source_sha256": "5949366407f4797b2f17547111cc83830a569ec291435992b598dc9e43c3c1f5"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E019/q1.json",
+      "source_sha256": "a0dcc70d5c8d7360dfefd8d268286c0f3bd8132788b5cab90eb521bd9f444b04"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E019/q2.json",
+      "source_sha256": "65c45063aca002c3ccea30053e95343d749c804703f715ae8bb517aef173cf3f"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E019/q3.json",
+      "source_sha256": "5fe98b4da1f8c5ec29d3cdb0c73e376a01572dc52fa5816e4796f0261bb541f1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E066/q1.json",
+      "source_sha256": "78a1fe66e2dd4ec6a099e37e76d500e2e698690b0edd6c8f802e5a4d9bab2602"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E066/q2.json",
+      "source_sha256": "dbe07c85a4beb9e35f48408c6686732a15327330626b64896f7aeb1a002f0f7a"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E066/q3.json",
+      "source_sha256": "2d8a674f4e04b21520bb40a658670ba49ef71a7aa95cc9c56882612c1fdb5bf8"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E053/q1.json",
+      "source_sha256": "f3c78235dbfa94ed0b17107501a5c2d45e030c21457ebcf7a2321698e08ad9fd"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E053/q2.json",
+      "source_sha256": "ed7fb98544bd8622879e8fe3eed3a52345b58eea1dc6e8d5a77025ab2a8481f2"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E053/q3.json",
+      "source_sha256": "e8ea8bc9429c7936e3855db1794c88dfb0207d9c21e937d292be30059fc51223"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E011/q1.json",
+      "source_sha256": "fd034bbe717bdaa80e28adb2e838d7d2f4ddce7c9bb3048a0bedec40a2d8de3b"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E011/q2.json",
+      "source_sha256": "6a0020612cf1756243129f88458cd9e9b7b4ec1c799b5a9fad7255d59378503e"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E011/q3.json",
+      "source_sha256": "7bde4724746366ea2f230400676876a9c41f7f2068b79a56e2aeb68d0444e397"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E090/q1.json",
+      "source_sha256": "500c280fba9ccc4e64c5001ab743ad070af1856f071a47b80aa8bf8d64f6f0bf"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E090/q2.json",
+      "source_sha256": "f4d32c8ba8444e3c4e2e2399932d9d64e302da1eb5245b67d3e3a8f5a7e92069"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E090/q3.json",
+      "source_sha256": "0f9b908befceb28cb32032af0ee8b50d5b9845f915dee22c7afbbb1da88431ee"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E087/q1.json",
+      "source_sha256": "bef5b0ed2226594e7fff0e87e8f4942c4da7a9582c79a94df4ca630619e49a15"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E087/q2.json",
+      "source_sha256": "21c4d01895a6e0708abd5bc461a6c03e1af8eafba2f20add6967a70784e0d65d"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E087/q3.json",
+      "source_sha256": "cd09adf8b619432d20a7a3c29e206cc806f234aca1365832c46b5e65ae5a358d"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E051/q1.json",
+      "source_sha256": "1aea12706f9f4ca1828f51c548cfd628fbfc523150efc2465cd66e6742c03a39"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E051/q2.json",
+      "source_sha256": "3bbfc307f777e7eea5e0ce67a5fd13c8e1ee755c848683081e134529b47a3f68"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E051/q3.json",
+      "source_sha256": "6c002dba25ed5aec6daaa465ff7e5945a9f9a770e5ae0871316c4f3afadef7f8"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E069/q1.json",
+      "source_sha256": "94679c9580b7236369f9b4c14847f35e275edbd33c43ed701fa9756322eb7f12"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E069/q2.json",
+      "source_sha256": "4831732b90dda02b69ed3d44bf2bfa94f3c5936196deec2ea0777299ab74b530"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E069/q3.json",
+      "source_sha256": "e31ac4404488626f5309e80f0781d3fb7d51417ab63ff3d0bdf75f25c30fb656"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E000/q1.json",
+      "source_sha256": "c72457b091b62fc08114b6b4250e0e75150ce4e82abf6b3466429d475735c612"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E000/q2.json",
+      "source_sha256": "64b8fa1af46b66c98aa69b912b06fa9343f29d32a985df1b5022de0b5bc84537"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E000/q3.json",
+      "source_sha256": "421ba57b097304d4c7cce9f5fa595f989196a9377fa4a4ec8f66b21ca88d43eb"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E072/q1.json",
+      "source_sha256": "5943cd64324b687398a48c0d83fbd4e25f918f53a2ec7cbb639b7275ba2612cf"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E072/q2.json",
+      "source_sha256": "13cabf8a6d4ce30dc957bff12516674c75ec8d0a1d4e72113b8e7d66929956f3"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E072/q3.json",
+      "source_sha256": "0e631d7a95941102235d270d7c03c45a450084df996d2369db6bb4840a8025ad"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E068/q1.json",
+      "source_sha256": "b285d111de185d9d7a393297fe0f204f62f1213f5ca22707636844c9c5f7172a"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E068/q2.json",
+      "source_sha256": "91d012e0c4a925b25b9fefc994bf2a396c13054f483c9d51f914ed3814e0264e"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E068/q3.json",
+      "source_sha256": "59a431f31a464ffd5e904436300a3e1e1a76299b572c933c28f78b19371001e5"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E006/q1.json",
+      "source_sha256": "569e4b0aed309c20e620d9170e3b03a27a51c6fe63463d240e8c22236e767607"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E006/q2.json",
+      "source_sha256": "c44b1384964005c07df29ab22eec0a1edf182b5eb08b1130dc35f24fe064f737"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E006/q3.json",
+      "source_sha256": "d6f09ac2b9e48a2679e80404b7e2dc726c05e1dcee5994d3196aaa5d6ef7918e"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E067/q1.json",
+      "source_sha256": "c0d7d3cfcb843c6138ead81953a727ab82a8d5175033433af411d4e3a3b2fe76"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E067/q2.json",
+      "source_sha256": "cd63cd55f3018cde8d3bf5caea4c7ddde9eb966dc369a491ed83f46614f965f6"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E067/q3.json",
+      "source_sha256": "c259dd661ef4c29ba1523643d61a9e473d82e262f098fa9c09353914a0d4c96f"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E091/q1.json",
+      "source_sha256": "05fd1b05c0802ffa39b72761b7e6a437491b9fc46c4566004555ac167fccf257"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E091/q2.json",
+      "source_sha256": "4dfc4cb319ad696247e6f0a7063ef3ca99c5b7a0793de8e4884623fe19a30394"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E091/q3.json",
+      "source_sha256": "ee1883d1ac3bc8687111cf5460d49c091d5b859a9bb8ee3a18d8e0c7b916375d"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E088/q1.json",
+      "source_sha256": "36ef010ca034762e694054c2daf508fb9b2359f323a0ed201b54c25104f25031"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E088/q2.json",
+      "source_sha256": "c5fccc1fc2be79c1e4a5a7fe9853bec68df0a2c1953a011df4714bd19e411d23"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E088/q3.json",
+      "source_sha256": "f407759403b629f7440ddcc6a728cbdfade4f4f171b29090ec03997a6f2e1bc2"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E029/q1.json",
+      "source_sha256": "b5d8a484e733af62508301466c5b717380feb019b6ef18413d9126c88365bef1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E029/q2.json",
+      "source_sha256": "22cf0e51a6af51c7f8802cf4f0cfd26da7dddb6065604a144ec8c9b006ee4192"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E029/q3.json",
+      "source_sha256": "30d4f1ca3cf5a608c3a304244a3faa4aa45c9dbd6620d7e50bae12fc4670d1c1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E018/q1.json",
+      "source_sha256": "d67f2cca0812740d0d7252d3bc473141e23639d8e625e00b258839ed675a499d"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E018/q2.json",
+      "source_sha256": "f4b9c8df1491e504db404fe2d74f31f722f681e8c896d60097bd8b4f3f98acf6"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E018/q3.json",
+      "source_sha256": "c7847256351a6fb5dfd87c82266b6f792616d864c47486f61622a06051f771cd"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E055/q1.json",
+      "source_sha256": "03df847020af4382bb3681e6b7c2467c2122efe6a23deae2374aa4940c9339ab"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E055/q2.json",
+      "source_sha256": "46da4fcf88d0933e3daffa79f4fffcd0c8de3b5d16d876e99ac803d26926c025"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E055/q3.json",
+      "source_sha256": "13aedc615ce9ed264b98482108dc7700503f3be48c83349694278fcc8f7f62f2"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E076/q1.json",
+      "source_sha256": "87b45d49e87f3f6611a2a3aa0b6d384315e1171e8c8a68ea6edb4ce6070cb288"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E076/q2.json",
+      "source_sha256": "0df4634fd363dacdee08ab8e98fc945be8adbf5e7b570e57748b83350be403d1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E076/q3.json",
+      "source_sha256": "b00427f9962558ba1cf497a83b7cc4c23e6b1f617fa08c2d77894239e91c2e37"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E084/q1.json",
+      "source_sha256": "947d4fad7a18865b3374ba2ef51bcad56f565be541348f10c4379c1957b3c16c"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E084/q2.json",
+      "source_sha256": "c1006df4f1bda8e815b27c9006138f6337c1f46a14846914efcb9acc0e59c5fb"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E084/q3.json",
+      "source_sha256": "ace7c3096a404e91c438d264fba5bb489087467c5575b43dc2a2f7dc180f13d2"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E032/q1.json",
+      "source_sha256": "456d248da6642d8670cfdb260a289c79039241f55ad37aa01fb83e3621855f3d"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E032/q2.json",
+      "source_sha256": "f8f92c563838f73e4809ca3e1eb793feb0b6e783ce72cd46eb4839c2830b759c"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E032/q3.json",
+      "source_sha256": "d7624583ae30ac02b8c2367c632d2770c4d8e9e1b5ebb53772b658ac5f31cc77"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E036/q1.json",
+      "source_sha256": "061aed61159fd0780e6885082eac947ced08f30def710103fa94906d5aaf06c1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E036/q2.json",
+      "source_sha256": "7803d73c3494f5f80606a3be651c35d3f8db60d7f1a1b5f8a70d7b63ab93b985"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E036/q3.json",
+      "source_sha256": "c4fff95ceb4e0e66ddfac5de2acc7c06bed6f998188d55ae181f2dfcbfdffd72"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E065/q1.json",
+      "source_sha256": "eebe3d345f809357b427416e0e613666a871516fd9e764712b2bb0a50635e334"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E065/q2.json",
+      "source_sha256": "f7f37267a6906628d96527f950243c33dd1a9e1751385de76cfccaf1b9322cac"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E065/q3.json",
+      "source_sha256": "c9f2cc9b2780d8f6f251101c797f8287700e779c863eed17b6cf3a575b3ed73a"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E021/q1.json",
+      "source_sha256": "055720ab673e7057cd62c168885b014094427f06a9dff1e4940822b1f443502e"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E021/q2.json",
+      "source_sha256": "95ebf4cd2ce91aacf5642f7e29ad5b1882524fa993810d3cb812fb563c9a27f5"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E021/q3.json",
+      "source_sha256": "e94498756593205e69191b9267024e7c064d2076220b98fe3ab27f038c1253ae"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E097/q1.json",
+      "source_sha256": "1c841b670b766a2e816e67920a72087be21ecefc38aeb8fdece0d1da50a3adc1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E097/q2.json",
+      "source_sha256": "64f21a0110cb1f8c7995e72140c526cb46202c81ae7b998300a42f55efb257e1"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E097/q3.json",
+      "source_sha256": "9618832ca714fec85f4240618eef3542470be472e3f9ae00665ec8247b1a23b5"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E045/q1.json",
+      "source_sha256": "135d16ad3792db124c2e6dbb1b4854e578c321ad5cbe52a69cadad8b54f27cec"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E045/q2.json",
+      "source_sha256": "1a0f02e4552649fa51d5efb6c96f8cb74f6e8083e426ddab52d1e4c7ee1381d3"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E045/q3.json",
+      "source_sha256": "b200b2eee4c99fe201218854f1befa48c2f444bab54af5bd2d817762e7396c4f"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E075/q1.json",
+      "source_sha256": "154e6e24dffbf09cb2f4479b90382732e597fa81be8c95ffe7478833d2a48e29"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E075/q2.json",
+      "source_sha256": "652fb052caace112a13cf48f7116bc580e8cc97711951be658003cf60aad0735"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E075/q3.json",
+      "source_sha256": "c63b8702acae3ebff63d8f7256bc7bcda9ff8e500e943c1c75441f0ebfd2f9ea"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E061/q1.json",
+      "source_sha256": "1d522e0cb65a86b1807c97566fd299e24eb1c23ec79368875db543e41fb7d114"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E061/q2.json",
+      "source_sha256": "6287f65b177ab7a5f191eb3af491eb4fd3a0fa1b6e3d659bffb34f711ba6f11f"
+    },
+    {
+      "export": "data/queries2.json",
+      "retained_fields": "victim, query, reply, digest",
+      "source": "research/sprint/exp2/stage-b/execution/public/csi/X2E061/q3.json",
+      "source_sha256": "114f1ab25b10c4c473f49a9977f19255cd80d913d20b64187b3c2a3bef136500"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E000/response.json",
+      "source_sha256": "23b7efb63332b89c2f47d018321416965017dbd7032af6f9fc4d5460e1b077d8"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E001/response.json",
+      "source_sha256": "3c6095eacdf790a70ab47e00524b6a46148ca5f3ecf31571a5aa54f70cd2e6f3"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E002/response.json",
+      "source_sha256": "d736058ae57e480408b1583dc563cbecf4be6c6dcb2edbddee4eb64301a5c4b0"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E003/response.json",
+      "source_sha256": "ad7574e1b143e528727f9bc0087e161f369184322562b02e6914332d18dee785"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E004/response.json",
+      "source_sha256": "6b5de923092133fc5e8adc8d7ea6f09246933db67266d51244b6310e235fead2"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E005/response.json",
+      "source_sha256": "603f933185e3caa73c8592b1625462d68c7529f23e463470e0b11f7bbbfe4506"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E006/response.json",
+      "source_sha256": "c096375e177f1ee05ce9a1af11ca0e9bcfef107b373b7f1a0dd38b7ad6bedc4c"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E007/response.json",
+      "source_sha256": "d72bcf86050bc34b9a47d2327b519c0fabfc5da4ccac099d63bb98586046d734"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E008/response.json",
+      "source_sha256": "4f29410d8c98ca85cf0ea690e32ac8e8c8a74c7d4ba0b91f9299f181e019741b"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E009/response.json",
+      "source_sha256": "c1136f250432d80898ebf29a78043d0b756504bf6ddc82ae1ab2ebbdad142d2b"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E010/response.json",
+      "source_sha256": "2fc5fb999da3f2e8e5e061aed089c52a4e9ef95c2620ab5294ae903fb279cde0"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E011/response.json",
+      "source_sha256": "1e0dffa21027840d8fa8d7d90aeb7c261087c32ff1b7e553e8f2023aba719f66"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E012/response.json",
+      "source_sha256": "99b189465280dbdbb67aa740b806da72fda9b6353ee59ab2b3490384c504527a"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E013/response.json",
+      "source_sha256": "cec773db4dbb7ceb4557ca67e0f1a7cfbbec81447621b653b5d675c6679c3a3f"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E014/response.json",
+      "source_sha256": "454ed1bc688cedfcb0d9c02a847876139cf9917220a16f79d723452bd7076bba"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E015/response.json",
+      "source_sha256": "88113aae8d997e4ba22a5a8ee0aaca0fe5c6e322a62a7580b2e141738d9f8fa4"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E016/response.json",
+      "source_sha256": "3f99de3b607ae1e6b1a900b36564c932aaace3120d229164aebd7d3e63b7e14d"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E017/response.json",
+      "source_sha256": "700e12f6dc8399b69eead1c9efdaa1ae05b434a961e4579da7f7a7cf042d0aef"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E018/response.json",
+      "source_sha256": "79f081a638e413c07e940edcd1c94f912f08015ad9f16930f1dda3ed63ab8e76"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E019/response.json",
+      "source_sha256": "6152532594c77beb91b8692dd4adc8270871d21d0ea1609ed2e29f6e0096d9b6"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E020/response.json",
+      "source_sha256": "c83e1edf923a2d50483d4d92ab03308a669ae9f7e7507a3d1aea01f20dd6ad6c"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E021/response.json",
+      "source_sha256": "46cb04ccba9101d5ec4af0d0129a65a31316dd63204f412611180107b37fd55a"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E022/response.json",
+      "source_sha256": "9b767dd7aa932bed5ad20810ee2cbe4f64c60fa05c0158892a5fe376e21ddef2"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E023/response.json",
+      "source_sha256": "6987c7a148e7404ba48a2a212201a2845416a5a840103b1aaaaa0a1d7c2694db"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E024/response.json",
+      "source_sha256": "86d6a1f1c1af7f6888bb3c1381c67a07a4354bc9c5135b993a7cc0e7095bc525"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E025/response.json",
+      "source_sha256": "7fc0bb300925e44e01a2d240d259f1018cb885c135259861238e76346efc60bb"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E026/response.json",
+      "source_sha256": "5709b1ce85f83f25c11591d4791a3ef90d57dc9b15129c7d78acaa648eab6eb4"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E027/response.json",
+      "source_sha256": "27bb2acd354c1237387d30d6450c7c88b69866fc302fd1a6a1604813b5a7da37"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E028/response.json",
+      "source_sha256": "a25c9a01681d981e88d9dd879d507104d41d0cbeec6aeb95112a733a4fb04c20"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E029/response.json",
+      "source_sha256": "bac017093d1d8274621c641cb8a927b78047cb1caf46c1bff593954cca1892bc"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E030/response.json",
+      "source_sha256": "4eb7a4783bc6f3fb88894ea2f04c01ddd46baa61e5fa31c1dae3737a6a74ed08"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E031/response.json",
+      "source_sha256": "cf71f22faabc04c846416d98576b36f27790f4ad5fa6a1faac9b02821fc1c8fb"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E032/response.json",
+      "source_sha256": "2e7737e9fe8708c4b5b524c41683903b409724fefbfeebb515130811ae509872"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E033/response.json",
+      "source_sha256": "56dea7e03a857e818ccf123f7b59edff6625055bd45341d1e2d95012ff03fd13"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E034/response.json",
+      "source_sha256": "c1b751bbb794ce40d0167fc7aab16a9050e93ffad8ca739e8d6cd3864ba5b1fd"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E035/response.json",
+      "source_sha256": "3b39a03298f2063127c456a9f6e6c6de3118fa8545d6e8f6bcb422731724b77e"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E036/response.json",
+      "source_sha256": "b980f3418a8a20d2a4b29e309cf01f33e94d0a4df77bacc6438cc67227ae3726"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E037/response.json",
+      "source_sha256": "ceb6759a1b521c0667b562a2ce0cdcae857323dcdadc927db23f33b7da7f00df"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E038/response.json",
+      "source_sha256": "deb6ad8e35b50bd633f7cceb372bdf24d5fe9c5144bc92f5b37825523455e029"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E039/response.json",
+      "source_sha256": "064b1adeb1265c41e805540de0997993f330afaaeafc9d8e583801d0e46a68b8"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E040/response.json",
+      "source_sha256": "3635160b60cebcfb158f615f1ccf28b9783d89afd10aab813e4aa39c941976d8"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E041/response.json",
+      "source_sha256": "203dbb2c5b5665d275a5d64575d342bc649f8aedc83ad3511153f7b212c0869b"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E042/response.json",
+      "source_sha256": "cc0f45cf98d8bc8ec24c59b4ee394cd8db2c954e69b8f4009ee7ff1a49442798"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E043/response.json",
+      "source_sha256": "dfbabd090cf930c85522e67c763069fa8bd0e5f2f0f1f1f506ac7f584082bfa2"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E044/response.json",
+      "source_sha256": "b36a66f35e6f0a38bd38bb13af075a962f4ee0580fe53bbb7a90529480909780"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E045/response.json",
+      "source_sha256": "7d3dd7e7c08050b204bde567ffe08fda35ceb5400453be4e1fa77c1de1d025a0"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E046/response.json",
+      "source_sha256": "17431e9c7b578700473f4c6fc0c3d19b4a35b890feefd05db3ad8979300143e6"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E047/response.json",
+      "source_sha256": "8bdfa13435aebcb81cea2799bab784068b3bbcca523567d558018002fdf4e76e"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E048/response.json",
+      "source_sha256": "86d7ac5ce68dfc2169255c9c70942ef955559c3311a553498f4da3de03891876"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E049/response.json",
+      "source_sha256": "f4fbcc0cce57e1738d3452962447857319fa79d89b5025403a23e9a1c847a831"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E050/response.json",
+      "source_sha256": "d0cb456e76447e745454ac8b657a754d9e66968fc307615209d97a46a3b71bdf"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E051/response.json",
+      "source_sha256": "9895b1716887a40e20b8d2f5df4ac4789209a74027eef3821d4b12dff0410058"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E052/response.json",
+      "source_sha256": "143192332219006336730693b1767c669c9df5fcf9c833fc172edc06f4ea71a4"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E053/response.json",
+      "source_sha256": "b84442c58f8564ed4d2d44600336f13d53298321ff417eddb789c7274ea0b0bc"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E054/response.json",
+      "source_sha256": "963d619b262fc179dc04bff240275ccb55dbf579b838994bd419a9090d2fa132"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E055/response.json",
+      "source_sha256": "5211339b4812895f65de0768ee60f214f4f1fa05d8c4024564e526a90ebdf884"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E056/response.json",
+      "source_sha256": "0d3fdbd9f6b323854287864b5df0d1162f3686d8a52b56cc212ca70818ba722b"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E057/response.json",
+      "source_sha256": "44e5ae6cd9602f8a65590c97c725c9a022f3b0cf284b793e6e7e817e8550ca7f"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E058/response.json",
+      "source_sha256": "440e3df9ceccdd94a0af9a06957d6ecaaa76272a4c5adce96d29f365c2532b51"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E059/response.json",
+      "source_sha256": "1d76b23e495192bd0d1cb6b4a51d9daf63923c744ef71f5d6f887734325b2534"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E060/response.json",
+      "source_sha256": "cc10d0ddaa3211ce7254c98e219e99e3ca58a4e401e7a91e328dc04009ddae03"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E061/response.json",
+      "source_sha256": "17b00baefb2c0389496d0d93eae076a4fb321078293f807a19771bd9fe4c8240"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E062/response.json",
+      "source_sha256": "c965704336526a03a6e06de25c13b66e2e43c3bad00cdbc1b231cd144edeb248"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E063/response.json",
+      "source_sha256": "92d66c575605200d3fba9b652056f08bc9bf4d80eff21096978369de9e4c9580"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E064/response.json",
+      "source_sha256": "f24fd9cad51c9c6536e5461f95d56151b6fe6135fc849d34477e9d4cf2babc73"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E065/response.json",
+      "source_sha256": "b96f9e16648ffc326d2b5a9108406207624d1e0232ef6149a442a77c4f619b11"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E066/response.json",
+      "source_sha256": "86e69147cad059d1575d856a25fab77042e8f84f570eddfb5baf4bf107d0f3e1"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E067/response.json",
+      "source_sha256": "8c854f05a570cc19ae06a306e12dc381a956c51f05c427e4d4630c1c7c6e0131"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E068/response.json",
+      "source_sha256": "95fa7dd9f3edfb1d2c4f263fe3c3f062afc27fb49be02149f712140fdc8d4022"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E069/response.json",
+      "source_sha256": "44ec17cae42b00aa27bf8c157b61f25d06ba94a0afe3e38ad469dce142ad5433"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E070/response.json",
+      "source_sha256": "b3327166ad14fdd717c09baa4220bd4b68bb4ea7981390f1124f511f834e8184"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E071/response.json",
+      "source_sha256": "b336005a4ebe60a838049bd95337d7e9c93594da7d856086ed3f6c6a6e2e7c01"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E072/response.json",
+      "source_sha256": "5cd35dc01c4db29abf8226293a2d14bad01de81355531b6b2b3e2c0012206669"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E073/response.json",
+      "source_sha256": "59a3f07dd489d91d18dc23be10376a4d576e1a53b5fcab9dd15d19b92cb5ed02"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E074/response.json",
+      "source_sha256": "c72f6cfd9a14dea8cf8186116f83c4109ac40eddb8c5425d8907544333464aa3"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E075/response.json",
+      "source_sha256": "65b56a4cd29b86ffdbe07995a9bd4f04126e0314c24c6d3366718c7e2d64e019"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E076/response.json",
+      "source_sha256": "be8ec7abb2975c99de681bf21c0daf5c621e101d6abf96505a94f3ea8d1e27d9"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E077/response.json",
+      "source_sha256": "6d8b2d3a9f43e71f7d7d511f573dd8f24a73cd4e1d4b4e569de52d1fe7521abe"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E078/response.json",
+      "source_sha256": "8735369d0b089cd3a089cb3fc1241812a232f96fdaac7fbae1ed82572a1ccc8c"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E079/response.json",
+      "source_sha256": "0e866c36b9ad0637056e0c15ca22b283bd01ee99e9e2ad9a7389089814cf7a4a"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E080/response.json",
+      "source_sha256": "7245651553eec3c3cf8163e7a35cbe65d5e7485c935d5b2832660dd6c1752dfb"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E081/response.json",
+      "source_sha256": "4c5f682aee88dceb14fed7e949ae93cac64a6fcbf46b2189aed45ff6f47e492c"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E082/response.json",
+      "source_sha256": "6afe997cbac1492173f2728deb322ad893a22b7beaf2561497496f1be94e9da8"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E083/response.json",
+      "source_sha256": "7df5d1c381fe3a0ff0c0822c5424638f731d742a5613a825a679a8aa3c725330"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E084/response.json",
+      "source_sha256": "102f3d442adb926a901179f0c2dfeb1929ae106e956eb6c19e0e09866fde42f3"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E085/response.json",
+      "source_sha256": "384fc43546b75546aa1106a9c33e3ebafe5ea8e9c5142a07abaa0b02c05bada0"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E086/response.json",
+      "source_sha256": "62e3a977e929f23a88b4c90e06008976bdbbde335eb7a440b368c8640d4e50ec"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E087/response.json",
+      "source_sha256": "6525c22b6d407f929e48d952843fb3a3902ac04596f0e3fea4eafeef05e33be5"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E088/response.json",
+      "source_sha256": "49affcad08a8410e7d3047d5960dde714a6e9509ea9538162728cb5133857c57"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E089/response.json",
+      "source_sha256": "51d803774f709b138f2523db8ba6b02d14e14b9287076fd0b03ba8a2ffb74b0a"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E090/response.json",
+      "source_sha256": "cefeb38972a3dba6b6c75db4b4dfc7df83414469d5cf3e7dd2477f3b0b73dbbd"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E091/response.json",
+      "source_sha256": "63e21f0f0fc9ac479ce8f36b6a773f725c9bea634bf26d5346f6a28bd943cfb3"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E092/response.json",
+      "source_sha256": "b4cd3ecb376733ebf89c958d3b434bc02025b92f9d68fa78b7628400c5af5bec"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E093/response.json",
+      "source_sha256": "cb6fde7578814a66874c9ea6172ac537b5feb67deddb585259d9980839316980"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E094/response.json",
+      "source_sha256": "4be83882d83549027c6f077e75cf155d3c959875a2af3a73278c0c964b19bd4d"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E095/response.json",
+      "source_sha256": "c9f3d5b7f8e1fe24a39befd1c833c671a4b222f59c4adcfc90900074d15a5bfd"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E096/response.json",
+      "source_sha256": "432a6fc76eb71b72dfbb73d61763185fb1fffbadc65105784ad0844cfcf72891"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E097/response.json",
+      "source_sha256": "e1402c311a407e56b3d4bab78c025099f960ddc202a7f2bd3895d523935b043c"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E098/response.json",
+      "source_sha256": "6ec8d642bf4b60a4500f6089a448a1b21859eb059a2638e814e46284787f37ac"
+    },
+    {
+      "export": "data/eval2.json",
+      "retained_fields": "ID, view, scalar scores",
+      "source": "research/sprint/exp2/stage-b/execution/private/issuance/X2E099/response.json",
+      "source_sha256": "f1eb19e171c0904e5edcbd016e31a63f6c440fbcb8439c5ce3394cedf11a27fc"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C000/complete.json",
+      "source_sha256": "a41f339c3acdfab0be2699b56b55949c10b6bf6700951dfabe571a67442d2f6e"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C001/complete.json",
+      "source_sha256": "45febe526b9bbdb1fa438c70ab3c5ece651d4d99e8d219c02598cbf8cac08aa9"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C002/complete.json",
+      "source_sha256": "7184e2d01bc0f1f5e074750f355539dc8c302e12f1c26bdda4ba98316f78266f"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C003/complete.json",
+      "source_sha256": "74b94dbece13889c982fc165b1b8b8045808b9a5ac0e282608e12c1ef494a3d1"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C004/complete.json",
+      "source_sha256": "6881bc258122426946fb2b879336743b71ff6f8e7fde16033d33efaabaf5692b"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C005/complete.json",
+      "source_sha256": "6798f1c9238f1f8c7df69e050a4fad8bf4e821f51db3f1b5ea51e6d9c8d0c168"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C006/complete.json",
+      "source_sha256": "14c3609c9518048dc2637485f906649e47ebc50b4d9650c420f7a4897a256d91"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C007/complete.json",
+      "source_sha256": "f11876a7c1de767a951c2fc57450d05d1fd68a348e43988d39c5221987dad77a"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C008/complete.json",
+      "source_sha256": "92ebc82a4203086ca25bb8d6667ed24cf3a8d1b23530edb37b2d7e4508624d45"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C009/complete.json",
+      "source_sha256": "3304958a9afbd68d68caf239f78ceeb1f4c3a92daf9f942b1e98ccadcc7096e1"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C010/complete.json",
+      "source_sha256": "7533e82d49f224bc95bf2e0d5a1d50b17485629c0356da908d55367bf7884c68"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C011/complete.json",
+      "source_sha256": "12f704186521ba87de8f7357b0eb6e9f2723f357b8f9f8ebec56daef1e7c3f6b"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C012/complete.json",
+      "source_sha256": "f12de13576f26485cbe73ae7768e3c37526679d391bf6a7bb51a015f0832e99d"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C013/complete.json",
+      "source_sha256": "a159df2a6e08147ce1312ca1407545748ffbcacaf171dc26ecd8e67cd5859a78"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C014/complete.json",
+      "source_sha256": "1aa38e26dbe4adc45771a1453211044cc5bfa662659de47050f17f8dfea80041"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C015/complete.json",
+      "source_sha256": "5cb187083c563a41570308b08b8ea83fe04d754c85aab824779b23fea800c20f"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C016/complete.json",
+      "source_sha256": "c1a7a928666b4913d9654b5cd9858f75b03fbab26c6864e6dc68de9bd1379a88"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C017/complete.json",
+      "source_sha256": "848a51cd5da0ac045190ecef4dead1e90fb00c3f4668f2ee596e0381855f153c"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C018/complete.json",
+      "source_sha256": "fcc34b8a5ada0bccd30ffeb09534c9e44e2c4d8c5cc737028e57b9b160522931"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C019/complete.json",
+      "source_sha256": "9f9de2b8af62bd215ff5e7b70ed75df9ec4b40968c261a1f33444b4e1e198040"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C020/complete.json",
+      "source_sha256": "da0dfadf86a449c58e1bc6081291f7046392decf4fe39c5e9643c14379428aca"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C021/complete.json",
+      "source_sha256": "6bcdcb9798a5d9aab3d4750d80d80fbc764cf160fdc345a1ffc05f3f69a504a6"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C022/complete.json",
+      "source_sha256": "8c03c7b9a2ceb61d43ba88629ec104aac4a15a0b4c743e1ae0c3db56e3013ec9"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C023/complete.json",
+      "source_sha256": "d13c9231e2b71bfb51cceabfd6288e0d5352832b45d84e5aa20f9ea2fe2dbacc"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C024/complete.json",
+      "source_sha256": "f28d3ffccaa350b2c66fbbd0f215636859de06149eb6b8cedded49558ce6230b"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C025/complete.json",
+      "source_sha256": "ac61c414f528c7f3d067678e356e73b8d8d1017a4c3284f2c5f3098a96d381bb"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C026/complete.json",
+      "source_sha256": "4d33685f89405c7bdf7ce4fcf4efef5ad85fac09eca893ccdeed5ea7b8f5dfc4"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C027/complete.json",
+      "source_sha256": "eefa5bb03788d9b88048a3fee36dca0173d26678e38b56377d7b1092695e96d0"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C028/complete.json",
+      "source_sha256": "ff75caee55694275306573bc3e76d2985d4d386aef0577e119ab33512a4336e8"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C029/complete.json",
+      "source_sha256": "5044c0fa929258f1fcda83d8b47cf8a57003b5bb8c3ee3deba46a46c481cfcc7"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C030/complete.json",
+      "source_sha256": "92696e067b841ab4ca043abf841fbce1038ab3601828b8e982df9f403091a6a8"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C031/complete.json",
+      "source_sha256": "a577564e04717363b732edadda959b00a990a72dbc4a78a45607c08ed2cd14d5"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C032/complete.json",
+      "source_sha256": "26b660c711acd71e6b1280eb962e2975c54bf95e8d45c75426e70ede2296cd22"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C033/complete.json",
+      "source_sha256": "7a08bdb2f1172c977fcef741613dbe00fea4b7b11e783fe03532a454096dc90e"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C034/complete.json",
+      "source_sha256": "215f7fbd52fd978642044994da7ba53478793d5ab85e63fd5b923ac4bae50b79"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C035/complete.json",
+      "source_sha256": "482d14e9c953cc14b08184259fe38f0c667564cd32abb38c1f9a85464a9b1626"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C036/complete.json",
+      "source_sha256": "45938f3821979f7ad34d3fb0a23885c609715e71a5818eb1fd1b1de575f6931a"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C037/complete.json",
+      "source_sha256": "eaab87fac736c6797ba81c3d07510da0905bced7e8cb45ae50b5ad58a7224c75"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C038/complete.json",
+      "source_sha256": "eae636239caab0692d03b8fd72531ff0d28dd693ec720cf620bf04ab4d1f6602"
+    },
+    {
+      "export": "data/exp1-calibration.json",
+      "retained_fields": "ID, view, readable, mismatch",
+      "source": "research/sprint/exp1/execution/issuance/C039/complete.json",
+      "source_sha256": "82f2fc2bfff15da158446755de728757e5683f309dbf20fccffe59431469f5a3"
+    },
+    {
+      "export": "data/seal-alone.json",
+      "retained_fields": "cohort, row ordinal, semantic M only",
+      "source": "paper/v1/overnight/round1/SEAL-ALONE.json",
+      "source_sha256": "8a0fe65ae858b8de62e586a5ffa98ceea7a87df03d0fdf2ac6259572eba59864"
+    },
+    {
+      "export": "data/locked.json",
+      "retained_fields": "de-identified case/arm, scalar scores, label code; no rater identity",
+      "source": "paper/build/repro/package/data/locked.json",
+      "source_sha256": "9dab1f49661a77e5f5e7bab97f83b713b208babbd6b45a369062f3f7e6d74ecb"
+    },
+    {
+      "export": "data/regen4.json",
+      "retained_fields": "victim IDs, scalar scores, integer bit counts, paired decision booleans",
+      "source": "research/sprint/exp4-regen-control/RESULTS-EXP4.json",
+      "source_sha256": "122a9e72f4e5db700d547edf5351ab24f7f390a936f933197ddf9e38bccba09c"
+    },
+    {
+      "export": "data/regen4b.json",
+      "retained_fields": "victim IDs, scalar scores, integer bit counts, paired decision booleans",
+      "source": "research/sprint/exp4b-regen-control-1b/RESULTS-EXP4B.json",
+      "source_sha256": "ddf8e0a4ee5b32968a151d2f5fc0e4ed805c9f50595147a97793e7713fe4d4ad"
+    },
+    {
+      "export": "data/exp3-refusals.json",
+      "retained_fields": "dry-run ID, refusal category/status; no requests, responses, identifiers or usage metadata",
+      "source": "research/sprint/exp3/EXP3-FINAL-STATUS.json",
+      "source_sha256": "238ce59dcc513e4153eb0ae0d20e88c2a2e0521dc3ec9b25c27200997eea6bb1"
+    },
+    {
+      "export": "analysis/frozen_rules.py",
+      "functions": [
+        "digest",
+        "full_boundary",
+        "matched_full",
+        "p20",
+        "require",
+        "scalar_rules"
+      ],
+      "source": "research/sprint/amend-o14/v2/analysis_o14.py",
+      "source_sha256": "25d4a772a05e172f9e73863ab2a654701a7114c94d449926f924f12fffe60337",
+      "transformation": "Verbatim function bodies; stdlib imports and calibration IDs supplied. No original entry point or loaders."
+    },
+    {
+      "export": "analysis/statistics.py",
+      "functions": [
+        "binomial_cdf",
+        "binomial_sf",
+        "exact_interval",
+        "paired",
+        "percentile",
+        "require"
+      ],
+      "source": "paper/build/repro/package/scripts/common.py",
+      "source_sha256": "d9d4a80dedabc0e9cb65256ad86226ab46d1e7109ef9810d521cf7c749f501f1",
+      "transformation": "Verbatim pure functions only."
+    },
+    {
+      "export": "analysis/scoring/seal_patch_l2.py",
+      "source": "paper/build/repro/package/source/seal_patch_l2.py",
+      "source_sha256": "b2bd38d9bf7d6d081bb2018bbe282cec2dd2c87fd0ef6fab8c088e6347fe0538",
+      "transformation": "Reused prior scoring export; attribution wording only."
+    },
+    {
+      "export": "analysis/scoring/seal_tensor.py",
+      "source": "paper/build/repro/package/source/seal_tensor.py",
+      "source_sha256": "484bf97e8eb5a2e58eb9bb714a330389a94c4a1138b92f1567a0211f52c98c03",
+      "transformation": "Reused prior scoring export; attribution wording only."
+    },
+    {
+      "export": "analysis/scoring/spatial_test.py",
+      "source": "paper/build/repro/package/source/spatial_test.py",
+      "source_sha256": "a76b25b0367104297c90ad13a238fc3954fb1240b0b9856d6026f7e57d325f22",
+      "transformation": "Reused prior scoring export; attribution wording and trailing whitespace only."
+    },
+    {
+      "export": "analysis/scoring/strength.py",
+      "source": "paper/build/repro/package/source/strength.py",
+      "source_sha256": "5e2e9af43df85a30d0b7a199a2bfccad170a2605df6983e6c75eb847663f25ab",
+      "transformation": "Reused prior scoring export; attribution wording only."
+    },
+    {
+      "export": "analysis/scoring/headline_rules.py",
+      "source": "paper/build/repro/package/source/headline_rules.py",
+      "source_sha256": "f48eb94af28cef39ece94ae11a6f437fe016555f6d1015390cd14ed327f55cfa",
+      "transformation": "Reused prior scoring export; attribution wording only."
+    },
+    {
+      "export": "analysis/scoring/payload_methods.py",
+      "functions": [
+        "patches",
+        "Backend.semantic",
+        "Backend.payload_score"
+      ],
+      "source": "research/sprint/exp1b/backend.py",
+      "source_sha256": "19a9e8737f875723282f6c391c4740a8b55aef6e2766fb53f7af68d52288780b",
+      "transformation": "Verbatim method bodies in inert class; initialization and model/file operations omitted."
+    },
+    {
+      "export": "data/macro-sources.json",
+      "retained_fields": "macro name and original relative source locator",
+      "source": "paper/build/numbers/repair-numbers.tex",
+      "source_sha256": "f85ecfdb93236509e7b8316e949084442659dfc8c1086c002ca9500e1273202a"
+    },
+    {
+      "export": "data/protocol.json",
+      "source": "research/sprint/amend-o14/v2/audit-O15-EXP1B-RESULTS.md",
+      "source_sha256": "c4d11b4f3681a0718fe3d673a21d86a2e761a7045b49f99d9e586aa9a7688328",
+      "transformation": "Explicit design/context scalars only; no source prose."
+    },
+    {
+      "export": "data/protocol.json",
+      "source": "research/sprint/amend-o14/v2/audit-O15-EXP2-RESULTS.md",
+      "source_sha256": "3625ceb9a6feb9cdb5ad078db75681d977eaa4e1d4547b143038c16f9f04a292",
+      "transformation": "Explicit design/context scalars only; no source prose."
+    },
+    {
+      "export": "data/protocol.json",
+      "source": "paper/PAPER-MUST-SAY.md",
+      "source_sha256": "ebbefdecef6c4f35f7ae1f66a5f1a996d33a54a62adfed3ba8142a48043349bf",
+      "transformation": "Explicit design/context scalars only; no source prose."
+    },
+    {
+      "export": "data/protocol.json",
+      "source": "paper/build/numbers/identifiers.json",
+      "source_sha256": "066c315d576034056e28cffe61bb2478f2e8915bc7ed514fe9a87618be3f47d5",
+      "transformation": "Explicit design/context scalars only; no source prose."
+    },
+    {
+      "export": "data/protocol.json",
+      "source": "experiments/seal-csi/run-004-clean-baseline/PROTOCOL.md",
+      "source_sha256": "fa2222e5bd7522591d13e597bed315cbd3b39a47bf93de60dfac7ffe2636e66e",
+      "transformation": "Explicit design/context scalars only; no source prose."
+    },
+    {
+      "export": "data/protocol.json",
+      "source": "paper/build/frontier/frontier-results.json",
+      "source_sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+      "transformation": "Explicit design/context scalars only; no source prose."
+    },
+    {
+      "export": "data/protocol.json",
+      "source": "research/audits/audit/independent_critique_recheck.json",
+      "source_sha256": "86182c9b3c0609292e969ed8cfead4aa8e41edae1a9b795b16da73ee643a5874",
+      "transformation": "Explicit design/context scalars only; no source prose."
+    }
+  ],
+  "target_sha256": "f85ecfdb93236509e7b8316e949084442659dfc8c1086c002ca9500e1273202a"
+}

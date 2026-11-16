@@ -1,0 +1,629 @@
+{
+  "author": "Kuladeep Mantri",
+  "rows": [
+    {
+      "macro": "FrontierFloorAllHonestNinetyFiveFreshCIHighPercent",
+      "value": 0.9203788791471231,
+      "rendered": "92.04\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            305,
+            "fresh_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyFiveFreshCILowPercent",
+      "value": 0.648447621630746,
+      "rendered": "64.84\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            305,
+            "fresh_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyFiveFreshFraction",
+      "value": [
+        30,
+        37
+      ],
+      "rendered": "30/37",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            305,
+            "fresh_accepted"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        },
+        {
+          "path": [
+            "targets",
+            305,
+            "fresh_n"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyFiveRunSixCIHighPercent",
+      "value": 0.9266172706479148,
+      "rendered": "92.66\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            302,
+            "run006_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyFiveRunSixCILowPercent",
+      "value": 0.6722098666384142,
+      "rendered": "67.22\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            302,
+            "run006_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyFiveRunSixFraction",
+      "value": [
+        33,
+        40
+      ],
+      "rendered": "33/40",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            302,
+            "run006_accepted"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        },
+        {
+          "path": [
+            "targets",
+            302,
+            "run006_n"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyFreshCIHighPercent",
+      "value": 0.7754238564195681,
+      "rendered": "77.54\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            304,
+            "fresh_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyFreshCILowPercent",
+      "value": 0.4475680224508124,
+      "rendered": "44.76\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            304,
+            "fresh_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyFreshFraction",
+      "value": [
+        23,
+        37
+      ],
+      "rendered": "23/37",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            304,
+            "fresh_accepted"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        },
+        {
+          "path": [
+            "targets",
+            304,
+            "fresh_n"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyRunSixCIHighPercent",
+      "value": 0.7727372775181741,
+      "rendered": "77.27\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            301,
+            "run006_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyRunSixCILowPercent",
+      "value": 0.458014752232611,
+      "rendered": "45.80\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            301,
+            "run006_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorAllHonestNinetyRunSixFraction",
+      "value": [
+        25,
+        40
+      ],
+      "rendered": "25/40",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            301,
+            "run006_accepted"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        },
+        {
+          "path": [
+            "targets",
+            301,
+            "run006_n"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFiveFreshCIHighPercent",
+      "value": 0.7754238564195681,
+      "rendered": "77.54\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            323,
+            "fresh_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFiveFreshCILowPercent",
+      "value": 0.4475680224508124,
+      "rendered": "44.76\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            323,
+            "fresh_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFiveFreshFraction",
+      "value": [
+        23,
+        37
+      ],
+      "rendered": "23/37",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            323,
+            "fresh_accepted"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        },
+        {
+          "path": [
+            "targets",
+            323,
+            "fresh_n"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFiveRunSixCIHighPercent",
+      "value": 0.7727372775181741,
+      "rendered": "77.27\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            320,
+            "run006_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFiveRunSixCILowPercent",
+      "value": 0.458014752232611,
+      "rendered": "45.80\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            320,
+            "run006_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFiveRunSixFraction",
+      "value": [
+        25,
+        40
+      ],
+      "rendered": "25/40",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            320,
+            "run006_accepted"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        },
+        {
+          "path": [
+            "targets",
+            320,
+            "run006_n"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFiveRunSixTargetCount",
+      "value": 190,
+      "rendered": "190",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            320,
+            "target_count"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFreshCIHighPercent",
+      "value": 0.6560031843342338,
+      "rendered": "65.60\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            322,
+            "fresh_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFreshCILowPercent",
+      "value": 0.3192141064815403,
+      "rendered": "31.92\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            322,
+            "fresh_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyFreshFraction",
+      "value": [
+        18,
+        37
+      ],
+      "rendered": "18/37",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            322,
+            "fresh_accepted"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        },
+        {
+          "path": [
+            "targets",
+            322,
+            "fresh_n"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyRunSixCIHighPercent",
+      "value": 0.7295709687311371,
+      "rendered": "72.96\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            319,
+            "run006_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyRunSixCILowPercent",
+      "value": 0.4089005804269633,
+      "rendered": "40.89\\%",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            319,
+            "run006_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierFloorBothJpegNinetyRunSixFraction",
+      "value": [
+        23,
+        40
+      ],
+      "rendered": "23/40",
+      "source_selectors": [
+        {
+          "path": [
+            "targets",
+            319,
+            "run006_accepted"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        },
+        {
+          "path": [
+            "targets",
+            319,
+            "run006_n"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierMeaningFreshCaptionCountAuc",
+      "value": 0.5200947700947701,
+      "rendered": "0.520",
+      "source_selectors": [
+        {
+          "path": [
+            "meaning_auc",
+            12,
+            "auc"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierMeaningFreshStrengthAuc",
+      "value": 0.3904878904878905,
+      "rendered": "0.390",
+      "source_selectors": [
+        {
+          "path": [
+            "meaning_auc",
+            13,
+            "auc"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierMeaningFreshStrengthCIHigh",
+      "value": 0.49711082836082826,
+      "rendered": "0.497",
+      "source_selectors": [
+        {
+          "path": [
+            "meaning_auc",
+            13,
+            "bootstrap_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierMeaningFreshStrengthCILow",
+      "value": 0.28728939978939977,
+      "rendered": "0.287",
+      "source_selectors": [
+        {
+          "path": [
+            "meaning_auc",
+            13,
+            "bootstrap_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierMeaningRunSixCaptionCountAuc",
+      "value": 0.550765306122449,
+      "rendered": "0.551",
+      "source_selectors": [
+        {
+          "path": [
+            "meaning_auc",
+            0,
+            "auc"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierMeaningRunSixStrengthAuc",
+      "value": 0.44302721088435376,
+      "rendered": "0.443",
+      "source_selectors": [
+        {
+          "path": [
+            "meaning_auc",
+            1,
+            "auc"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierMeaningRunSixStrengthCIHigh",
+      "value": 0.5447300170068027,
+      "rendered": "0.545",
+      "source_selectors": [
+        {
+          "path": [
+            "meaning_auc",
+            1,
+            "bootstrap_ci_high"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    },
+    {
+      "macro": "FrontierMeaningRunSixStrengthCILow",
+      "value": 0.3402168367346939,
+      "rendered": "0.340",
+      "source_selectors": [
+        {
+          "path": [
+            "meaning_auc",
+            1,
+            "bootstrap_ci_low"
+          ],
+          "sha256": "5fe41fa05a48960689239297356c57032c5bbd538ab11f4159af902a2753a85c",
+          "source": "paper/build/frontier/frontier-results.json"
+        }
+      ]
+    }
+  ]
+}

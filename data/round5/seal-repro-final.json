@@ -1,0 +1,847 @@
+{
+  "ablation": [
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 43,
+        "fresh_fp32": 43,
+        "norm_fp32": 43,
+        "oracle_original": 656,
+        "saved_fp16": 43
+      },
+      "index": 0,
+      "retained_code_matches": 43,
+      "retained_codes": 65,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/000/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 11,
+        "fresh_fp32": 11,
+        "norm_fp32": 11,
+        "oracle_original": 508,
+        "saved_fp16": 11
+      },
+      "index": 1,
+      "retained_code_matches": 11,
+      "retained_codes": 27,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/001/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 30,
+        "fresh_fp32": 30,
+        "norm_fp32": 30,
+        "oracle_original": 997,
+        "saved_fp16": 30
+      },
+      "index": 2,
+      "retained_code_matches": 30,
+      "retained_codes": 31,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/002/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 64,
+        "fresh_fp32": 64,
+        "norm_fp32": 64,
+        "oracle_original": 620,
+        "saved_fp16": 64
+      },
+      "index": 3,
+      "retained_code_matches": 64,
+      "retained_codes": 95,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/003/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 95,
+        "fresh_fp32": 96,
+        "norm_fp32": 95,
+        "oracle_original": 846,
+        "saved_fp16": 95
+      },
+      "index": 4,
+      "retained_code_matches": 95,
+      "retained_codes": 115,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/004/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 3,
+        "fresh_fp32": 3,
+        "norm_fp32": 3,
+        "oracle_original": 789,
+        "saved_fp16": 3
+      },
+      "index": 5,
+      "retained_code_matches": 3,
+      "retained_codes": 5,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/005/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 102,
+        "fresh_fp32": 102,
+        "norm_fp32": 102,
+        "oracle_original": 529,
+        "saved_fp16": 102
+      },
+      "index": 6,
+      "retained_code_matches": 102,
+      "retained_codes": 190,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/006/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 13,
+        "fresh_fp32": 13,
+        "norm_fp32": 13,
+        "oracle_original": 934,
+        "saved_fp16": 13
+      },
+      "index": 7,
+      "retained_code_matches": 13,
+      "retained_codes": 14,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/007/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 33,
+        "fresh_fp32": 33,
+        "norm_fp32": 33,
+        "oracle_original": 903,
+        "saved_fp16": 33
+      },
+      "index": 8,
+      "retained_code_matches": 33,
+      "retained_codes": 34,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/008/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 12,
+        "fresh_fp32": 12,
+        "norm_fp32": 12,
+        "oracle_original": 698,
+        "saved_fp16": 12
+      },
+      "index": 9,
+      "retained_code_matches": 12,
+      "retained_codes": 18,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/009/maps.npz"
+    },
+    {
+      "changed_code_matches": 1,
+      "counts": {
+        "fresh_fp16": 19,
+        "fresh_fp32": 19,
+        "norm_fp32": 19,
+        "oracle_original": 777,
+        "saved_fp16": 19
+      },
+      "index": 10,
+      "retained_code_matches": 18,
+      "retained_codes": 24,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/010/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 149,
+        "fresh_fp32": 149,
+        "norm_fp32": 149,
+        "oracle_original": 755,
+        "saved_fp16": 149
+      },
+      "index": 11,
+      "retained_code_matches": 149,
+      "retained_codes": 207,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/011/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 3,
+        "fresh_fp32": 3,
+        "norm_fp32": 3,
+        "oracle_original": 903,
+        "saved_fp16": 3
+      },
+      "index": 12,
+      "retained_code_matches": 3,
+      "retained_codes": 4,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/012/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 21,
+        "fresh_fp32": 21,
+        "norm_fp32": 21,
+        "oracle_original": 795,
+        "saved_fp16": 21
+      },
+      "index": 13,
+      "retained_code_matches": 21,
+      "retained_codes": 25,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/013/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 9,
+        "fresh_fp32": 9,
+        "norm_fp32": 9,
+        "oracle_original": 842,
+        "saved_fp16": 9
+      },
+      "index": 14,
+      "retained_code_matches": 9,
+      "retained_codes": 11,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/014/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 158,
+        "fresh_fp32": 158,
+        "norm_fp32": 158,
+        "oracle_original": 920,
+        "saved_fp16": 158
+      },
+      "index": 15,
+      "retained_code_matches": 158,
+      "retained_codes": 176,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/015/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 10,
+        "fresh_fp32": 10,
+        "norm_fp32": 10,
+        "oracle_original": 606,
+        "saved_fp16": 10
+      },
+      "index": 16,
+      "retained_code_matches": 10,
+      "retained_codes": 17,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/016/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 114,
+        "fresh_fp32": 114,
+        "norm_fp32": 114,
+        "oracle_original": 792,
+        "saved_fp16": 114
+      },
+      "index": 17,
+      "retained_code_matches": 114,
+      "retained_codes": 148,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/017/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 7,
+        "fresh_fp32": 7,
+        "norm_fp32": 7,
+        "oracle_original": 979,
+        "saved_fp16": 7
+      },
+      "index": 18,
+      "retained_code_matches": 7,
+      "retained_codes": 7,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/018/maps.npz"
+    },
+    {
+      "changed_code_matches": 0,
+      "counts": {
+        "fresh_fp16": 36,
+        "fresh_fp32": 36,
+        "norm_fp32": 36,
+        "oracle_original": 882,
+        "saved_fp16": 36
+      },
+      "index": 19,
+      "retained_code_matches": 36,
+      "retained_codes": 46,
+      "saved_inverse_exact": {
+        "fresh_fp16": true,
+        "fresh_fp32": false
+      },
+      "source": "research/sprint/round5-exps/seal-repro/outputs/019/maps.npz"
+    }
+  ],
+  "author": "Kuladeep Mantri",
+  "rows": [
+    {
+      "C_corrected": 43.0,
+      "C_released": 57.0,
+      "M": 43,
+      "N_any": 663,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-000-corrected.npz",
+      "inclusive": true,
+      "index": 0,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-000-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 61.0,
+      "C_released": 58.0,
+      "M": 0,
+      "N_any": 10,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-000-corrected.npz",
+      "inclusive": false,
+      "index": 0,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-000-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 44.0,
+      "C_released": 63.0,
+      "M": 11,
+      "N_any": 532,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-001-corrected.npz",
+      "inclusive": false,
+      "index": 1,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-001-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 64.0,
+      "C_released": 60.0,
+      "M": 0,
+      "N_any": 11,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-001-corrected.npz",
+      "inclusive": false,
+      "index": 1,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-001-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 43.0,
+      "C_released": 72.0,
+      "M": 30,
+      "N_any": 997,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-002-corrected.npz",
+      "inclusive": true,
+      "index": 2,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-002-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 75.0,
+      "C_released": 69.0,
+      "M": 0,
+      "N_any": 11,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-002-corrected.npz",
+      "inclusive": false,
+      "index": 2,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-002-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 33.0,
+      "C_released": 74.0,
+      "M": 64,
+      "N_any": 629,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-003-corrected.npz",
+      "inclusive": true,
+      "index": 3,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-003-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 59.0,
+      "C_released": 58.0,
+      "M": 0,
+      "N_any": 17,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-003-corrected.npz",
+      "inclusive": false,
+      "index": 3,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-003-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 36.0,
+      "C_released": 60.0,
+      "M": 95,
+      "N_any": 848,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-004-corrected.npz",
+      "inclusive": true,
+      "index": 4,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-004-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 54.0,
+      "C_released": 62.0,
+      "M": 0,
+      "N_any": 16,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-004-corrected.npz",
+      "inclusive": false,
+      "index": 4,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-004-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 61.0,
+      "C_released": 68.0,
+      "M": 3,
+      "N_any": 794,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-005-corrected.npz",
+      "inclusive": false,
+      "index": 5,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-005-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 62.0,
+      "C_released": 62.0,
+      "M": 0,
+      "N_any": 17,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-005-corrected.npz",
+      "inclusive": false,
+      "index": 5,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-005-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 64.0,
+      "C_released": 56.0,
+      "M": 102,
+      "N_any": 539,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-006-corrected.npz",
+      "inclusive": true,
+      "index": 6,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-006-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 67.0,
+      "C_released": 70.0,
+      "M": 0,
+      "N_any": 15,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-006-corrected.npz",
+      "inclusive": false,
+      "index": 6,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-006-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 59.0,
+      "C_released": 75.0,
+      "M": 13,
+      "N_any": 934,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-007-corrected.npz",
+      "inclusive": true,
+      "index": 7,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-007-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 59.0,
+      "C_released": 56.0,
+      "M": 0,
+      "N_any": 39,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-007-corrected.npz",
+      "inclusive": false,
+      "index": 7,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-007-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 39.0,
+      "C_released": 79.0,
+      "M": 33,
+      "N_any": 903,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-008-corrected.npz",
+      "inclusive": true,
+      "index": 8,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-008-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 83.0,
+      "C_released": 76.0,
+      "M": 0,
+      "N_any": 5,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-008-corrected.npz",
+      "inclusive": false,
+      "index": 8,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-008-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 55.0,
+      "C_released": 66.0,
+      "M": 12,
+      "N_any": 700,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-009-corrected.npz",
+      "inclusive": true,
+      "index": 9,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-009-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 56.0,
+      "C_released": 65.0,
+      "M": 0,
+      "N_any": 14,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-009-corrected.npz",
+      "inclusive": false,
+      "index": 9,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-009-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 48.0,
+      "C_released": 75.0,
+      "M": 19,
+      "N_any": 787,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-010-corrected.npz",
+      "inclusive": true,
+      "index": 10,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-010-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 42.0,
+      "C_released": 49.0,
+      "M": 0,
+      "N_any": 22,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-010-corrected.npz",
+      "inclusive": false,
+      "index": 10,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-010-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 31.0,
+      "C_released": 61.0,
+      "M": 149,
+      "N_any": 757,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-011-corrected.npz",
+      "inclusive": true,
+      "index": 11,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-011-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 69.0,
+      "C_released": 67.0,
+      "M": 0,
+      "N_any": 11,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-011-corrected.npz",
+      "inclusive": false,
+      "index": 11,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-011-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 45.0,
+      "C_released": 65.0,
+      "M": 3,
+      "N_any": 903,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-012-corrected.npz",
+      "inclusive": false,
+      "index": 12,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-012-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 67.0,
+      "C_released": 60.0,
+      "M": 0,
+      "N_any": 12,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-012-corrected.npz",
+      "inclusive": false,
+      "index": 12,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-012-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 31.0,
+      "C_released": 63.0,
+      "M": 21,
+      "N_any": 798,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-013-corrected.npz",
+      "inclusive": true,
+      "index": 13,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-013-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 69.0,
+      "C_released": 64.0,
+      "M": 0,
+      "N_any": 12,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-013-corrected.npz",
+      "inclusive": false,
+      "index": 13,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-013-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 55.0,
+      "C_released": 83.0,
+      "M": 9,
+      "N_any": 845,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-014-corrected.npz",
+      "inclusive": false,
+      "index": 14,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-014-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 79.0,
+      "C_released": 73.0,
+      "M": 0,
+      "N_any": 12,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-014-corrected.npz",
+      "inclusive": false,
+      "index": 14,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-014-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 35.0,
+      "C_released": 66.0,
+      "M": 158,
+      "N_any": 922,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-015-corrected.npz",
+      "inclusive": true,
+      "index": 15,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-015-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 63.0,
+      "C_released": 73.0,
+      "M": 0,
+      "N_any": 12,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-015-corrected.npz",
+      "inclusive": false,
+      "index": 15,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-015-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 48.0,
+      "C_released": 71.0,
+      "M": 10,
+      "N_any": 615,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-016-corrected.npz",
+      "inclusive": false,
+      "index": 16,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-016-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 69.0,
+      "C_released": 63.0,
+      "M": 0,
+      "N_any": 15,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-016-corrected.npz",
+      "inclusive": false,
+      "index": 16,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-016-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 30.0,
+      "C_released": 68.0,
+      "M": 114,
+      "N_any": 797,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-017-corrected.npz",
+      "inclusive": true,
+      "index": 17,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-017-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 77.0,
+      "C_released": 82.0,
+      "M": 0,
+      "N_any": 8,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-017-corrected.npz",
+      "inclusive": false,
+      "index": 17,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-017-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 60.0,
+      "C_released": 64.0,
+      "M": 7,
+      "N_any": 979,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-018-corrected.npz",
+      "inclusive": false,
+      "index": 18,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-018-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 60.0,
+      "C_released": 58.0,
+      "M": 0,
+      "N_any": 24,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-018-corrected.npz",
+      "inclusive": false,
+      "index": 18,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-018-primary.npz",
+      "strict": false
+    },
+    {
+      "C_corrected": 43.0,
+      "C_released": 73.0,
+      "M": 36,
+      "N_any": 883,
+      "condition": "clean",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-clean-019-corrected.npz",
+      "inclusive": true,
+      "index": 19,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/clean-019-primary.npz",
+      "strict": true
+    },
+    {
+      "C_corrected": 72.0,
+      "C_released": 62.0,
+      "M": 0,
+      "N_any": 17,
+      "condition": "negative",
+      "corrected_spatial_map": "experiments/seal-csi/run-003-csi-attack/maps/benign-negative-019-corrected.npz",
+      "inclusive": false,
+      "index": 19,
+      "semantic_map": "experiments/seal-csi/run-002-baseline/as-published/maps/negative-019-primary.npz",
+      "strict": false
+    }
+  ]
+}

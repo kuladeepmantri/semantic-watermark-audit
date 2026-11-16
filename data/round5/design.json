@@ -1,0 +1,57 @@
+{
+  "thumbnail": {
+    "side": 64,
+    "margin": 8,
+    "carrier_side": 16,
+    "payload_bits": 714,
+    "dhash_bits": 64
+  },
+  "whitebox": {
+    "square": 192,
+    "grid": 8,
+    "sizes": [
+      192,
+      160,
+      128,
+      96
+    ],
+    "blends": [
+      1,
+      0.75,
+      0.5,
+      0.25
+    ],
+    "change_fraction": 0.01,
+    "change_delta": 16,
+    "change_mae": 4
+  },
+  "distortions": {
+    "crop_side": 460,
+    "crop_percent": 90,
+    "noise_sigma": 0.02,
+    "blur_radius": 1,
+    "qualities": [
+      50,
+      75,
+      90
+    ]
+  },
+  "source_bindings": [
+    {
+      "source": "research/sprint/round5-exps/whitebox/PREREG.md",
+      "sha256": "3e595592414952439ef5988d10c4c343b039b9eaae30d67264d3a29c30f7b755"
+    },
+    {
+      "source": "research/sprint/round5-exps/whitebox/run_whitebox.py",
+      "sha256": "713fcdcf025cff57ca4e736800322142f8375d6b297748749b94c0e6c36b9ef0"
+    },
+    {
+      "source": "research/sprint/round5-exps/baselines/run_baselines.py",
+      "sha256": "63e38f595216010844aea43088f394fdb38cc8e05b64fdc530ef7d76f9009d06"
+    },
+    {
+      "source": "research/sprint/exp1b/analysis_thumbnail.py",
+      "sha256": "fcd53eb85d5544f18461387cca946cf2e144055fc156e5315ff563c538615649"
+    }
+  ]
+}

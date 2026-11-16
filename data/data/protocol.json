@@ -1,0 +1,76 @@
+{
+  "bands": [
+    2,
+    3,
+    5,
+    6
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seeds": [
+    2026111101,
+    2026111102
+  ],
+  "dhash_cutoff": 1,
+  "dino_cutoff": 0.12,
+  "dino_floor": 5,
+  "held_c": 19,
+  "held_m": 0,
+  "image_side": 512,
+  "jpeg_sanity": 30,
+  "local_c": 7,
+  "local_m": 3,
+  "local_square": 192,
+  "margin_min": 405,
+  "mismatch_cutoff": 0.06,
+  "near_cutoff_margin_pp": 0.2,
+  "near_cutoff_upper": 0.08,
+  "not_constructed": "n/c",
+  "not_registered": "n/r",
+  "old_gate": 38,
+  "payload_patches": 102,
+  "predicted_recoveries": 6,
+  "prediction_checks": {
+    "angle_min": 1,
+    "angle_rmse_max": 2.5,
+    "count_error_max": 6,
+    "primary_honest_range": [
+      184,
+      196
+    ],
+    "primary_null_max": 1,
+    "released_auc_range": [
+      0.4,
+      0.6
+    ],
+    "spatial_median_gap_min": 15,
+    "strength_honest_range": [
+      180,
+      198
+    ],
+    "strength_null_max": 0,
+    "z_sd_range": [
+      0.85,
+      1.15
+    ]
+  },
+  "published_c": 32,
+  "published_m": 12,
+  "readable_floor": 20,
+  "released_c": 53,
+  "released_spatial_low": 20,
+  "rgb_cutoff": 0.02416506328451865,
+  "run4_development_indices": [
+    20,
+    119
+  ],
+  "seal_code_commit": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
+  "sensitivity_floor": 5,
+  "standalone_strength": 421,
+  "strength_min": 388,
+  "strong_jpeg_min": 12,
+  "strong_jpeg_reject_max": 1,
+  "theory_m": 79,
+  "undescribed_fraction_approx": 0.34,
+  "utility_floor": 90,
+  "utility_target": 95
+}

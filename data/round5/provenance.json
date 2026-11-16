@@ -1,0 +1,31 @@
+{
+  "author": "Kuladeep Mantri",
+  "extracted_at_utc": "2026-11-16T00:21:16.955128+00:00",
+  "transformations": "Copied scalar JSON records only. Internal source-locator names neutralized in the original release records; numerical values preserved.",
+  "sources": [
+    {
+      "source": "whitebox/RESCORE-1.json",
+      "source_sha256": "bbd58dfc1cff8103a4716d4ce2a637b1707b65b5d3d5a46796be3d42895008b4",
+      "distributed": "whitebox.json",
+      "distributed_sha256": "bbd58dfc1cff8103a4716d4ce2a637b1707b65b5d3d5a46796be3d42895008b4"
+    },
+    {
+      "source": "seal-repro/CPU-ALL.json",
+      "source_sha256": "695d6c3e9b47f699f3311bb72746d438445dd9730c1aefdf7152fb4d2278924a",
+      "distributed": "seal-repro.json",
+      "distributed_sha256": "695d6c3e9b47f699f3311bb72746d438445dd9730c1aefdf7152fb4d2278924a"
+    },
+    {
+      "source": "baselines/PART-A-1.json",
+      "source_sha256": "b250a1daa25b4aef580cfe1607973784c46ee7c50402bd27a467789d7e822cb3",
+      "distributed": "external.json",
+      "distributed_sha256": "b250a1daa25b4aef580cfe1607973784c46ee7c50402bd27a467789d7e822cb3"
+    },
+    {
+      "source": "baselines/PART-B-1.json",
+      "source_sha256": "acb3968f1f8c8caae2de2ce148704ad707a842d298444fb72efd6e338a59edbe",
+      "distributed": "distortions.json",
+      "distributed_sha256": "acb3968f1f8c8caae2de2ce148704ad707a842d298444fb72efd6e338a59edbe"
+    }
+  ]
+}

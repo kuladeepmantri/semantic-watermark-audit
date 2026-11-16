@@ -1,0 +1,66 @@
+{
+  "author": "Kuladeep Mantri",
+  "indices_sha256": "2133feb8821daedee2b1e064bd27959649f93b430100dde6b5e8a9771e0e3e9f",
+  "limitation": "Audited aggregate replay only; withheld individual answers prevent re-estimation of alpha or its bootstrap draws. No kappa, ground truth, reliability pass/fail claim or invitation denominator.",
+  "panels": {
+    "all_complete_friends_only": {
+      "binary": {
+        "alpha": 0.06650641025641024,
+        "bootstrap_replicates": 10000,
+        "interval": [
+          0.009096597744372879,
+          0.12529086647636847
+        ],
+        "pairs": 100,
+        "raters": 7,
+        "undefined_fraction": 0.0,
+        "undefined_reason": null,
+        "undefined_replicates": 0
+      },
+      "four_class": {
+        "alpha": 0.13257863546573467,
+        "bootstrap_replicates": 10000,
+        "interval": [
+          0.08665663749909062,
+          0.1744638948978277
+        ],
+        "pairs": 100,
+        "raters": 7,
+        "undefined_fraction": 0.0,
+        "undefined_reason": null,
+        "undefined_replicates": 0
+      }
+    },
+    "screened_friends_only": {
+      "binary": {
+        "alpha": 0.11349289373061111,
+        "bootstrap_replicates": 10000,
+        "interval": [
+          0.03412525852468584,
+          0.18993647129779942
+        ],
+        "pairs": 100,
+        "raters": 5,
+        "undefined_fraction": 0.0,
+        "undefined_reason": null,
+        "undefined_replicates": 0
+      },
+      "four_class": {
+        "alpha": 0.23505757013480133,
+        "bootstrap_replicates": 10000,
+        "interval": [
+          0.1704450530164622,
+          0.2953305896150859
+        ],
+        "pairs": 100,
+        "raters": 5,
+        "undefined_fraction": 0.0,
+        "undefined_reason": null,
+        "undefined_replicates": 0
+      }
+    }
+  },
+  "percentile": "linear",
+  "seed": 20261110,
+  "statistic": "nominal Krippendorff alpha"
+}

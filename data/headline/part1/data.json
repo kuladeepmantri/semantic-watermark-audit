@@ -1,0 +1,594 @@
+{
+  "prepared_for": "Kuladeep Mantri",
+  "part": 1,
+  "source": "paper/build/numbers/MASTER-TABLE.json",
+  "source_sha256": "01b40997ab53f842b25a1bb25ef6d81d71c3a6f422ce50e7850f3483fad19398",
+  "audit": "paper/build/numbers/audit-AUDIT-MASTER.md",
+  "audit_sha256": "fea627a00df0a639ea74713dabffa4c94a2330b4087746bca82ed5122097a2d9",
+  "design": {
+    "confidence_percent": {
+      "value": 95,
+      "tag": "design"
+    }
+  },
+  "cells": {
+    "count_comparator_sensitivity/paper_corrected/fresh_clean": {
+      "k": 129,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_corrected/fresh_consequential": {
+      "k": 6,
+      "n": 37
+    },
+    "count_comparator_sensitivity/paper_corrected/fresh_jpeg75": {
+      "k": 92,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_corrected/run005_clean": {
+      "k": 124,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_corrected/run005_negative": {
+      "k": 0,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_corrected/run004_calibration_clean": {
+      "k": 122,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_corrected/run004_calibration_jpeg75": {
+      "k": 90,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_corrected/run006_consequential": {
+      "k": 8,
+      "n": 40
+    },
+    "count_comparator_sensitivity/paper_released/fresh_clean": {
+      "k": 136,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_released/fresh_consequential": {
+      "k": 5,
+      "n": 37
+    },
+    "count_comparator_sensitivity/paper_released/fresh_jpeg75": {
+      "k": 103,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_released/run005_clean": {
+      "k": 123,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_released/run005_negative": {
+      "k": 0,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_released/run004_calibration_clean": {
+      "k": 127,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_released/run004_calibration_jpeg75": {
+      "k": 106,
+      "n": 200
+    },
+    "count_comparator_sensitivity/paper_released/run006_consequential": {
+      "k": 9,
+      "n": 40
+    },
+    "cells/paper_corrected/fresh_clean": {
+      "k": 123,
+      "n": 200
+    },
+    "cells/paper_corrected/fresh_consequential": {
+      "k": 5,
+      "n": 37
+    },
+    "cells/paper_corrected/fresh_consequential_yield": {
+      "k": 5,
+      "n": 200
+    },
+    "cells/paper_corrected/fresh_human_qualified_yield": {
+      "k": 5,
+      "n": 200
+    },
+    "cells/paper_corrected/fresh_jpeg75": {
+      "k": 86,
+      "n": 200
+    },
+    "cells/paper_corrected/run005_clean": {
+      "k": 117,
+      "n": 200
+    },
+    "cells/paper_corrected/run005_negative": {
+      "k": 0,
+      "n": 200
+    },
+    "cells/paper_corrected/run004_calibration_jpeg75": {
+      "k": 89,
+      "n": 200
+    },
+    "cells/paper_corrected/run006_consequential": {
+      "k": 6,
+      "n": 40
+    },
+    "cells/paper_corrected/run006_consequential_yield": {
+      "k": 6,
+      "n": 200
+    },
+    "cells/paper_corrected/run006_descriptive_consequential_normal_passing_yield": {
+      "k": 4,
+      "n": 200
+    },
+    "cells/paper_released/fresh_clean": {
+      "k": 133,
+      "n": 200
+    },
+    "cells/paper_released/fresh_consequential": {
+      "k": 5,
+      "n": 37
+    },
+    "cells/paper_released/fresh_consequential_yield": {
+      "k": 5,
+      "n": 200
+    },
+    "cells/paper_released/fresh_human_qualified_yield": {
+      "k": 5,
+      "n": 200
+    },
+    "cells/paper_released/fresh_jpeg75": {
+      "k": 97,
+      "n": 200
+    },
+    "cells/paper_released/run005_clean": {
+      "k": 118,
+      "n": 200
+    },
+    "cells/paper_released/run005_negative": {
+      "k": 0,
+      "n": 200
+    },
+    "cells/paper_released/run004_calibration_jpeg75": {
+      "k": 105,
+      "n": 200
+    },
+    "cells/paper_released/run006_consequential": {
+      "k": 8,
+      "n": 40
+    },
+    "cells/paper_released/run006_consequential_yield": {
+      "k": 8,
+      "n": 200
+    },
+    "cells/paper_released/run006_descriptive_consequential_normal_passing_yield": {
+      "k": 6,
+      "n": 200
+    },
+    "cells/primary/fresh_clean": {
+      "k": 191,
+      "n": 200
+    },
+    "cells/primary/fresh_consequential": {
+      "k": 17,
+      "n": 37
+    },
+    "cells/primary/fresh_consequential_yield": {
+      "k": 17,
+      "n": 200
+    },
+    "cells/primary/fresh_human_qualified_yield": {
+      "k": 17,
+      "n": 200
+    },
+    "cells/primary/fresh_jpeg75": {
+      "k": 161,
+      "n": 200
+    },
+    "cells/primary/run005_clean": {
+      "k": 195,
+      "n": 200
+    },
+    "cells/primary/run005_negative": {
+      "k": 0,
+      "n": 200
+    },
+    "cells/primary/run004_calibration_jpeg75": {
+      "k": 166,
+      "n": 200
+    },
+    "cells/primary/run006_consequential": {
+      "k": 22,
+      "n": 40
+    },
+    "cells/primary/run006_consequential_yield": {
+      "k": 22,
+      "n": 200
+    },
+    "cells/primary/run006_descriptive_consequential_normal_passing_yield": {
+      "k": 17,
+      "n": 200
+    },
+    "cells/primary_strength/fresh_clean": {
+      "k": 184,
+      "n": 200
+    },
+    "cells/primary_strength/fresh_consequential": {
+      "k": 6,
+      "n": 37
+    },
+    "cells/primary_strength/fresh_consequential_yield": {
+      "k": 6,
+      "n": 200
+    },
+    "cells/primary_strength/fresh_human_qualified_yield": {
+      "k": 6,
+      "n": 200
+    },
+    "cells/primary_strength/fresh_jpeg75": {
+      "k": 87,
+      "n": 200
+    },
+    "cells/primary_strength/run005_clean": {
+      "k": 188,
+      "n": 200
+    },
+    "cells/primary_strength/run005_negative": {
+      "k": 0,
+      "n": 200
+    },
+    "cells/primary_strength/run004_calibration_jpeg75": {
+      "k": 110,
+      "n": 200
+    },
+    "cells/primary_strength/run006_consequential": {
+      "k": 7,
+      "n": 40
+    },
+    "cells/primary_strength/run006_consequential_yield": {
+      "k": 7,
+      "n": 200
+    },
+    "cells/primary_strength/run006_descriptive_consequential_normal_passing_yield": {
+      "k": 7,
+      "n": 200
+    }
+  },
+  "naturalness": {
+    "total": 200,
+    "missing": 1
+  },
+  "macros": {
+    "ConfidenceLevelPercent": {
+      "operation": "design",
+      "constant": "confidence_percent"
+    },
+    "MasterInclusivePaperCorrectedFreshCleanFraction": {
+      "cell": "count_comparator_sensitivity/paper_corrected/fresh_clean",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperCorrectedFreshConsequentialFraction": {
+      "cell": "count_comparator_sensitivity/paper_corrected/fresh_consequential",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperCorrectedFreshJpegSevenFiveFraction": {
+      "cell": "count_comparator_sensitivity/paper_corrected/fresh_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperCorrectedRunZeroZeroFiveCleanFraction": {
+      "cell": "count_comparator_sensitivity/paper_corrected/run005_clean",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperCorrectedRunZeroZeroFiveNegativeFraction": {
+      "cell": "count_comparator_sensitivity/paper_corrected/run005_negative",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperCorrectedRunZeroZeroFourCalibrationCleanFraction": {
+      "cell": "count_comparator_sensitivity/paper_corrected/run004_calibration_clean",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperCorrectedRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+      "cell": "count_comparator_sensitivity/paper_corrected/run004_calibration_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperCorrectedRunZeroZeroSixConsequentialFraction": {
+      "cell": "count_comparator_sensitivity/paper_corrected/run006_consequential",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperReleasedFreshCleanFraction": {
+      "cell": "count_comparator_sensitivity/paper_released/fresh_clean",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperReleasedFreshConsequentialFraction": {
+      "cell": "count_comparator_sensitivity/paper_released/fresh_consequential",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperReleasedFreshJpegSevenFiveFraction": {
+      "cell": "count_comparator_sensitivity/paper_released/fresh_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperReleasedRunZeroZeroFiveCleanFraction": {
+      "cell": "count_comparator_sensitivity/paper_released/run005_clean",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperReleasedRunZeroZeroFiveNegativeFraction": {
+      "cell": "count_comparator_sensitivity/paper_released/run005_negative",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperReleasedRunZeroZeroFourCalibrationCleanFraction": {
+      "cell": "count_comparator_sensitivity/paper_released/run004_calibration_clean",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperReleasedRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+      "cell": "count_comparator_sensitivity/paper_released/run004_calibration_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterInclusivePaperReleasedRunZeroZeroSixConsequentialFraction": {
+      "cell": "count_comparator_sensitivity/paper_released/run006_consequential",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedFreshCleanFraction": {
+      "cell": "cells/paper_corrected/fresh_clean",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedFreshConsequentialCIHighPercent": {
+      "cell": "cells/paper_corrected/fresh_consequential",
+      "operation": "ci",
+      "bound": 1
+    },
+    "MasterPaperCorrectedFreshConsequentialCILowPercent": {
+      "cell": "cells/paper_corrected/fresh_consequential",
+      "operation": "ci",
+      "bound": 0
+    },
+    "MasterPaperCorrectedFreshConsequentialFraction": {
+      "cell": "cells/paper_corrected/fresh_consequential",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedFreshConsequentialYieldFraction": {
+      "cell": "cells/paper_corrected/fresh_consequential_yield",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedFreshHumanQualifiedYieldFraction": {
+      "cell": "cells/paper_corrected/fresh_human_qualified_yield",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedFreshJpegSevenFiveFraction": {
+      "cell": "cells/paper_corrected/fresh_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedRunZeroZeroFiveCleanFraction": {
+      "cell": "cells/paper_corrected/run005_clean",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedRunZeroZeroFiveNegativeFraction": {
+      "cell": "cells/paper_corrected/run005_negative",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+      "cell": "cells/paper_corrected/run004_calibration_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialCIHighPercent": {
+      "cell": "cells/paper_corrected/run006_consequential",
+      "operation": "ci",
+      "bound": 1
+    },
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialCILowPercent": {
+      "cell": "cells/paper_corrected/run006_consequential",
+      "operation": "ci",
+      "bound": 0
+    },
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialFraction": {
+      "cell": "cells/paper_corrected/run006_consequential",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialYieldFraction": {
+      "cell": "cells/paper_corrected/run006_consequential_yield",
+      "operation": "fraction"
+    },
+    "MasterPaperCorrectedRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": {
+      "cell": "cells/paper_corrected/run006_descriptive_consequential_normal_passing_yield",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedFreshCleanFraction": {
+      "cell": "cells/paper_released/fresh_clean",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedFreshConsequentialCIHighPercent": {
+      "cell": "cells/paper_released/fresh_consequential",
+      "operation": "ci",
+      "bound": 1
+    },
+    "MasterPaperReleasedFreshConsequentialCILowPercent": {
+      "cell": "cells/paper_released/fresh_consequential",
+      "operation": "ci",
+      "bound": 0
+    },
+    "MasterPaperReleasedFreshConsequentialFraction": {
+      "cell": "cells/paper_released/fresh_consequential",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedFreshConsequentialYieldFraction": {
+      "cell": "cells/paper_released/fresh_consequential_yield",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedFreshHumanQualifiedYieldFraction": {
+      "cell": "cells/paper_released/fresh_human_qualified_yield",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedFreshJpegSevenFiveFraction": {
+      "cell": "cells/paper_released/fresh_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedRunZeroZeroFiveCleanFraction": {
+      "cell": "cells/paper_released/run005_clean",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedRunZeroZeroFiveNegativeFraction": {
+      "cell": "cells/paper_released/run005_negative",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+      "cell": "cells/paper_released/run004_calibration_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedRunZeroZeroSixConsequentialCIHighPercent": {
+      "cell": "cells/paper_released/run006_consequential",
+      "operation": "ci",
+      "bound": 1
+    },
+    "MasterPaperReleasedRunZeroZeroSixConsequentialCILowPercent": {
+      "cell": "cells/paper_released/run006_consequential",
+      "operation": "ci",
+      "bound": 0
+    },
+    "MasterPaperReleasedRunZeroZeroSixConsequentialFraction": {
+      "cell": "cells/paper_released/run006_consequential",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedRunZeroZeroSixConsequentialYieldFraction": {
+      "cell": "cells/paper_released/run006_consequential_yield",
+      "operation": "fraction"
+    },
+    "MasterPaperReleasedRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": {
+      "cell": "cells/paper_released/run006_descriptive_consequential_normal_passing_yield",
+      "operation": "fraction"
+    },
+    "MasterPrimaryFreshCleanFraction": {
+      "cell": "cells/primary/fresh_clean",
+      "operation": "fraction"
+    },
+    "MasterPrimaryFreshConsequentialCIHighPercent": {
+      "cell": "cells/primary/fresh_consequential",
+      "operation": "ci",
+      "bound": 1
+    },
+    "MasterPrimaryFreshConsequentialCILowPercent": {
+      "cell": "cells/primary/fresh_consequential",
+      "operation": "ci",
+      "bound": 0
+    },
+    "MasterPrimaryFreshConsequentialFraction": {
+      "cell": "cells/primary/fresh_consequential",
+      "operation": "fraction"
+    },
+    "MasterPrimaryFreshConsequentialYieldFraction": {
+      "cell": "cells/primary/fresh_consequential_yield",
+      "operation": "fraction"
+    },
+    "MasterPrimaryFreshHumanQualifiedYieldFraction": {
+      "cell": "cells/primary/fresh_human_qualified_yield",
+      "operation": "fraction"
+    },
+    "MasterPrimaryFreshJpegSevenFiveFraction": {
+      "cell": "cells/primary/fresh_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterPrimaryRunZeroZeroFiveCleanFraction": {
+      "cell": "cells/primary/run005_clean",
+      "operation": "fraction"
+    },
+    "MasterPrimaryRunZeroZeroFiveNegativeFraction": {
+      "cell": "cells/primary/run005_negative",
+      "operation": "fraction"
+    },
+    "MasterPrimaryRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+      "cell": "cells/primary/run004_calibration_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterPrimaryRunZeroZeroSixConsequentialCIHighPercent": {
+      "cell": "cells/primary/run006_consequential",
+      "operation": "ci",
+      "bound": 1
+    },
+    "MasterPrimaryRunZeroZeroSixConsequentialCILowPercent": {
+      "cell": "cells/primary/run006_consequential",
+      "operation": "ci",
+      "bound": 0
+    },
+    "MasterPrimaryRunZeroZeroSixConsequentialFraction": {
+      "cell": "cells/primary/run006_consequential",
+      "operation": "fraction"
+    },
+    "MasterPrimaryRunZeroZeroSixConsequentialYieldFraction": {
+      "cell": "cells/primary/run006_consequential_yield",
+      "operation": "fraction"
+    },
+    "MasterPrimaryRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": {
+      "cell": "cells/primary/run006_descriptive_consequential_normal_passing_yield",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthFreshCleanFraction": {
+      "cell": "cells/primary_strength/fresh_clean",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthFreshConsequentialCIHighPercent": {
+      "cell": "cells/primary_strength/fresh_consequential",
+      "operation": "ci",
+      "bound": 1
+    },
+    "MasterPrimaryStrengthFreshConsequentialCILowPercent": {
+      "cell": "cells/primary_strength/fresh_consequential",
+      "operation": "ci",
+      "bound": 0
+    },
+    "MasterPrimaryStrengthFreshConsequentialFraction": {
+      "cell": "cells/primary_strength/fresh_consequential",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthFreshConsequentialYieldFraction": {
+      "cell": "cells/primary_strength/fresh_consequential_yield",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthFreshHumanQualifiedYieldFraction": {
+      "cell": "cells/primary_strength/fresh_human_qualified_yield",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthFreshJpegSevenFiveFraction": {
+      "cell": "cells/primary_strength/fresh_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthRunZeroZeroFiveCleanFraction": {
+      "cell": "cells/primary_strength/run005_clean",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthRunZeroZeroFiveNegativeFraction": {
+      "cell": "cells/primary_strength/run005_negative",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthRunZeroZeroFourCalibrationJpegSevenFiveFraction": {
+      "cell": "cells/primary_strength/run004_calibration_jpeg75",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialCIHighPercent": {
+      "cell": "cells/primary_strength/run006_consequential",
+      "operation": "ci",
+      "bound": 1
+    },
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialCILowPercent": {
+      "cell": "cells/primary_strength/run006_consequential",
+      "operation": "ci",
+      "bound": 0
+    },
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialFraction": {
+      "cell": "cells/primary_strength/run006_consequential",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialYieldFraction": {
+      "cell": "cells/primary_strength/run006_consequential_yield",
+      "operation": "fraction"
+    },
+    "MasterPrimaryStrengthRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": {
+      "cell": "cells/primary_strength/run006_descriptive_consequential_normal_passing_yield",
+      "operation": "fraction"
+    },
+    "RunSixNaturalnessAnswered": {
+      "operation": "naturalness",
+      "field": "answered"
+    },
+    "RunSixNaturalnessN": {
+      "operation": "naturalness",
+      "field": "total"
+    }
+  }
+}

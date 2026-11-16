@@ -1,0 +1,10 @@
+{
+  "payload_counts": {
+    "clean": 39,
+    "jpeg75": 36
+  },
+  "strength_threshold": {
+    "count": 164,
+    "tie_hash": "efea89bd650b9ff1cb851ab10dc1bff596033dedc3e85071c5a0f298172eba16"
+  }
+}

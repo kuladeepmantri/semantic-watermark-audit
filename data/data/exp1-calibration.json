@@ -1,0 +1,482 @@
+[
+  {
+    "id": "C000",
+    "mismatch": 0.06480117820324006,
+    "readable": 97,
+    "view": "clean"
+  },
+  {
+    "id": "C000",
+    "mismatch": 0.13725490196078433,
+    "readable": 51,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C001",
+    "mismatch": 0.12244897959183673,
+    "readable": 98,
+    "view": "clean"
+  },
+  {
+    "id": "C001",
+    "mismatch": 0.11904761904761904,
+    "readable": 90,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C002",
+    "mismatch": 0.1564625850340136,
+    "readable": 84,
+    "view": "clean"
+  },
+  {
+    "id": "C002",
+    "mismatch": 0.19747899159663865,
+    "readable": 34,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C003",
+    "mismatch": 0.0391156462585034,
+    "readable": 84,
+    "view": "clean"
+  },
+  {
+    "id": "C003",
+    "mismatch": 0.049523809523809526,
+    "readable": 75,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C004",
+    "mismatch": 0.05400696864111498,
+    "readable": 82,
+    "view": "clean"
+  },
+  {
+    "id": "C004",
+    "mismatch": 0.07983193277310924,
+    "readable": 68,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C005",
+    "mismatch": 0.0445468509984639,
+    "readable": 93,
+    "view": "clean"
+  },
+  {
+    "id": "C005",
+    "mismatch": 0.04591836734693878,
+    "readable": 84,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C006",
+    "mismatch": 0.10526315789473684,
+    "readable": 19,
+    "view": "clean"
+  },
+  {
+    "id": "C006",
+    "mismatch": 0.15584415584415584,
+    "readable": 11,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C007",
+    "mismatch": 0.04950495049504951,
+    "readable": 101,
+    "view": "clean"
+  },
+  {
+    "id": "C007",
+    "mismatch": 0.05639097744360902,
+    "readable": 76,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C008",
+    "mismatch": 0.03776683087027915,
+    "readable": 87,
+    "view": "clean"
+  },
+  {
+    "id": "C008",
+    "mismatch": 0.03195488721804511,
+    "readable": 76,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C009",
+    "mismatch": 0.056818181818181816,
+    "readable": 88,
+    "view": "clean"
+  },
+  {
+    "id": "C009",
+    "mismatch": 0.06722689075630252,
+    "readable": 68,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C010",
+    "mismatch": 0.09523809523809523,
+    "readable": 93,
+    "view": "clean"
+  },
+  {
+    "id": "C010",
+    "mismatch": 0.08346709470304976,
+    "readable": 89,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C011",
+    "mismatch": 0.08907563025210084,
+    "readable": 85,
+    "view": "clean"
+  },
+  {
+    "id": "C011",
+    "mismatch": 0.096579476861167,
+    "readable": 71,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C012",
+    "mismatch": 0.024916943521594685,
+    "readable": 86,
+    "view": "clean"
+  },
+  {
+    "id": "C012",
+    "mismatch": 0.040100250626566414,
+    "readable": 57,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C013",
+    "mismatch": 0.1116584564860427,
+    "readable": 87,
+    "view": "clean"
+  },
+  {
+    "id": "C013",
+    "mismatch": 0.18226600985221675,
+    "readable": 29,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C014",
+    "mismatch": 0.07249466950959488,
+    "readable": 67,
+    "view": "clean"
+  },
+  {
+    "id": "C014",
+    "mismatch": 0.08074534161490683,
+    "readable": 23,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C015",
+    "mismatch": 0.05683563748079877,
+    "readable": 93,
+    "view": "clean"
+  },
+  {
+    "id": "C015",
+    "mismatch": 0.08390022675736962,
+    "readable": 63,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C016",
+    "mismatch": 0.028273809523809524,
+    "readable": 96,
+    "view": "clean"
+  },
+  {
+    "id": "C016",
+    "mismatch": 0.045112781954887216,
+    "readable": 57,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C017",
+    "mismatch": 0.049783549783549784,
+    "readable": 66,
+    "view": "clean"
+  },
+  {
+    "id": "C017",
+    "mismatch": 0.05194805194805195,
+    "readable": 11,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C018",
+    "mismatch": 0.027472527472527472,
+    "readable": 78,
+    "view": "clean"
+  },
+  {
+    "id": "C018",
+    "mismatch": 0.06177606177606178,
+    "readable": 37,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C019",
+    "mismatch": 0.07215007215007214,
+    "readable": 99,
+    "view": "clean"
+  },
+  {
+    "id": "C019",
+    "mismatch": 0.0762987012987013,
+    "readable": 88,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C020",
+    "mismatch": 0.05612244897959184,
+    "readable": 84,
+    "view": "clean"
+  },
+  {
+    "id": "C020",
+    "mismatch": 0.09273182957393483,
+    "readable": 57,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C021",
+    "mismatch": 0.05333333333333334,
+    "readable": 75,
+    "view": "clean"
+  },
+  {
+    "id": "C021",
+    "mismatch": 0.07142857142857142,
+    "readable": 44,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C022",
+    "mismatch": 0.03463203463203463,
+    "readable": 99,
+    "view": "clean"
+  },
+  {
+    "id": "C022",
+    "mismatch": 0.04251700680272109,
+    "readable": 84,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C023",
+    "mismatch": 0.06204906204906205,
+    "readable": 99,
+    "view": "clean"
+  },
+  {
+    "id": "C023",
+    "mismatch": 0.061855670103092786,
+    "readable": 97,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C024",
+    "mismatch": 0.03015873015873016,
+    "readable": 90,
+    "view": "clean"
+  },
+  {
+    "id": "C024",
+    "mismatch": 0.04823747680890538,
+    "readable": 77,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C025",
+    "mismatch": 0.041353383458646614,
+    "readable": 76,
+    "view": "clean"
+  },
+  {
+    "id": "C025",
+    "mismatch": 0.04017857142857143,
+    "readable": 32,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C026",
+    "mismatch": 0.04215456674473068,
+    "readable": 61,
+    "view": "clean"
+  },
+  {
+    "id": "C026",
+    "mismatch": 0.0546218487394958,
+    "readable": 34,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C027",
+    "mismatch": 0.06616541353383458,
+    "readable": 95,
+    "view": "clean"
+  },
+  {
+    "id": "C027",
+    "mismatch": 0.05149501661129568,
+    "readable": 86,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C028",
+    "mismatch": 0.12422360248447205,
+    "readable": 69,
+    "view": "clean"
+  },
+  {
+    "id": "C028",
+    "mismatch": 0.15714285714285714,
+    "readable": 20,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C029",
+    "mismatch": 0.0431266846361186,
+    "readable": 53,
+    "view": "clean"
+  },
+  {
+    "id": "C029",
+    "mismatch": 0.05647840531561462,
+    "readable": 43,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C030",
+    "mismatch": 0.137987012987013,
+    "readable": 88,
+    "view": "clean"
+  },
+  {
+    "id": "C030",
+    "mismatch": 0.17805383022774326,
+    "readable": 69,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C031",
+    "mismatch": 0.08394698085419734,
+    "readable": 97,
+    "view": "clean"
+  },
+  {
+    "id": "C031",
+    "mismatch": 0.0722495894909688,
+    "readable": 87,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C032",
+    "mismatch": 0.04017857142857143,
+    "readable": 96,
+    "view": "clean"
+  },
+  {
+    "id": "C032",
+    "mismatch": 0.08333333333333333,
+    "readable": 24,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C033",
+    "mismatch": 0.10182370820668693,
+    "readable": 94,
+    "view": "clean"
+  },
+  {
+    "id": "C033",
+    "mismatch": 0.1297208538587849,
+    "readable": 87,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C034",
+    "mismatch": 0.03142857142857143,
+    "readable": 100,
+    "view": "clean"
+  },
+  {
+    "id": "C034",
+    "mismatch": 0.17142857142857143,
+    "readable": 5,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C035",
+    "mismatch": 0.05182072829131653,
+    "readable": 102,
+    "view": "clean"
+  },
+  {
+    "id": "C035",
+    "mismatch": 0.06445993031358885,
+    "readable": 82,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C036",
+    "mismatch": 0.05102040816326531,
+    "readable": 98,
+    "view": "clean"
+  },
+  {
+    "id": "C036",
+    "mismatch": 0.09206349206349207,
+    "readable": 45,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C037",
+    "mismatch": 0.07598784194528875,
+    "readable": 94,
+    "view": "clean"
+  },
+  {
+    "id": "C037",
+    "mismatch": 0.08746355685131195,
+    "readable": 49,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C038",
+    "mismatch": 0.037142857142857144,
+    "readable": 100,
+    "view": "clean"
+  },
+  {
+    "id": "C038",
+    "mismatch": 0.05454545454545454,
+    "readable": 55,
+    "view": "jpeg75"
+  },
+  {
+    "id": "C039",
+    "mismatch": 0.06990881458966565,
+    "readable": 94,
+    "view": "clean"
+  },
+  {
+    "id": "C039",
+    "mismatch": 0.08571428571428572,
+    "readable": 45,
+    "view": "jpeg75"
+  }
+]

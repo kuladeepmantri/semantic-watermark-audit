@@ -1,0 +1,180 @@
+{
+  "author": "Kuladeep Mantri",
+  "grid": {
+    "c_gates": {
+      "corrected19": [
+        "C_corrected",
+        19
+      ],
+      "corrected32": [
+        "C_corrected",
+        32
+      ],
+      "corrected7": [
+        "C_corrected",
+        7
+      ],
+      "disabled": [
+        null,
+        0
+      ],
+      "released20": [
+        "C_released",
+        20
+      ],
+      "released53": [
+        "C_released",
+        53
+      ]
+    },
+    "contexts": {
+      "both": [
+        "run005_clean",
+        "run004_clean",
+        "run004_jpeg75",
+        "fresh_clean",
+        "fresh_jpeg75"
+      ],
+      "both_jpeg_only": [
+        "run004_jpeg75",
+        "fresh_jpeg75"
+      ],
+      "fresh": [
+        "run005_clean",
+        "fresh_clean",
+        "fresh_jpeg75"
+      ],
+      "fresh_jpeg_only": [
+        "fresh_jpeg75"
+      ],
+      "run004": [
+        "run005_clean",
+        "run004_clean",
+        "run004_jpeg75"
+      ],
+      "run004_jpeg_only": [
+        "run004_jpeg75"
+      ]
+    },
+    "m_strict_gt": [
+      -1,
+      1024
+    ],
+    "n_inclusive_ge": [
+      0,
+      1025
+    ]
+  },
+  "meaning_auc": [
+    {
+      "batch": "run006",
+      "bootstrap_ci_high": 0.6439647108843537,
+      "bootstrap_ci_low": 0.45153061224489793,
+      "bootstrap_replicates": 10000,
+      "c_variant": "disabled",
+      "higher_score_predicts": "code2",
+      "index": 0,
+      "score": "M",
+      "seed": 2026111302
+    },
+    {
+      "batch": "run006",
+      "bootstrap_ci_high": 0.5447300170068027,
+      "bootstrap_ci_low": 0.3402168367346939,
+      "bootstrap_replicates": 10000,
+      "c_variant": "disabled",
+      "higher_score_predicts": "code2",
+      "index": 1,
+      "score": "N_any",
+      "seed": 2026111302
+    },
+    {
+      "batch": "fresh",
+      "bootstrap_ci_high": 0.6224135661635661,
+      "bootstrap_ci_low": 0.41847797472797477,
+      "bootstrap_replicates": 10000,
+      "c_variant": "disabled",
+      "higher_score_predicts": "code2",
+      "index": 12,
+      "score": "M",
+      "seed": 2026111302
+    },
+    {
+      "batch": "fresh",
+      "bootstrap_ci_high": 0.49711082836082826,
+      "bootstrap_ci_low": 0.28728939978939977,
+      "bootstrap_replicates": 10000,
+      "c_variant": "disabled",
+      "higher_score_predicts": "code2",
+      "index": 13,
+      "score": "N_any",
+      "seed": 2026111302
+    }
+  ],
+  "targets": [
+    {
+      "fake_cohort": "run006",
+      "family": "envelope",
+      "honest_constraint": "both",
+      "index": 301,
+      "target_count": 180,
+      "target_retention": 0.9
+    },
+    {
+      "fake_cohort": "run006",
+      "family": "envelope",
+      "honest_constraint": "both",
+      "index": 302,
+      "target_count": 190,
+      "target_retention": 0.95
+    },
+    {
+      "fake_cohort": "fresh",
+      "family": "envelope",
+      "honest_constraint": "both",
+      "index": 304,
+      "target_count": 180,
+      "target_retention": 0.9
+    },
+    {
+      "fake_cohort": "fresh",
+      "family": "envelope",
+      "honest_constraint": "both",
+      "index": 305,
+      "target_count": 190,
+      "target_retention": 0.95
+    },
+    {
+      "fake_cohort": "run006",
+      "family": "envelope",
+      "honest_constraint": "both_jpeg_only",
+      "index": 319,
+      "target_count": 180,
+      "target_retention": 0.9
+    },
+    {
+      "fake_cohort": "run006",
+      "family": "envelope",
+      "honest_constraint": "both_jpeg_only",
+      "index": 320,
+      "target_count": 190,
+      "target_retention": 0.95
+    },
+    {
+      "fake_cohort": "fresh",
+      "family": "envelope",
+      "honest_constraint": "both_jpeg_only",
+      "index": 322,
+      "target_count": 180,
+      "target_retention": 0.9
+    },
+    {
+      "fake_cohort": "fresh",
+      "family": "envelope",
+      "honest_constraint": "both_jpeg_only",
+      "index": 323,
+      "target_count": 190,
+      "target_retention": 0.95
+    }
+  ]
+}

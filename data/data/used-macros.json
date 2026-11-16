@@ -1,0 +1,5444 @@
+{
+  "author": "Kuladeep Mantri",
+  "definition_sources": [
+    {
+      "definitions": 4181,
+      "path": "../build/numbers/numbers.tex",
+      "sha256": "4570d0ce7f4a0015a878bff42219d7ca70504e2a17e68881edb30c879ed87a2e"
+    },
+    {
+      "definitions": 145,
+      "path": "../build/numbers/repair-numbers.tex",
+      "sha256": "f85ecfdb93236509e7b8316e949084442659dfc8c1086c002ca9500e1273202a"
+    },
+    {
+      "definitions": 114,
+      "path": "../build/numbers/round6-numbers.tex",
+      "sha256": "c0f971368f791d8e850d4a45ab23261cfdcc0f3ff1bfdd89c0989aaa79decd45"
+    }
+  ],
+  "full_definition_file": {
+    "definitions": 4181,
+    "path": "../build/numbers/numbers.tex",
+    "sha256": "4570d0ce7f4a0015a878bff42219d7ca70504e2a17e68881edb30c879ed87a2e"
+  },
+  "initial_coverage": {
+    "additional": 172,
+    "legacy": 113,
+    "repair": 140,
+    "used": 425
+  },
+  "main_generated_file": {
+    "definitions": 4181,
+    "missing_used": [
+      "LockedClassDecoyPerArm",
+      "LockedClassPlainDecoyConsequential",
+      "LockedClassPlainPassConsequential",
+      "LockedClassPlainPassLook",
+      "LockedClassRepairedDecoyConsequential",
+      "LockedClassRepairedPassConsequential",
+      "LockedClassRepairedPassLook",
+      "LockedClassRepairedPassOther",
+      "RCarrierSide",
+      "RDhashAllCsi",
+      "RDhashBits",
+      "RDhashControls",
+      "RDhashCutoff",
+      "RDhashJpeg",
+      "RDhashLocal",
+      "RDistBlurDhash",
+      "RDistBlurExternal",
+      "RDistBlurFull",
+      "RDistBlurRadius",
+      "RDistBlurSeal",
+      "RDistBlurThumb",
+      "RDistCleanDhash",
+      "RDistCleanExternal",
+      "RDistCleanFull",
+      "RDistCleanSeal",
+      "RDistCleanThumb",
+      "RDistCropDhash",
+      "RDistCropExternal",
+      "RDistCropFull",
+      "RDistCropPercent",
+      "RDistCropSeal",
+      "RDistCropSide",
+      "RDistCropThumb",
+      "RDistJpegHighDhash",
+      "RDistJpegHighExternal",
+      "RDistJpegHighFull",
+      "RDistJpegHighSeal",
+      "RDistJpegHighThumb",
+      "RDistJpegLowDhash",
+      "RDistJpegLowExternal",
+      "RDistJpegLowFull",
+      "RDistJpegLowLost",
+      "RDistJpegLowSeal",
+      "RDistJpegLowThumb",
+      "RDistJpegMidDhash",
+      "RDistJpegMidExternal",
+      "RDistJpegMidFull",
+      "RDistJpegMidSeal",
+      "RDistJpegMidThumb",
+      "RDistN",
+      "RDistNoiseDhash",
+      "RDistNoiseExternal",
+      "RDistNoiseFull",
+      "RDistNoiseSeal",
+      "RDistNoiseSigma",
+      "RDistNoiseThumb",
+      "RDistQualityHigh",
+      "RDistQualityLow",
+      "RDistQualityMid",
+      "RDistResizeDhash",
+      "RDistResizeExternal",
+      "RDistResizeFull",
+      "RDistResizeSeal",
+      "RDistResizeThumb",
+      "RExternalControls",
+      "RExternalCsi",
+      "RExternalJpeg",
+      "RExternalLocal",
+      "RExternalQuery",
+      "RMaskMargin",
+      "RPayloadBits",
+      "RReproCleanInclusive",
+      "RReproCleanStrict",
+      "RReproCodeLimited",
+      "RReproExhaustiveAuc",
+      "RReproFpFull",
+      "RReproFpHalf",
+      "RReproInversionLimited",
+      "RReproN",
+      "RReproNegativeStrict",
+      "RReproOracleMax",
+      "RReproOracleMin",
+      "RReproPrecisionGains",
+      "RReproPrecisionLosses",
+      "RReproPublishedTarget",
+      "RReproRejected",
+      "RReproSemanticAuc",
+      "RReproSpatialAuc",
+      "RReproStrictCIHigh",
+      "RReproStrictCILow",
+      "RReratedFailureFlips",
+      "RReratedFlipPercent",
+      "RReratedFlips",
+      "RReratedN",
+      "RSealFreshYield",
+      "RSealInitYield",
+      "RThumbSide",
+      "RWhiteBlendFull",
+      "RWhiteBlendHalf",
+      "RWhiteBlendQuarter",
+      "RWhiteBlendStrong",
+      "RWhiteGateDelta",
+      "RWhiteGateMae",
+      "RWhiteGatePercent",
+      "RWhiteGrid",
+      "RWhiteMaskedChangeMax",
+      "RWhiteMaskedChangeMin",
+      "RWhiteMaskedFull",
+      "RWhiteMaskedSeal",
+      "RWhiteMaskedThumb",
+      "RWhiteSearchChangeMax",
+      "RWhiteSearchChangeMin",
+      "RWhiteSearchFull",
+      "RWhiteSearchSeal",
+      "RWhiteSearchThumb",
+      "RWhiteSizeLarge",
+      "RWhiteSizeMedium",
+      "RWhiteSizeSmall",
+      "RWhiteSourceFull",
+      "RWhiteSourceThumb",
+      "RWhiteSquare",
+      "RepBandBadMin",
+      "RepBandGoodMax",
+      "RepBandInconclusiveMax",
+      "RepBandInconclusiveMin",
+      "RepGateJpegSanity",
+      "RepGateStrongJpegMin",
+      "RepGateStrongJpegRejectMax",
+      "RepMaxQueries",
+      "RepMismatchCutoffPercent",
+      "RepOldGateClean",
+      "RepOneBAttackLocalFull",
+      "RepOneBAttackMatchedStrength",
+      "RepOneBAttackPublished",
+      "RepOneBAttackThumb",
+      "RepOneBAttackThumbCIHighPercent",
+      "RepOneBAttackThumbFull",
+      "RepOneBCalCleanLocalFull",
+      "RepOneBCalCleanMatchedStrength",
+      "RepOneBCalCleanPublished",
+      "RepOneBCalCleanThumb",
+      "RepOneBCalCleanThumbFull",
+      "RepOneBCalJpegLocalFull",
+      "RepOneBCalJpegMatchedStrength",
+      "RepOneBCalJpegPublished",
+      "RepOneBCalJpegThumb",
+      "RepOneBCalJpegThumbFull",
+      "RepOneBCalN",
+      "RepOneBEvalCleanLocalFull",
+      "RepOneBEvalCleanMatchedStrength",
+      "RepOneBEvalCleanPublished",
+      "RepOneBEvalCleanThumb",
+      "RepOneBEvalCleanThumbFull",
+      "RepOneBEvalJpegLocalFull",
+      "RepOneBEvalJpegMatchedStrength",
+      "RepOneBEvalJpegPublished",
+      "RepOneBEvalJpegThumb",
+      "RepOneBEvalJpegThumbFull",
+      "RepOneBEvalN",
+      "RepOneBFloorFiveCalJpeg",
+      "RepOneBFloorFiveEvalJpeg",
+      "RepOneBFullRuleMCCalJpeg",
+      "RepOneBJpegRejects",
+      "RepOneBJpegRejectsFloorAndMismatch",
+      "RepOneBJpegRejectsFloorOnly",
+      "RepOneBJpegRejectsMismatchOnly",
+      "RepOneBMatchedStrengthBoundary",
+      "RepOneBRecoveries",
+      "RepOneBRenders",
+      "RepOneBSpliceLocalFull",
+      "RepOneBSpliceMatchedStrength",
+      "RepOneBSpliceN",
+      "RepOneBSplicePublished",
+      "RepOneBSpliceThumb",
+      "RepOneBSpliceThumbFull",
+      "RepOneBUtilityFloor",
+      "RepOneBVictims",
+      "RepOneCalN",
+      "RepOneDinoCalClean",
+      "RepOneDinoCalJpeg",
+      "RepOneDinoCutoffPercent",
+      "RepPayloadPatches",
+      "RepReadableFloor",
+      "RepReadableFloorSensitivity",
+      "RepTwoCalCleanLocalFull",
+      "RepTwoCalCleanMatchedStrength",
+      "RepTwoCalCleanPublished",
+      "RepTwoCalCleanThumb",
+      "RepTwoCalCleanThumbFull",
+      "RepTwoCalJpegLocalFull",
+      "RepTwoCalJpegMatchedStrength",
+      "RepTwoCalJpegPublished",
+      "RepTwoCalJpegThumb",
+      "RepTwoCalJpegThumbFull",
+      "RepTwoCalN",
+      "RepTwoClosestMismatchPercent",
+      "RepTwoEvalCleanThumb",
+      "RepTwoEvalJpegThumb",
+      "RepTwoEvalN",
+      "RepTwoLocalAreaPercent",
+      "RepTwoLocalLocalFull",
+      "RepTwoLocalMatchedStrength",
+      "RepTwoLocalN",
+      "RepTwoLocalNearCutoffMarginPoints",
+      "RepTwoLocalNearCutoffPasses",
+      "RepTwoLocalNearCutoffUpperPercent",
+      "RepTwoLocalPublished",
+      "RepTwoLocalRejectsNearCutoff",
+      "RepTwoLocalSquarePixels",
+      "RepTwoLocalThumb",
+      "RepTwoLocalThumbFull",
+      "RepTwoLocalThumbFullCIHighPercent",
+      "RepTwoLocalThumbFullCILowPercent",
+      "RepTwoLostSlotVictimQueries",
+      "RepTwoLostSlots",
+      "RepTwoMatchedStrengthBoundary",
+      "RepTwoOutputN",
+      "RepTwoOutputsLocalFull",
+      "RepTwoOutputsMatchedStrength",
+      "RepTwoOutputsPublished",
+      "RepTwoOutputsThumb",
+      "RepTwoOutputsThumbFull",
+      "RepTwoPTwoPredictedMin",
+      "RepTwoRecovered",
+      "RepTwoVictimN",
+      "RepTwoVictimsLocalFull",
+      "RepTwoVictimsMatchedStrength",
+      "RepTwoVictimsPublished",
+      "RepTwoVictimsThumb",
+      "RepTwoVictimsThumbFull",
+      "RepTwoVictimsThumbFullCIHighPercent",
+      "RepTwoWorstCaseVictims",
+      "RepUndescribedPercent",
+      "SealAloneFresh",
+      "SealAloneFreshCI",
+      "SealAloneFreshClean",
+      "SealAloneFreshJpeg",
+      "SealAloneHonest",
+      "SealAloneInclFresh",
+      "SealAloneInclFreshClean",
+      "SealAloneInclFreshJpeg",
+      "SealAloneInclHonest",
+      "SealAloneInclInit",
+      "SealAloneInclRunFourClean",
+      "SealAloneInclRunFourJpeg",
+      "SealAloneInit",
+      "SealAloneInitCI",
+      "SealAloneRunFourClean",
+      "SealAloneRunFourJpeg",
+      "StandaloneStrengthCutoff"
+    ],
+    "path": "../build/numbers/numbers.tex",
+    "sha256": "4570d0ce7f4a0015a878bff42219d7ca70504e2a17e68881edb30c879ed87a2e"
+  },
+  "occurrences": {
+    "CalibrationTargetN": [
+      {
+        "line": 23,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 56,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "CalibrationTargetPass": [
+      {
+        "line": 56,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "ChanceMatches": [
+      {
+        "line": 54,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 55,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 57,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 20,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "CodeBits": [
+      {
+        "line": 22,
+        "path": "sections/02-background.tex"
+      },
+      {
+        "line": 52,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "ConfidenceLevelPercent": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 121,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 135,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 8,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 31,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 66,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      },
+      {
+        "line": 18,
+        "path": "sections/06-restore.tex"
+      },
+      {
+        "line": 123,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 179,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 188,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 47,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "ConsequentialEnrollmentTarget": [
+      {
+        "line": 115,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "CsiReleaseCommitShort": [
+      {
+        "line": 93,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "CsiReleaseVersion": [
+      {
+        "line": 93,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "DatasetRevision": [
+      {
+        "line": 41,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "DatasetRevisionShort": [
+      {
+        "line": 11,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "DecisionAttributionMatchedFourTwoOneConsequentialBoth": [
+      {
+        "line": 44,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionMatchedFourTwoOneConsequentialStrengthFourTwoOne": [
+      {
+        "line": 44,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionMatchedFourTwoOneRunZeroZeroFiveCleanFull": [
+      {
+        "line": 44,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFiveCleanFull": [
+      {
+        "line": 26,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFiveCleanMUniqueRejects": [
+      {
+        "line": 24,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFiveCleanN": [
+      {
+        "line": 24,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 26,
+        "path": "supplement/S-05-strength.tex"
+      },
+      {
+        "line": 44,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFiveCleanNoC": [
+      {
+        "line": 26,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFiveCleanNoM": [
+      {
+        "line": 26,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFiveCleanNoN": [
+      {
+        "line": 26,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourCleanFull": [
+      {
+        "line": 28,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourCleanN": [
+      {
+        "line": 28,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourCleanNoC": [
+      {
+        "line": 28,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourCleanNoM": [
+      {
+        "line": 28,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourCleanNoN": [
+      {
+        "line": 28,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveFull": [
+      {
+        "line": 30,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveMUniqueRejects": [
+      {
+        "line": 24,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveN": [
+      {
+        "line": 24,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 49,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 30,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveNoC": [
+      {
+        "line": 30,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveNoM": [
+      {
+        "line": 30,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveNoN": [
+      {
+        "line": 30,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixConsequentialFailBothMN": [
+      {
+        "line": 21,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixConsequentialFull": [
+      {
+        "line": 20,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 34,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixConsequentialMUniqueRejects": [
+      {
+        "line": 21,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixConsequentialN": [
+      {
+        "line": 19,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 34,
+        "path": "supplement/S-05-strength.tex"
+      },
+      {
+        "line": 44,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixConsequentialNUniqueRejects": [
+      {
+        "line": 21,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixConsequentialNoC": [
+      {
+        "line": 20,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 34,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixConsequentialNoM": [
+      {
+        "line": 20,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 34,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixConsequentialNoN": [
+      {
+        "line": 20,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 34,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixInconsequentialFull": [
+      {
+        "line": 67,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 36,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixInconsequentialN": [
+      {
+        "line": 92,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 67,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 36,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixInconsequentialNoC": [
+      {
+        "line": 36,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixInconsequentialNoM": [
+      {
+        "line": 36,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixInconsequentialNoN": [
+      {
+        "line": 36,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixOffSubjectFull": [
+      {
+        "line": 38,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixOffSubjectN": [
+      {
+        "line": 38,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixOffSubjectNoC": [
+      {
+        "line": 38,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixOffSubjectNoM": [
+      {
+        "line": 38,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixOffSubjectNoN": [
+      {
+        "line": 38,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixPairedCleanFull": [
+      {
+        "line": 32,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixPairedCleanN": [
+      {
+        "line": 32,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixPairedCleanNoC": [
+      {
+        "line": 32,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixPairedCleanNoM": [
+      {
+        "line": 32,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "DecisionAttributionRunZeroZeroSixPairedCleanNoN": [
+      {
+        "line": 32,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FreshJpegOurStrengthRejected": [
+      {
+        "line": 31,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FreshJpegOurStrengthRejectedCIHighPercent": [
+      {
+        "line": 31,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FreshJpegOurStrengthRejectedCILowPercent": [
+      {
+        "line": 31,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FreshJpegOurStrengthRejectedN": [
+      {
+        "line": 31,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FreshJpegOurStrengthRejectedPercent": [
+      {
+        "line": 31,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FreshLabelsConsequential": [
+      {
+        "line": 88,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 103,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "FreshMatchedCellsKThreeOnlyC": [
+      {
+        "line": 21,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "FreshMatchedCellsPlainOnlyB": [
+      {
+        "line": 21,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "FreshMatchedN": [
+      {
+        "line": 123,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 21,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "FreshPacketD": [
+      {
+        "line": 114,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "FreshPacketPKThree": [
+      {
+        "line": 114,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "FreshPacketPlain": [
+      {
+        "line": 114,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "FreshPacketSeparationKThreeBeforePlain": [
+      {
+        "line": 130,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "FreshPacketTotal": [
+      {
+        "line": 114,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "FreshPrimaryClassesInconsequentialK": [
+      {
+        "line": 106,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "FreshPrimaryClassesInconsequentialN": [
+      {
+        "line": 106,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "FreshPrimaryN": [
+      {
+        "line": 115,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FreshPrimaryYieldN": [
+      {
+        "line": 88,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "FreshQualifiedKThreeCIHighPercent": [
+      {
+        "line": 18,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "FreshQualifiedKThreeCILowPercent": [
+      {
+        "line": 18,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "FreshQualifiedKThreeFraction": [
+      {
+        "line": 18,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "FreshQualifiedPlainCIHighPercent": [
+      {
+        "line": 18,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "FreshQualifiedPlainCILowPercent": [
+      {
+        "line": 18,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "FreshQualifiedPlainFraction": [
+      {
+        "line": 18,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "FriendAllCompleteFriendsBinaryAlpha": [
+      {
+        "line": 167,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "FriendAllCompleteFriendsFourClassAlpha": [
+      {
+        "line": 167,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "FriendCompleteReturns": [
+      {
+        "line": 133,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendExcludedByScreen": [
+      {
+        "line": 133,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendMaxRepeatDisagreements": [
+      {
+        "line": 133,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendRepeatItems": [
+      {
+        "line": 133,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendScreenedFriendsBinaryAlpha": [
+      {
+        "line": 24,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 135,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendScreenedFriendsBinaryCIHigh": [
+      {
+        "line": 135,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendScreenedFriendsBinaryCILow": [
+      {
+        "line": 135,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendScreenedFriendsFourClassAlpha": [
+      {
+        "line": 135,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendScreenedFriendsFourClassCIHigh": [
+      {
+        "line": 135,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendScreenedFriendsFourClassCILow": [
+      {
+        "line": 135,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendScreenedRetained": [
+      {
+        "line": 133,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FriendSharedPairs": [
+      {
+        "line": 132,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyFiveFreshCIHighPercent": [
+      {
+        "line": 74,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyFiveFreshCILowPercent": [
+      {
+        "line": 74,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyFiveFreshFraction": [
+      {
+        "line": 51,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 74,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyFiveRunSixCIHighPercent": [
+      {
+        "line": 74,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyFiveRunSixCILowPercent": [
+      {
+        "line": 74,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyFiveRunSixFraction": [
+      {
+        "line": 51,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 74,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyFreshCIHighPercent": [
+      {
+        "line": 72,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyFreshCILowPercent": [
+      {
+        "line": 72,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyFreshFraction": [
+      {
+        "line": 72,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyRunSixCIHighPercent": [
+      {
+        "line": 72,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyRunSixCILowPercent": [
+      {
+        "line": 72,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorAllHonestNinetyRunSixFraction": [
+      {
+        "line": 72,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFiveFreshCIHighPercent": [
+      {
+        "line": 70,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFiveFreshCILowPercent": [
+      {
+        "line": 70,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFiveFreshFraction": [
+      {
+        "line": 27,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 49,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 70,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFiveRunSixCIHighPercent": [
+      {
+        "line": 70,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFiveRunSixCILowPercent": [
+      {
+        "line": 70,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFiveRunSixFraction": [
+      {
+        "line": 27,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 49,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 70,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFiveRunSixTargetCount": [
+      {
+        "line": 49,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFreshCIHighPercent": [
+      {
+        "line": 68,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFreshCILowPercent": [
+      {
+        "line": 68,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyFreshFraction": [
+      {
+        "line": 50,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 68,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyRunSixCIHighPercent": [
+      {
+        "line": 68,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyRunSixCILowPercent": [
+      {
+        "line": 68,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierFloorBothJpegNinetyRunSixFraction": [
+      {
+        "line": 50,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 68,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "FrontierMeaningFreshCaptionCountAuc": [
+      {
+        "line": 66,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FrontierMeaningFreshStrengthAuc": [
+      {
+        "line": 66,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FrontierMeaningFreshStrengthCIHigh": [
+      {
+        "line": 66,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FrontierMeaningFreshStrengthCILow": [
+      {
+        "line": 66,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FrontierMeaningRunSixCaptionCountAuc": [
+      {
+        "line": 66,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FrontierMeaningRunSixStrengthAuc": [
+      {
+        "line": 66,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FrontierMeaningRunSixStrengthCIHigh": [
+      {
+        "line": 66,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "FrontierMeaningRunSixStrengthCILow": [
+      {
+        "line": 66,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "GenerationGuidance": [
+      {
+        "line": 35,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "GenerationSteps": [
+      {
+        "line": 35,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "HeadlineClassPrimaryInconsequentialFraction": [
+      {
+        "line": 106,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "HeadlineLabelsConsequential": [
+      {
+        "line": 88,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 103,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "HeadlineMainN": [
+      {
+        "line": 115,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "HeadlineMainYieldN": [
+      {
+        "line": 24,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 44,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 87,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 88,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 92,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "HonestPrimaryCleanFraction": [
+      {
+        "line": 57,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "HonestPrimaryCleanN": [
+      {
+        "line": 23,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 62,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "HonestPrimaryUnwatermarkedFraction": [
+      {
+        "line": 57,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "HonestPrimaryUnwatermarkedN": [
+      {
+        "line": 23,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "ImageHeight": [
+      {
+        "line": 33,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "ImageWidth": [
+      {
+        "line": 33,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "InversionGuidance": [
+      {
+        "line": 37,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "InversionSteps": [
+      {
+        "line": 37,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "JpegQuality": [
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 55,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "LegacyHashCandidateCallLine": [
+      {
+        "line": 61,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "LegacyHashOriginalCallLine": [
+      {
+        "line": 61,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "LegacyHashRandomCallLine": [
+      {
+        "line": 61,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "LocalCThreshold": [
+      {
+        "line": 43,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 19,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 35,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 77,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 20,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 56,
+        "path": "supplement/S-04-forgeries.tex"
+      },
+      {
+        "line": 11,
+        "path": "supplement/S-05-strength.tex"
+      },
+      {
+        "line": 50,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "LocalMThreshold": [
+      {
+        "line": 43,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 56,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 19,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 35,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 58,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 77,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 20,
+        "path": "supplement/S-04-forgeries.tex"
+      },
+      {
+        "line": 56,
+        "path": "supplement/S-04-forgeries.tex"
+      },
+      {
+        "line": 11,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "LockedClassDecoyPerArm": [
+      {
+        "line": 112,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 38,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedClassPlainDecoyConsequential": [
+      {
+        "line": 38,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedClassPlainPassConsequential": [
+      {
+        "line": 37,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedClassPlainPassLook": [
+      {
+        "line": 112,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 37,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedClassRepairedDecoyConsequential": [
+      {
+        "line": 38,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedClassRepairedPassConsequential": [
+      {
+        "line": 37,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedClassRepairedPassLook": [
+      {
+        "line": 37,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedClassRepairedPassOther": [
+      {
+        "line": 37,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedCoveragePacketLabelRows": [
+      {
+        "line": 110,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "LockedCoverageUnsampledNumericFailures": [
+      {
+        "line": 14,
+        "path": "sections/06-restore.tex"
+      },
+      {
+        "line": 110,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "LockedDiagnosticPlainPrimaryK": [
+      {
+        "line": 33,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedDiagnosticPlainPrimaryN": [
+      {
+        "line": 33,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedDiagnosticPlainStrengthK": [
+      {
+        "line": 33,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedDiagnosticPlainStrengthN": [
+      {
+        "line": 33,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedDiagnosticRepairedPrimaryK": [
+      {
+        "line": 33,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedDiagnosticRepairedStrengthK": [
+      {
+        "line": 33,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedHumanPairedBothSuccess": [
+      {
+        "line": 23,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedHumanPairedN": [
+      {
+        "line": 123,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 6,
+        "path": "sections/06-restore.tex"
+      },
+      {
+        "line": 110,
+        "path": "supplement/S-03-setup.tex"
+      },
+      {
+        "line": 11,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedHumanPairedNeitherSuccess": [
+      {
+        "line": 26,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedHumanPairedPTwoSided": [
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedHumanPairedPlainOnly": [
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      },
+      {
+        "line": 24,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedHumanPairedRepairOnly": [
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      },
+      {
+        "line": 25,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedHumanPlainCIHighPercent": [
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedHumanPlainCILowPercent": [
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedHumanPlainFraction": [
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedHumanPlainPass": [
+      {
+        "line": 112,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "LockedHumanRepairedCIHighPercent": [
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedHumanRepairedCILowPercent": [
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedHumanRepairedFraction": [
+      {
+        "line": 12,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedHumanRepairedPass": [
+      {
+        "line": 13,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedNumericPairedBothSuccess": [
+      {
+        "line": 23,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedNumericPairedNeitherSuccess": [
+      {
+        "line": 26,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedNumericPairedPTwoSided": [
+      {
+        "line": 13,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedNumericPairedPlainOnly": [
+      {
+        "line": 24,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedNumericPairedRepairOnly": [
+      {
+        "line": 25,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedNumericPlainFraction": [
+      {
+        "line": 13,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedNumericPlainPass": [
+      {
+        "line": 112,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 37,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "LockedNumericRepairedFraction": [
+      {
+        "line": 13,
+        "path": "sections/06-restore.tex"
+      }
+    ],
+    "LockedNumericRepairedPass": [
+      {
+        "line": 13,
+        "path": "sections/06-restore.tex"
+      },
+      {
+        "line": 37,
+        "path": "supplement/S-06-restore.tex"
+      }
+    ],
+    "MasterInclusivePaperCorrectedFreshCleanFraction": [
+      {
+        "line": 94,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperCorrectedFreshConsequentialFraction": [
+      {
+        "line": 100,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 97,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperCorrectedFreshJpegSevenFiveFraction": [
+      {
+        "line": 95,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperCorrectedRunZeroZeroFiveCleanFraction": [
+      {
+        "line": 90,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperCorrectedRunZeroZeroFiveNegativeFraction": [
+      {
+        "line": 91,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperCorrectedRunZeroZeroFourCalibrationCleanFraction": [
+      {
+        "line": 92,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperCorrectedRunZeroZeroFourCalibrationJpegSevenFiveFraction": [
+      {
+        "line": 93,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperCorrectedRunZeroZeroSixConsequentialFraction": [
+      {
+        "line": 100,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 96,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperReleasedFreshCleanFraction": [
+      {
+        "line": 94,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperReleasedFreshConsequentialFraction": [
+      {
+        "line": 97,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperReleasedFreshJpegSevenFiveFraction": [
+      {
+        "line": 95,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperReleasedRunZeroZeroFiveCleanFraction": [
+      {
+        "line": 90,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperReleasedRunZeroZeroFiveNegativeFraction": [
+      {
+        "line": 91,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperReleasedRunZeroZeroFourCalibrationCleanFraction": [
+      {
+        "line": 92,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperReleasedRunZeroZeroFourCalibrationJpegSevenFiveFraction": [
+      {
+        "line": 93,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterInclusivePaperReleasedRunZeroZeroSixConsequentialFraction": [
+      {
+        "line": 96,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedFreshCleanFraction": [
+      {
+        "line": 21,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 96,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedFreshConsequentialCIHighPercent": [
+      {
+        "line": 60,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedFreshConsequentialCILowPercent": [
+      {
+        "line": 60,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedFreshConsequentialFraction": [
+      {
+        "line": 37,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 96,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 60,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedFreshConsequentialYieldFraction": [
+      {
+        "line": 37,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedFreshHumanQualifiedYieldFraction": [
+      {
+        "line": 37,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedFreshJpegSevenFiveFraction": [
+      {
+        "line": 21,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 96,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedRunZeroZeroFiveCleanFraction": [
+      {
+        "line": 12,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 21,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 78,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 96,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedRunZeroZeroFiveNegativeFraction": [
+      {
+        "line": 21,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 78,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedRunZeroZeroFourCalibrationJpegSevenFiveFraction": [
+      {
+        "line": 21,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialCIHighPercent": [
+      {
+        "line": 60,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialCILowPercent": [
+      {
+        "line": 60,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialFraction": [
+      {
+        "line": 37,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 96,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 60,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialYieldFraction": [
+      {
+        "line": 37,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperCorrectedRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": [
+      {
+        "line": 37,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedFreshCleanFraction": [
+      {
+        "line": 22,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedFreshConsequentialCIHighPercent": [
+      {
+        "line": 62,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedFreshConsequentialCILowPercent": [
+      {
+        "line": 62,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedFreshConsequentialFraction": [
+      {
+        "line": 38,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 62,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedFreshConsequentialYieldFraction": [
+      {
+        "line": 38,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedFreshHumanQualifiedYieldFraction": [
+      {
+        "line": 38,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedFreshJpegSevenFiveFraction": [
+      {
+        "line": 22,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedRunZeroZeroFiveCleanFraction": [
+      {
+        "line": 22,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedRunZeroZeroFiveNegativeFraction": [
+      {
+        "line": 22,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedRunZeroZeroFourCalibrationJpegSevenFiveFraction": [
+      {
+        "line": 22,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedRunZeroZeroSixConsequentialCIHighPercent": [
+      {
+        "line": 62,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedRunZeroZeroSixConsequentialCILowPercent": [
+      {
+        "line": 62,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedRunZeroZeroSixConsequentialFraction": [
+      {
+        "line": 38,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 62,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedRunZeroZeroSixConsequentialYieldFraction": [
+      {
+        "line": 38,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPaperReleasedRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": [
+      {
+        "line": 38,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryFreshCleanFraction": [
+      {
+        "line": 19,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 30,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "MasterPrimaryFreshConsequentialCIHighPercent": [
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 56,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryFreshConsequentialCILowPercent": [
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 56,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryFreshConsequentialFraction": [
+      {
+        "line": 35,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 13,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 56,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryFreshConsequentialYieldFraction": [
+      {
+        "line": 35,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 110,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryFreshHumanQualifiedYieldFraction": [
+      {
+        "line": 35,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryFreshJpegSevenFiveFraction": [
+      {
+        "line": 26,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 19,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 30,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "MasterPrimaryRunZeroZeroFiveCleanFraction": [
+      {
+        "line": 19,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 77,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 30,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "MasterPrimaryRunZeroZeroFiveNegativeFraction": [
+      {
+        "line": 19,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 77,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryRunZeroZeroFourCalibrationJpegSevenFiveFraction": [
+      {
+        "line": 19,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 30,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "MasterPrimaryRunZeroZeroSixConsequentialCIHighPercent": [
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 56,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryRunZeroZeroSixConsequentialCILowPercent": [
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 56,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryRunZeroZeroSixConsequentialFraction": [
+      {
+        "line": 35,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 94,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 13,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 56,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryRunZeroZeroSixConsequentialYieldFraction": [
+      {
+        "line": 35,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 110,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": [
+      {
+        "line": 35,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthFreshCleanFraction": [
+      {
+        "line": 20,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 30,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "MasterPrimaryStrengthFreshConsequentialCIHighPercent": [
+      {
+        "line": 58,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthFreshConsequentialCILowPercent": [
+      {
+        "line": 58,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthFreshConsequentialFraction": [
+      {
+        "line": 36,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 98,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 13,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 58,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthFreshConsequentialYieldFraction": [
+      {
+        "line": 36,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 110,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthFreshHumanQualifiedYieldFraction": [
+      {
+        "line": 36,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 112,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthFreshJpegSevenFiveFraction": [
+      {
+        "line": 26,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 20,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 98,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 30,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "MasterPrimaryStrengthRunZeroZeroFiveCleanFraction": [
+      {
+        "line": 20,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 98,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 30,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "MasterPrimaryStrengthRunZeroZeroFiveNegativeFraction": [
+      {
+        "line": 20,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthRunZeroZeroFourCalibrationJpegSevenFiveFraction": [
+      {
+        "line": 20,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 30,
+        "path": "sections/05-strength.tex"
+      }
+    ],
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialCIHighPercent": [
+      {
+        "line": 58,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialCILowPercent": [
+      {
+        "line": 58,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialFraction": [
+      {
+        "line": 36,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 98,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 13,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 67,
+        "path": "sections/05-strength.tex"
+      },
+      {
+        "line": 58,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialYieldFraction": [
+      {
+        "line": 36,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 110,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "MasterPrimaryStrengthRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction": [
+      {
+        "line": 36,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 112,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "ModelMirrorRevision": [
+      {
+        "line": 25,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "ModelMirrorRevisionShort": [
+      {
+        "line": 9,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "PaperCorrectedCThreshold": [
+      {
+        "line": 45,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 21,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 37,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 78,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 96,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 88,
+        "path": "supplement/S-04-forgeries.tex"
+      },
+      {
+        "line": 50,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "PaperReleasedCThreshold": [
+      {
+        "line": 45,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 22,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 38,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 88,
+        "path": "supplement/S-04-forgeries.tex"
+      },
+      {
+        "line": 50,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "PatchCount": [
+      {
+        "line": 22,
+        "path": "sections/02-background.tex"
+      }
+    ],
+    "PatchDistanceThreshold": [
+      {
+        "line": 24,
+        "path": "sections/02-background.tex"
+      },
+      {
+        "line": 73,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "PublishedMThreshold": [
+      {
+        "line": 23,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 27,
+        "path": "sections/02-background.tex"
+      },
+      {
+        "line": 45,
+        "path": "sections/02-background.tex"
+      },
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 15,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 19,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 30,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 42,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 45,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 18,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 21,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 22,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 34,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 37,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 38,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 46,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 54,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 57,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 78,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 91,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 96,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 100,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 81,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 218,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 255,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 73,
+        "path": "supplement/S-03-setup.tex"
+      },
+      {
+        "line": 20,
+        "path": "supplement/S-04-forgeries.tex"
+      },
+      {
+        "line": 76,
+        "path": "supplement/S-04-forgeries.tex"
+      },
+      {
+        "line": 82,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RCarrierSide": [
+      {
+        "line": 52,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDhashAllCsi": [
+      {
+        "line": 248,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDhashBits": [
+      {
+        "line": 228,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDhashControls": [
+      {
+        "line": 243,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDhashCutoff": [
+      {
+        "line": 228,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDhashJpeg": [
+      {
+        "line": 239,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDhashLocal": [
+      {
+        "line": 242,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistBlurDhash": [
+      {
+        "line": 269,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistBlurExternal": [
+      {
+        "line": 269,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistBlurFull": [
+      {
+        "line": 269,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistBlurRadius": [
+      {
+        "line": 269,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 275,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistBlurSeal": [
+      {
+        "line": 269,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistBlurThumb": [
+      {
+        "line": 269,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCleanDhash": [
+      {
+        "line": 263,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCleanExternal": [
+      {
+        "line": 263,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCleanFull": [
+      {
+        "line": 263,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCleanSeal": [
+      {
+        "line": 263,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCleanThumb": [
+      {
+        "line": 263,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCropDhash": [
+      {
+        "line": 268,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCropExternal": [
+      {
+        "line": 268,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCropFull": [
+      {
+        "line": 268,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCropPercent": [
+      {
+        "line": 268,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCropSeal": [
+      {
+        "line": 268,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCropSide": [
+      {
+        "line": 275,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistCropThumb": [
+      {
+        "line": 268,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegHighDhash": [
+      {
+        "line": 266,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegHighExternal": [
+      {
+        "line": 266,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegHighFull": [
+      {
+        "line": 266,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegHighSeal": [
+      {
+        "line": 266,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegHighThumb": [
+      {
+        "line": 266,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegLowDhash": [
+      {
+        "line": 264,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegLowExternal": [
+      {
+        "line": 264,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegLowFull": [
+      {
+        "line": 264,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegLowLost": [
+      {
+        "line": 275,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegLowSeal": [
+      {
+        "line": 264,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegLowThumb": [
+      {
+        "line": 264,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegMidDhash": [
+      {
+        "line": 265,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegMidExternal": [
+      {
+        "line": 265,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegMidFull": [
+      {
+        "line": 265,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegMidSeal": [
+      {
+        "line": 265,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistJpegMidThumb": [
+      {
+        "line": 265,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistN": [
+      {
+        "line": 255,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 275,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistNoiseDhash": [
+      {
+        "line": 270,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistNoiseExternal": [
+      {
+        "line": 270,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistNoiseFull": [
+      {
+        "line": 270,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistNoiseSeal": [
+      {
+        "line": 270,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistNoiseSigma": [
+      {
+        "line": 270,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 275,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistNoiseThumb": [
+      {
+        "line": 270,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistQualityHigh": [
+      {
+        "line": 266,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistQualityLow": [
+      {
+        "line": 264,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 275,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistQualityMid": [
+      {
+        "line": 239,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 265,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistResizeDhash": [
+      {
+        "line": 267,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistResizeExternal": [
+      {
+        "line": 267,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistResizeFull": [
+      {
+        "line": 267,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistResizeSeal": [
+      {
+        "line": 267,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RDistResizeThumb": [
+      {
+        "line": 267,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RExternalControls": [
+      {
+        "line": 243,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RExternalCsi": [
+      {
+        "line": 240,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RExternalJpeg": [
+      {
+        "line": 30,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 239,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RExternalLocal": [
+      {
+        "line": 242,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RExternalQuery": [
+      {
+        "line": 241,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RMaskMargin": [
+      {
+        "line": 52,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RPayloadBits": [
+      {
+        "line": 52,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 228,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RReproCleanInclusive": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproCleanStrict": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproCodeLimited": [
+      {
+        "line": 19,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproExhaustiveAuc": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproFpFull": [
+      {
+        "line": 17,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproFpHalf": [
+      {
+        "line": 17,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproInversionLimited": [
+      {
+        "line": 19,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproN": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproNegativeStrict": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproOracleMax": [
+      {
+        "line": 19,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproOracleMin": [
+      {
+        "line": 19,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproPrecisionGains": [
+      {
+        "line": 17,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproPrecisionLosses": [
+      {
+        "line": 17,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproPublishedTarget": [
+      {
+        "line": 15,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproRejected": [
+      {
+        "line": 19,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproSemanticAuc": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproSpatialAuc": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproStrictCIHigh": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReproStrictCILow": [
+      {
+        "line": 14,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReratedFailureFlips": [
+      {
+        "line": 112,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReratedFlipPercent": [
+      {
+        "line": 112,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RReratedFlips": [
+      {
+        "line": 3,
+        "path": "sections/00-abstract.tex"
+      },
+      {
+        "line": 24,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 112,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 11,
+        "path": "sections/08-limits.tex"
+      }
+    ],
+    "RReratedN": [
+      {
+        "line": 3,
+        "path": "sections/00-abstract.tex"
+      },
+      {
+        "line": 24,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 112,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 11,
+        "path": "sections/08-limits.tex"
+      }
+    ],
+    "RSealFreshYield": [
+      {
+        "line": 34,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "RSealInitYield": [
+      {
+        "line": 34,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "RThumbSide": [
+      {
+        "line": 52,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteBlendFull": [
+      {
+        "line": 85,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteBlendHalf": [
+      {
+        "line": 85,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteBlendQuarter": [
+      {
+        "line": 85,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteBlendStrong": [
+      {
+        "line": 85,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteGateDelta": [
+      {
+        "line": 86,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteGateMae": [
+      {
+        "line": 86,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteGatePercent": [
+      {
+        "line": 86,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteGrid": [
+      {
+        "line": 84,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteMaskedChangeMax": [
+      {
+        "line": 223,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteMaskedChangeMin": [
+      {
+        "line": 223,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteMaskedFull": [
+      {
+        "line": 3,
+        "path": "sections/00-abstract.tex"
+      },
+      {
+        "line": 29,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 5,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 217,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteMaskedSeal": [
+      {
+        "line": 218,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteMaskedThumb": [
+      {
+        "line": 3,
+        "path": "sections/00-abstract.tex"
+      },
+      {
+        "line": 29,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 5,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 216,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteSearchChangeMax": [
+      {
+        "line": 223,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteSearchChangeMin": [
+      {
+        "line": 223,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteSearchFull": [
+      {
+        "line": 217,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteSearchSeal": [
+      {
+        "line": 218,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteSearchThumb": [
+      {
+        "line": 216,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteSizeLarge": [
+      {
+        "line": 85,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteSizeMedium": [
+      {
+        "line": 85,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteSizeSmall": [
+      {
+        "line": 85,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RWhiteSourceFull": [
+      {
+        "line": 223,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteSourceThumb": [
+      {
+        "line": 223,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RWhiteSquare": [
+      {
+        "line": 203,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 223,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 85,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepBandBadMin": [
+      {
+        "line": 186,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepBandGoodMax": [
+      {
+        "line": 186,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepBandInconclusiveMax": [
+      {
+        "line": 186,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepBandInconclusiveMin": [
+      {
+        "line": 186,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepGateJpegSanity": [
+      {
+        "line": 13,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 57,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepGateStrongJpegMin": [
+      {
+        "line": 11,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 57,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepGateStrongJpegRejectMax": [
+      {
+        "line": 12,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 57,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepMaxQueries": [
+      {
+        "line": 83,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 177,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepMismatchCutoffPercent": [
+      {
+        "line": 47,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 38,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 54,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 183,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 189,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOldGateClean": [
+      {
+        "line": 287,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 42,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 57,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepOneBAttackLocalFull": [
+      {
+        "line": 104,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 131,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBAttackMatchedStrength": [
+      {
+        "line": 106,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 124,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBAttackPublished": [
+      {
+        "line": 105,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 131,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBAttackThumb": [
+      {
+        "line": 102,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 123,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 240,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBAttackThumbCIHighPercent": [
+      {
+        "line": 123,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBAttackThumbFull": [
+      {
+        "line": 103,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalCleanLocalFull": [
+      {
+        "line": 104,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalCleanMatchedStrength": [
+      {
+        "line": 106,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalCleanPublished": [
+      {
+        "line": 105,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalCleanThumb": [
+      {
+        "line": 102,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalCleanThumbFull": [
+      {
+        "line": 103,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalJpegLocalFull": [
+      {
+        "line": 104,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalJpegMatchedStrength": [
+      {
+        "line": 106,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 124,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalJpegPublished": [
+      {
+        "line": 105,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalJpegThumb": [
+      {
+        "line": 102,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 287,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 61,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepOneBCalJpegThumbFull": [
+      {
+        "line": 103,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBCalN": [
+      {
+        "line": 100,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 124,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 130,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 228,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 287,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 288,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 57,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 61,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepOneBEvalCleanLocalFull": [
+      {
+        "line": 104,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 135,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalCleanMatchedStrength": [
+      {
+        "line": 106,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalCleanPublished": [
+      {
+        "line": 105,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalCleanThumb": [
+      {
+        "line": 102,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 125,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalCleanThumbFull": [
+      {
+        "line": 103,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 135,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalJpegLocalFull": [
+      {
+        "line": 104,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 131,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 135,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalJpegMatchedStrength": [
+      {
+        "line": 106,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 136,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalJpegPublished": [
+      {
+        "line": 105,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 131,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalJpegThumb": [
+      {
+        "line": 30,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 102,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 125,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 239,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalJpegThumbFull": [
+      {
+        "line": 103,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 135,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBEvalN": [
+      {
+        "line": 30,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 100,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 125,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 126,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 131,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 135,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 239,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 288,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBFloorFiveCalJpeg": [
+      {
+        "line": 288,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBFloorFiveEvalJpeg": [
+      {
+        "line": 288,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBFullRuleMCCalJpeg": [
+      {
+        "line": 130,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBJpegRejects": [
+      {
+        "line": 134,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBJpegRejectsFloorAndMismatch": [
+      {
+        "line": 134,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBJpegRejectsFloorOnly": [
+      {
+        "line": 134,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBJpegRejectsMismatchOnly": [
+      {
+        "line": 134,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBMatchedStrengthBoundary": [
+      {
+        "line": 129,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBRecoveries": [
+      {
+        "line": 71,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepOneBRenders": [
+      {
+        "line": 81,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBSpliceLocalFull": [
+      {
+        "line": 104,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 142,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBSpliceMatchedStrength": [
+      {
+        "line": 106,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 129,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 142,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBSpliceN": [
+      {
+        "line": 82,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 100,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 129,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 142,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBSplicePublished": [
+      {
+        "line": 105,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 142,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBSpliceThumb": [
+      {
+        "line": 102,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 142,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBSpliceThumbFull": [
+      {
+        "line": 103,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBUtilityFloor": [
+      {
+        "line": 126,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepOneBVictims": [
+      {
+        "line": 81,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 100,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 122,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 123,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 124,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 131,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 240,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 248,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 71,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepOneCalN": [
+      {
+        "line": 286,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 10,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 42,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 44,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepOneDinoCalClean": [
+      {
+        "line": 286,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 8,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 44,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepOneDinoCalJpeg": [
+      {
+        "line": 286,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 9,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 44,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepOneDinoCutoffPercent": [
+      {
+        "line": 7,
+        "path": "supplement/S-07-repair.tex"
+      },
+      {
+        "line": 42,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepPayloadPatches": [
+      {
+        "line": 41,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 51,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 52,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 30,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepReadableFloor": [
+      {
+        "line": 47,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 37,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 54,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 288,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 33,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepReadableFloorSensitivity": [
+      {
+        "line": 288,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalCleanLocalFull": [
+      {
+        "line": 164,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalCleanMatchedStrength": [
+      {
+        "line": 166,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalCleanPublished": [
+      {
+        "line": 165,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalCleanThumb": [
+      {
+        "line": 162,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 193,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalCleanThumbFull": [
+      {
+        "line": 163,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 193,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalJpegLocalFull": [
+      {
+        "line": 164,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalJpegMatchedStrength": [
+      {
+        "line": 166,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalJpegPublished": [
+      {
+        "line": 165,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalJpegThumb": [
+      {
+        "line": 162,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 193,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalJpegThumbFull": [
+      {
+        "line": 163,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 193,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoCalN": [
+      {
+        "line": 160,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 193,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoClosestMismatchPercent": [
+      {
+        "line": 183,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoEvalCleanThumb": [
+      {
+        "line": 194,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoEvalJpegThumb": [
+      {
+        "line": 194,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoEvalN": [
+      {
+        "line": 194,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalAreaPercent": [
+      {
+        "line": 187,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 195,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalLocalFull": [
+      {
+        "line": 164,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalMatchedStrength": [
+      {
+        "line": 166,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalN": [
+      {
+        "line": 84,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 160,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 186,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 187,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 188,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 203,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 208,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 242,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalNearCutoffMarginPoints": [
+      {
+        "line": 189,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalNearCutoffPasses": [
+      {
+        "line": 189,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalNearCutoffUpperPercent": [
+      {
+        "line": 189,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalPublished": [
+      {
+        "line": 165,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalRejectsNearCutoff": [
+      {
+        "line": 189,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalSquarePixels": [
+      {
+        "line": 187,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalThumb": [
+      {
+        "line": 162,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 188,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 189,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 242,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalThumbFull": [
+      {
+        "line": 163,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 188,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalThumbFullCIHighPercent": [
+      {
+        "line": 188,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLocalThumbFullCILowPercent": [
+      {
+        "line": 188,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoLostSlotVictimQueries": [
+      {
+        "line": 178,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 73,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepTwoLostSlots": [
+      {
+        "line": 178,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 73,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RepTwoMatchedStrengthBoundary": [
+      {
+        "line": 171,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoOutputN": [
+      {
+        "line": 160,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 179,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 183,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoOutputsLocalFull": [
+      {
+        "line": 164,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoOutputsMatchedStrength": [
+      {
+        "line": 166,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoOutputsPublished": [
+      {
+        "line": 165,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoOutputsThumb": [
+      {
+        "line": 162,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 179,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoOutputsThumbFull": [
+      {
+        "line": 163,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoPTwoPredictedMin": [
+      {
+        "line": 181,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoRecovered": [
+      {
+        "line": 181,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoVictimN": [
+      {
+        "line": 83,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 160,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 177,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 179,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 180,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 181,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 186,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 241,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoVictimsLocalFull": [
+      {
+        "line": 164,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoVictimsMatchedStrength": [
+      {
+        "line": 166,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoVictimsPublished": [
+      {
+        "line": 165,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoVictimsThumb": [
+      {
+        "line": 162,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 241,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoVictimsThumbFull": [
+      {
+        "line": 163,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 179,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoVictimsThumbFullCIHighPercent": [
+      {
+        "line": 179,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepTwoWorstCaseVictims": [
+      {
+        "line": 180,
+        "path": "sections/07-repair.tex"
+      }
+    ],
+    "RepUndescribedPercent": [
+      {
+        "line": 52,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 32,
+        "path": "supplement/S-07-repair.tex"
+      }
+    ],
+    "RunFivePredictionsConfirmedCount": [
+      {
+        "line": 30,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RunFivePredictionsNHonest": [
+      {
+        "line": 28,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RunFivePredictionsNUnwatermarked": [
+      {
+        "line": 28,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RunFivePredictionsPOneMGtOneTwoObserved": [
+      {
+        "line": 62,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 36,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RunFivePredictionsPOneMGtOneTwoPredicted": [
+      {
+        "line": 36,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RunFivePredictionsPOneMGtThreeObserved": [
+      {
+        "line": 36,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RunFivePredictionsPOneMGtThreePredicted": [
+      {
+        "line": 36,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RunFourFailedCThreshold": [
+      {
+        "line": 55,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 76,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 50,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "RunFourFailedCleanFraction": [
+      {
+        "line": 76,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "RunFourFailedCleanN": [
+      {
+        "line": 23,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RunFourFailedMThreshold": [
+      {
+        "line": 55,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 76,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 20,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RunFourFailedUnwatermarkedFraction": [
+      {
+        "line": 55,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 76,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "RunFourFailedUnwatermarkedN": [
+      {
+        "line": 23,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "RunSixNaturalnessAnswered": [
+      {
+        "line": 118,
+        "path": "supplement/S-03-setup.tex"
+      },
+      {
+        "line": 68,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "RunSixNaturalnessN": [
+      {
+        "line": 118,
+        "path": "supplement/S-03-setup.tex"
+      },
+      {
+        "line": 68,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneFresh": [
+      {
+        "line": 3,
+        "path": "sections/00-abstract.tex"
+      },
+      {
+        "line": 23,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 34,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 91,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 5,
+        "path": "sections/10-conclusion.tex"
+      },
+      {
+        "line": 55,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneFreshCI": [
+      {
+        "line": 55,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneFreshClean": [
+      {
+        "line": 18,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "SealAloneFreshJpeg": [
+      {
+        "line": 23,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 18,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 91,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "SealAloneHonest": [
+      {
+        "line": 3,
+        "path": "sections/00-abstract.tex"
+      },
+      {
+        "line": 23,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 18,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 91,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "SealAloneInclFresh": [
+      {
+        "line": 23,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 46,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 91,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 97,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneInclFreshClean": [
+      {
+        "line": 94,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneInclFreshJpeg": [
+      {
+        "line": 95,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneInclHonest": [
+      {
+        "line": 90,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneInclInit": [
+      {
+        "line": 23,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 46,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 91,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 96,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneInclRunFourClean": [
+      {
+        "line": 92,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneInclRunFourJpeg": [
+      {
+        "line": 93,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneInit": [
+      {
+        "line": 3,
+        "path": "sections/00-abstract.tex"
+      },
+      {
+        "line": 23,
+        "path": "sections/01-intro.tex"
+      },
+      {
+        "line": 34,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 91,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 5,
+        "path": "sections/10-conclusion.tex"
+      },
+      {
+        "line": 55,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneInitCI": [
+      {
+        "line": 55,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneRunFourClean": [
+      {
+        "line": 78,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "SealAloneRunFourJpeg": [
+      {
+        "line": 18,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "SealCodeCommit": [
+      {
+        "line": 27,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ],
+    "SealCodeCommitShort": [
+      {
+        "line": 8,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 46,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "SearchMaxRenderings": [
+      {
+        "line": 46,
+        "path": "sections/02-background.tex"
+      }
+    ],
+    "SearchMaxRounds": [
+      {
+        "line": 46,
+        "path": "sections/02-background.tex"
+      }
+    ],
+    "SearchProposalsPerRound": [
+      {
+        "line": 46,
+        "path": "sections/02-background.tex"
+      }
+    ],
+    "StandaloneStrengthCutoff": [
+      {
+        "line": 44,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "StrengthCalibrationPercentile": [
+      {
+        "line": 58,
+        "path": "sections/03-setup.tex"
+      }
+    ],
+    "StrengthThreshold": [
+      {
+        "line": 44,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 20,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 36,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 129,
+        "path": "sections/07-repair.tex"
+      },
+      {
+        "line": 11,
+        "path": "supplement/S-05-strength.tex"
+      }
+    ],
+    "TheoryCutoffHonestN": [
+      {
+        "line": 23,
+        "path": "sections/03-setup.tex"
+      },
+      {
+        "line": 61,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 79,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "TheoryCutoffHonestPass": [
+      {
+        "line": 61,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 79,
+        "path": "sections/04-forgeries.tex"
+      }
+    ],
+    "TheoryMatches": [
+      {
+        "line": 54,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 55,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 57,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 61,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 79,
+        "path": "sections/04-forgeries.tex"
+      },
+      {
+        "line": 20,
+        "path": "supplement/S-04-forgeries.tex"
+      }
+    ],
+    "WatermarkSeed": [
+      {
+        "line": 31,
+        "path": "supplement/S-03-setup.tex"
+      }
+    ]
+  },
+  "tex_sources": [
+    {
+      "path": "main.tex",
+      "sha256": "2e1c9f7acb3e1345a2fc7a716342530f0398fea6a016ddfe01a7f79102ddaee2"
+    },
+    {
+      "path": "sections/00-abstract.tex",
+      "sha256": "b9f4e39f5eb968f3b0072219ae4c22a49c814d441654184efdae596d3ff3933d"
+    },
+    {
+      "path": "sections/01-intro.tex",
+      "sha256": "a6e957ffd1b453c57720cb06dd1e9bbf2456b496ccb4a5130891d941b1b1473f"
+    },
+    {
+      "path": "sections/02-background.tex",
+      "sha256": "46a32340193ee2bd2a65946e64551f02540a4a4945026b06cb1aca89348c37de"
+    },
+    {
+      "path": "sections/03-setup.tex",
+      "sha256": "26ff00cd0197c9ee07f784c3ff105a584c526dd9696b32014af88535d4a8536c"
+    },
+    {
+      "path": "sections/04-forgeries.tex",
+      "sha256": "5ba75a291d4f7ea1f11c1a8661cc5b5a77ebc2519224cdf6760cc4f898ee9eeb"
+    },
+    {
+      "path": "sections/05-strength.tex",
+      "sha256": "de940607dd5c5694270640fa4df93f810c028261a139aa2d53a5c6efd65fa593"
+    },
+    {
+      "path": "sections/06-restore.tex",
+      "sha256": "098aa60982fefe307150e48d687e8e84825015b984f98f83f62f4393ee3406da"
+    },
+    {
+      "path": "sections/07-repair.tex",
+      "sha256": "56d6a9d572f71f1d8cd0db204aa2d457a07ecf13648afac3e798010341db90c6"
+    },
+    {
+      "path": "sections/08-limits.tex",
+      "sha256": "ca6fb65189945ff4f5233d4e289887f5b05ac450930bd80613919d0561b3bfe5"
+    },
+    {
+      "path": "sections/09-related.tex",
+      "sha256": "967970f491fd44bf8913d29367f7930d8b2bc56f5058d42464b8ab20c66fb4a4"
+    },
+    {
+      "path": "sections/10-conclusion.tex",
+      "sha256": "19bcf917947051958942afd1fe6b7ab4b9bddeb3eb009f8b01a7bb47e7469c06"
+    },
+    {
+      "path": "supplement/S-03-setup.tex",
+      "sha256": "125d30531bc9de7353d3a9dbaf6da84bb137a5dc2e3616126de76f8860c56289"
+    },
+    {
+      "path": "supplement/S-04-forgeries.tex",
+      "sha256": "65661c2836e9c507dbc18d6f9cfd355277bcd9321c3c30835e2e4c8f9bcdcd6e"
+    },
+    {
+      "path": "supplement/S-05-strength.tex",
+      "sha256": "421c668ba75b144e3b3881fbab272a980dca7411227a5a05e934cd38f2f3560c"
+    },
+    {
+      "path": "supplement/S-06-restore.tex",
+      "sha256": "953faad94742113261bae48ad55ab16b13baaf5bcd3899fc8c90e06cd20e661b"
+    },
+    {
+      "path": "supplement/S-07-repair.tex",
+      "sha256": "f3ca4b5de4bfffbda2a2214d7bcdf4a2d4df45bbc233ed970278f066898c037e"
+    },
+    {
+      "path": "supplement/S-09-related.tex",
+      "sha256": "d2096cea2f404c3e6f94860fd9201da6db502c7959540c831d4fadde25971c3a"
+    }
+  ],
+  "used": [
+    "CalibrationTargetN",
+    "CalibrationTargetPass",
+    "ChanceMatches",
+    "CodeBits",
+    "ConfidenceLevelPercent",
+    "ConsequentialEnrollmentTarget",
+    "CsiReleaseCommitShort",
+    "CsiReleaseVersion",
+    "DatasetRevision",
+    "DatasetRevisionShort",
+    "DecisionAttributionMatchedFourTwoOneConsequentialBoth",
+    "DecisionAttributionMatchedFourTwoOneConsequentialStrengthFourTwoOne",
+    "DecisionAttributionMatchedFourTwoOneRunZeroZeroFiveCleanFull",
+    "DecisionAttributionRunZeroZeroFiveCleanFull",
+    "DecisionAttributionRunZeroZeroFiveCleanMUniqueRejects",
+    "DecisionAttributionRunZeroZeroFiveCleanN",
+    "DecisionAttributionRunZeroZeroFiveCleanNoC",
+    "DecisionAttributionRunZeroZeroFiveCleanNoM",
+    "DecisionAttributionRunZeroZeroFiveCleanNoN",
+    "DecisionAttributionRunZeroZeroFourCleanFull",
+    "DecisionAttributionRunZeroZeroFourCleanN",
+    "DecisionAttributionRunZeroZeroFourCleanNoC",
+    "DecisionAttributionRunZeroZeroFourCleanNoM",
+    "DecisionAttributionRunZeroZeroFourCleanNoN",
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveFull",
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveMUniqueRejects",
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveN",
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveNoC",
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveNoM",
+    "DecisionAttributionRunZeroZeroFourJpegSevenFiveNoN",
+    "DecisionAttributionRunZeroZeroSixConsequentialFailBothMN",
+    "DecisionAttributionRunZeroZeroSixConsequentialFull",
+    "DecisionAttributionRunZeroZeroSixConsequentialMUniqueRejects",
+    "DecisionAttributionRunZeroZeroSixConsequentialN",
+    "DecisionAttributionRunZeroZeroSixConsequentialNUniqueRejects",
+    "DecisionAttributionRunZeroZeroSixConsequentialNoC",
+    "DecisionAttributionRunZeroZeroSixConsequentialNoM",
+    "DecisionAttributionRunZeroZeroSixConsequentialNoN",
+    "DecisionAttributionRunZeroZeroSixInconsequentialFull",
+    "DecisionAttributionRunZeroZeroSixInconsequentialN",
+    "DecisionAttributionRunZeroZeroSixInconsequentialNoC",
+    "DecisionAttributionRunZeroZeroSixInconsequentialNoM",
+    "DecisionAttributionRunZeroZeroSixInconsequentialNoN",
+    "DecisionAttributionRunZeroZeroSixOffSubjectFull",
+    "DecisionAttributionRunZeroZeroSixOffSubjectN",
+    "DecisionAttributionRunZeroZeroSixOffSubjectNoC",
+    "DecisionAttributionRunZeroZeroSixOffSubjectNoM",
+    "DecisionAttributionRunZeroZeroSixOffSubjectNoN",
+    "DecisionAttributionRunZeroZeroSixPairedCleanFull",
+    "DecisionAttributionRunZeroZeroSixPairedCleanN",
+    "DecisionAttributionRunZeroZeroSixPairedCleanNoC",
+    "DecisionAttributionRunZeroZeroSixPairedCleanNoM",
+    "DecisionAttributionRunZeroZeroSixPairedCleanNoN",
+    "FreshJpegOurStrengthRejected",
+    "FreshJpegOurStrengthRejectedCIHighPercent",
+    "FreshJpegOurStrengthRejectedCILowPercent",
+    "FreshJpegOurStrengthRejectedN",
+    "FreshJpegOurStrengthRejectedPercent",
+    "FreshLabelsConsequential",
+    "FreshMatchedCellsKThreeOnlyC",
+    "FreshMatchedCellsPlainOnlyB",
+    "FreshMatchedN",
+    "FreshPacketD",
+    "FreshPacketPKThree",
+    "FreshPacketPlain",
+    "FreshPacketSeparationKThreeBeforePlain",
+    "FreshPacketTotal",
+    "FreshPrimaryClassesInconsequentialK",
+    "FreshPrimaryClassesInconsequentialN",
+    "FreshPrimaryN",
+    "FreshPrimaryYieldN",
+    "FreshQualifiedKThreeCIHighPercent",
+    "FreshQualifiedKThreeCILowPercent",
+    "FreshQualifiedKThreeFraction",
+    "FreshQualifiedPlainCIHighPercent",
+    "FreshQualifiedPlainCILowPercent",
+    "FreshQualifiedPlainFraction",
+    "FriendAllCompleteFriendsBinaryAlpha",
+    "FriendAllCompleteFriendsFourClassAlpha",
+    "FriendCompleteReturns",
+    "FriendExcludedByScreen",
+    "FriendMaxRepeatDisagreements",
+    "FriendRepeatItems",
+    "FriendScreenedFriendsBinaryAlpha",
+    "FriendScreenedFriendsBinaryCIHigh",
+    "FriendScreenedFriendsBinaryCILow",
+    "FriendScreenedFriendsFourClassAlpha",
+    "FriendScreenedFriendsFourClassCIHigh",
+    "FriendScreenedFriendsFourClassCILow",
+    "FriendScreenedRetained",
+    "FriendSharedPairs",
+    "FrontierFloorAllHonestNinetyFiveFreshCIHighPercent",
+    "FrontierFloorAllHonestNinetyFiveFreshCILowPercent",
+    "FrontierFloorAllHonestNinetyFiveFreshFraction",
+    "FrontierFloorAllHonestNinetyFiveRunSixCIHighPercent",
+    "FrontierFloorAllHonestNinetyFiveRunSixCILowPercent",
+    "FrontierFloorAllHonestNinetyFiveRunSixFraction",
+    "FrontierFloorAllHonestNinetyFreshCIHighPercent",
+    "FrontierFloorAllHonestNinetyFreshCILowPercent",
+    "FrontierFloorAllHonestNinetyFreshFraction",
+    "FrontierFloorAllHonestNinetyRunSixCIHighPercent",
+    "FrontierFloorAllHonestNinetyRunSixCILowPercent",
+    "FrontierFloorAllHonestNinetyRunSixFraction",
+    "FrontierFloorBothJpegNinetyFiveFreshCIHighPercent",
+    "FrontierFloorBothJpegNinetyFiveFreshCILowPercent",
+    "FrontierFloorBothJpegNinetyFiveFreshFraction",
+    "FrontierFloorBothJpegNinetyFiveRunSixCIHighPercent",
+    "FrontierFloorBothJpegNinetyFiveRunSixCILowPercent",
+    "FrontierFloorBothJpegNinetyFiveRunSixFraction",
+    "FrontierFloorBothJpegNinetyFiveRunSixTargetCount",
+    "FrontierFloorBothJpegNinetyFreshCIHighPercent",
+    "FrontierFloorBothJpegNinetyFreshCILowPercent",
+    "FrontierFloorBothJpegNinetyFreshFraction",
+    "FrontierFloorBothJpegNinetyRunSixCIHighPercent",
+    "FrontierFloorBothJpegNinetyRunSixCILowPercent",
+    "FrontierFloorBothJpegNinetyRunSixFraction",
+    "FrontierMeaningFreshCaptionCountAuc",
+    "FrontierMeaningFreshStrengthAuc",
+    "FrontierMeaningFreshStrengthCIHigh",
+    "FrontierMeaningFreshStrengthCILow",
+    "FrontierMeaningRunSixCaptionCountAuc",
+    "FrontierMeaningRunSixStrengthAuc",
+    "FrontierMeaningRunSixStrengthCIHigh",
+    "FrontierMeaningRunSixStrengthCILow",
+    "GenerationGuidance",
+    "GenerationSteps",
+    "HeadlineClassPrimaryInconsequentialFraction",
+    "HeadlineLabelsConsequential",
+    "HeadlineMainN",
+    "HeadlineMainYieldN",
+    "HonestPrimaryCleanFraction",
+    "HonestPrimaryCleanN",
+    "HonestPrimaryUnwatermarkedFraction",
+    "HonestPrimaryUnwatermarkedN",
+    "ImageHeight",
+    "ImageWidth",
+    "InversionGuidance",
+    "InversionSteps",
+    "JpegQuality",
+    "LegacyHashCandidateCallLine",
+    "LegacyHashOriginalCallLine",
+    "LegacyHashRandomCallLine",
+    "LocalCThreshold",
+    "LocalMThreshold",
+    "LockedClassDecoyPerArm",
+    "LockedClassPlainDecoyConsequential",
+    "LockedClassPlainPassConsequential",
+    "LockedClassPlainPassLook",
+    "LockedClassRepairedDecoyConsequential",
+    "LockedClassRepairedPassConsequential",
+    "LockedClassRepairedPassLook",
+    "LockedClassRepairedPassOther",
+    "LockedCoveragePacketLabelRows",
+    "LockedCoverageUnsampledNumericFailures",
+    "LockedDiagnosticPlainPrimaryK",
+    "LockedDiagnosticPlainPrimaryN",
+    "LockedDiagnosticPlainStrengthK",
+    "LockedDiagnosticPlainStrengthN",
+    "LockedDiagnosticRepairedPrimaryK",
+    "LockedDiagnosticRepairedStrengthK",
+    "LockedHumanPairedBothSuccess",
+    "LockedHumanPairedN",
+    "LockedHumanPairedNeitherSuccess",
+    "LockedHumanPairedPTwoSided",
+    "LockedHumanPairedPlainOnly",
+    "LockedHumanPairedRepairOnly",
+    "LockedHumanPlainCIHighPercent",
+    "LockedHumanPlainCILowPercent",
+    "LockedHumanPlainFraction",
+    "LockedHumanPlainPass",
+    "LockedHumanRepairedCIHighPercent",
+    "LockedHumanRepairedCILowPercent",
+    "LockedHumanRepairedFraction",
+    "LockedHumanRepairedPass",
+    "LockedNumericPairedBothSuccess",
+    "LockedNumericPairedNeitherSuccess",
+    "LockedNumericPairedPTwoSided",
+    "LockedNumericPairedPlainOnly",
+    "LockedNumericPairedRepairOnly",
+    "LockedNumericPlainFraction",
+    "LockedNumericPlainPass",
+    "LockedNumericRepairedFraction",
+    "LockedNumericRepairedPass",
+    "MasterInclusivePaperCorrectedFreshCleanFraction",
+    "MasterInclusivePaperCorrectedFreshConsequentialFraction",
+    "MasterInclusivePaperCorrectedFreshJpegSevenFiveFraction",
+    "MasterInclusivePaperCorrectedRunZeroZeroFiveCleanFraction",
+    "MasterInclusivePaperCorrectedRunZeroZeroFiveNegativeFraction",
+    "MasterInclusivePaperCorrectedRunZeroZeroFourCalibrationCleanFraction",
+    "MasterInclusivePaperCorrectedRunZeroZeroFourCalibrationJpegSevenFiveFraction",
+    "MasterInclusivePaperCorrectedRunZeroZeroSixConsequentialFraction",
+    "MasterInclusivePaperReleasedFreshCleanFraction",
+    "MasterInclusivePaperReleasedFreshConsequentialFraction",
+    "MasterInclusivePaperReleasedFreshJpegSevenFiveFraction",
+    "MasterInclusivePaperReleasedRunZeroZeroFiveCleanFraction",
+    "MasterInclusivePaperReleasedRunZeroZeroFiveNegativeFraction",
+    "MasterInclusivePaperReleasedRunZeroZeroFourCalibrationCleanFraction",
+    "MasterInclusivePaperReleasedRunZeroZeroFourCalibrationJpegSevenFiveFraction",
+    "MasterInclusivePaperReleasedRunZeroZeroSixConsequentialFraction",
+    "MasterPaperCorrectedFreshCleanFraction",
+    "MasterPaperCorrectedFreshConsequentialCIHighPercent",
+    "MasterPaperCorrectedFreshConsequentialCILowPercent",
+    "MasterPaperCorrectedFreshConsequentialFraction",
+    "MasterPaperCorrectedFreshConsequentialYieldFraction",
+    "MasterPaperCorrectedFreshHumanQualifiedYieldFraction",
+    "MasterPaperCorrectedFreshJpegSevenFiveFraction",
+    "MasterPaperCorrectedRunZeroZeroFiveCleanFraction",
+    "MasterPaperCorrectedRunZeroZeroFiveNegativeFraction",
+    "MasterPaperCorrectedRunZeroZeroFourCalibrationJpegSevenFiveFraction",
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialCIHighPercent",
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialCILowPercent",
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialFraction",
+    "MasterPaperCorrectedRunZeroZeroSixConsequentialYieldFraction",
+    "MasterPaperCorrectedRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction",
+    "MasterPaperReleasedFreshCleanFraction",
+    "MasterPaperReleasedFreshConsequentialCIHighPercent",
+    "MasterPaperReleasedFreshConsequentialCILowPercent",
+    "MasterPaperReleasedFreshConsequentialFraction",
+    "MasterPaperReleasedFreshConsequentialYieldFraction",
+    "MasterPaperReleasedFreshHumanQualifiedYieldFraction",
+    "MasterPaperReleasedFreshJpegSevenFiveFraction",
+    "MasterPaperReleasedRunZeroZeroFiveCleanFraction",
+    "MasterPaperReleasedRunZeroZeroFiveNegativeFraction",
+    "MasterPaperReleasedRunZeroZeroFourCalibrationJpegSevenFiveFraction",
+    "MasterPaperReleasedRunZeroZeroSixConsequentialCIHighPercent",
+    "MasterPaperReleasedRunZeroZeroSixConsequentialCILowPercent",
+    "MasterPaperReleasedRunZeroZeroSixConsequentialFraction",
+    "MasterPaperReleasedRunZeroZeroSixConsequentialYieldFraction",
+    "MasterPaperReleasedRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction",
+    "MasterPrimaryFreshCleanFraction",
+    "MasterPrimaryFreshConsequentialCIHighPercent",
+    "MasterPrimaryFreshConsequentialCILowPercent",
+    "MasterPrimaryFreshConsequentialFraction",
+    "MasterPrimaryFreshConsequentialYieldFraction",
+    "MasterPrimaryFreshHumanQualifiedYieldFraction",
+    "MasterPrimaryFreshJpegSevenFiveFraction",
+    "MasterPrimaryRunZeroZeroFiveCleanFraction",
+    "MasterPrimaryRunZeroZeroFiveNegativeFraction",
+    "MasterPrimaryRunZeroZeroFourCalibrationJpegSevenFiveFraction",
+    "MasterPrimaryRunZeroZeroSixConsequentialCIHighPercent",
+    "MasterPrimaryRunZeroZeroSixConsequentialCILowPercent",
+    "MasterPrimaryRunZeroZeroSixConsequentialFraction",
+    "MasterPrimaryRunZeroZeroSixConsequentialYieldFraction",
+    "MasterPrimaryRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction",
+    "MasterPrimaryStrengthFreshCleanFraction",
+    "MasterPrimaryStrengthFreshConsequentialCIHighPercent",
+    "MasterPrimaryStrengthFreshConsequentialCILowPercent",
+    "MasterPrimaryStrengthFreshConsequentialFraction",
+    "MasterPrimaryStrengthFreshConsequentialYieldFraction",
+    "MasterPrimaryStrengthFreshHumanQualifiedYieldFraction",
+    "MasterPrimaryStrengthFreshJpegSevenFiveFraction",
+    "MasterPrimaryStrengthRunZeroZeroFiveCleanFraction",
+    "MasterPrimaryStrengthRunZeroZeroFiveNegativeFraction",
+    "MasterPrimaryStrengthRunZeroZeroFourCalibrationJpegSevenFiveFraction",
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialCIHighPercent",
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialCILowPercent",
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialFraction",
+    "MasterPrimaryStrengthRunZeroZeroSixConsequentialYieldFraction",
+    "MasterPrimaryStrengthRunZeroZeroSixDescriptiveConsequentialNormalPassingYieldFraction",
+    "ModelMirrorRevision",
+    "ModelMirrorRevisionShort",
+    "PaperCorrectedCThreshold",
+    "PaperReleasedCThreshold",
+    "PatchCount",
+    "PatchDistanceThreshold",
+    "PublishedMThreshold",
+    "RCarrierSide",
+    "RDhashAllCsi",
+    "RDhashBits",
+    "RDhashControls",
+    "RDhashCutoff",
+    "RDhashJpeg",
+    "RDhashLocal",
+    "RDistBlurDhash",
+    "RDistBlurExternal",
+    "RDistBlurFull",
+    "RDistBlurRadius",
+    "RDistBlurSeal",
+    "RDistBlurThumb",
+    "RDistCleanDhash",
+    "RDistCleanExternal",
+    "RDistCleanFull",
+    "RDistCleanSeal",
+    "RDistCleanThumb",
+    "RDistCropDhash",
+    "RDistCropExternal",
+    "RDistCropFull",
+    "RDistCropPercent",
+    "RDistCropSeal",
+    "RDistCropSide",
+    "RDistCropThumb",
+    "RDistJpegHighDhash",
+    "RDistJpegHighExternal",
+    "RDistJpegHighFull",
+    "RDistJpegHighSeal",
+    "RDistJpegHighThumb",
+    "RDistJpegLowDhash",
+    "RDistJpegLowExternal",
+    "RDistJpegLowFull",
+    "RDistJpegLowLost",
+    "RDistJpegLowSeal",
+    "RDistJpegLowThumb",
+    "RDistJpegMidDhash",
+    "RDistJpegMidExternal",
+    "RDistJpegMidFull",
+    "RDistJpegMidSeal",
+    "RDistJpegMidThumb",
+    "RDistN",
+    "RDistNoiseDhash",
+    "RDistNoiseExternal",
+    "RDistNoiseFull",
+    "RDistNoiseSeal",
+    "RDistNoiseSigma",
+    "RDistNoiseThumb",
+    "RDistQualityHigh",
+    "RDistQualityLow",
+    "RDistQualityMid",
+    "RDistResizeDhash",
+    "RDistResizeExternal",
+    "RDistResizeFull",
+    "RDistResizeSeal",
+    "RDistResizeThumb",
+    "RExternalControls",
+    "RExternalCsi",
+    "RExternalJpeg",
+    "RExternalLocal",
+    "RExternalQuery",
+    "RMaskMargin",
+    "RPayloadBits",
+    "RReproCleanInclusive",
+    "RReproCleanStrict",
+    "RReproCodeLimited",
+    "RReproExhaustiveAuc",
+    "RReproFpFull",
+    "RReproFpHalf",
+    "RReproInversionLimited",
+    "RReproN",
+    "RReproNegativeStrict",
+    "RReproOracleMax",
+    "RReproOracleMin",
+    "RReproPrecisionGains",
+    "RReproPrecisionLosses",
+    "RReproPublishedTarget",
+    "RReproRejected",
+    "RReproSemanticAuc",
+    "RReproSpatialAuc",
+    "RReproStrictCIHigh",
+    "RReproStrictCILow",
+    "RReratedFailureFlips",
+    "RReratedFlipPercent",
+    "RReratedFlips",
+    "RReratedN",
+    "RSealFreshYield",
+    "RSealInitYield",
+    "RThumbSide",
+    "RWhiteBlendFull",
+    "RWhiteBlendHalf",
+    "RWhiteBlendQuarter",
+    "RWhiteBlendStrong",
+    "RWhiteGateDelta",
+    "RWhiteGateMae",
+    "RWhiteGatePercent",
+    "RWhiteGrid",
+    "RWhiteMaskedChangeMax",
+    "RWhiteMaskedChangeMin",
+    "RWhiteMaskedFull",
+    "RWhiteMaskedSeal",
+    "RWhiteMaskedThumb",
+    "RWhiteSearchChangeMax",
+    "RWhiteSearchChangeMin",
+    "RWhiteSearchFull",
+    "RWhiteSearchSeal",
+    "RWhiteSearchThumb",
+    "RWhiteSizeLarge",
+    "RWhiteSizeMedium",
+    "RWhiteSizeSmall",
+    "RWhiteSourceFull",
+    "RWhiteSourceThumb",
+    "RWhiteSquare",
+    "RepBandBadMin",
+    "RepBandGoodMax",
+    "RepBandInconclusiveMax",
+    "RepBandInconclusiveMin",
+    "RepGateJpegSanity",
+    "RepGateStrongJpegMin",
+    "RepGateStrongJpegRejectMax",
+    "RepMaxQueries",
+    "RepMismatchCutoffPercent",
+    "RepOldGateClean",
+    "RepOneBAttackLocalFull",
+    "RepOneBAttackMatchedStrength",
+    "RepOneBAttackPublished",
+    "RepOneBAttackThumb",
+    "RepOneBAttackThumbCIHighPercent",
+    "RepOneBAttackThumbFull",
+    "RepOneBCalCleanLocalFull",
+    "RepOneBCalCleanMatchedStrength",
+    "RepOneBCalCleanPublished",
+    "RepOneBCalCleanThumb",
+    "RepOneBCalCleanThumbFull",
+    "RepOneBCalJpegLocalFull",
+    "RepOneBCalJpegMatchedStrength",
+    "RepOneBCalJpegPublished",
+    "RepOneBCalJpegThumb",
+    "RepOneBCalJpegThumbFull",
+    "RepOneBCalN",
+    "RepOneBEvalCleanLocalFull",
+    "RepOneBEvalCleanMatchedStrength",
+    "RepOneBEvalCleanPublished",
+    "RepOneBEvalCleanThumb",
+    "RepOneBEvalCleanThumbFull",
+    "RepOneBEvalJpegLocalFull",
+    "RepOneBEvalJpegMatchedStrength",
+    "RepOneBEvalJpegPublished",
+    "RepOneBEvalJpegThumb",
+    "RepOneBEvalJpegThumbFull",
+    "RepOneBEvalN",
+    "RepOneBFloorFiveCalJpeg",
+    "RepOneBFloorFiveEvalJpeg",
+    "RepOneBFullRuleMCCalJpeg",
+    "RepOneBJpegRejects",
+    "RepOneBJpegRejectsFloorAndMismatch",
+    "RepOneBJpegRejectsFloorOnly",
+    "RepOneBJpegRejectsMismatchOnly",
+    "RepOneBMatchedStrengthBoundary",
+    "RepOneBRecoveries",
+    "RepOneBRenders",
+    "RepOneBSpliceLocalFull",
+    "RepOneBSpliceMatchedStrength",
+    "RepOneBSpliceN",
+    "RepOneBSplicePublished",
+    "RepOneBSpliceThumb",
+    "RepOneBSpliceThumbFull",
+    "RepOneBUtilityFloor",
+    "RepOneBVictims",
+    "RepOneCalN",
+    "RepOneDinoCalClean",
+    "RepOneDinoCalJpeg",
+    "RepOneDinoCutoffPercent",
+    "RepPayloadPatches",
+    "RepReadableFloor",
+    "RepReadableFloorSensitivity",
+    "RepTwoCalCleanLocalFull",
+    "RepTwoCalCleanMatchedStrength",
+    "RepTwoCalCleanPublished",
+    "RepTwoCalCleanThumb",
+    "RepTwoCalCleanThumbFull",
+    "RepTwoCalJpegLocalFull",
+    "RepTwoCalJpegMatchedStrength",
+    "RepTwoCalJpegPublished",
+    "RepTwoCalJpegThumb",
+    "RepTwoCalJpegThumbFull",
+    "RepTwoCalN",
+    "RepTwoClosestMismatchPercent",
+    "RepTwoEvalCleanThumb",
+    "RepTwoEvalJpegThumb",
+    "RepTwoEvalN",
+    "RepTwoLocalAreaPercent",
+    "RepTwoLocalLocalFull",
+    "RepTwoLocalMatchedStrength",
+    "RepTwoLocalN",
+    "RepTwoLocalNearCutoffMarginPoints",
+    "RepTwoLocalNearCutoffPasses",
+    "RepTwoLocalNearCutoffUpperPercent",
+    "RepTwoLocalPublished",
+    "RepTwoLocalRejectsNearCutoff",
+    "RepTwoLocalSquarePixels",
+    "RepTwoLocalThumb",
+    "RepTwoLocalThumbFull",
+    "RepTwoLocalThumbFullCIHighPercent",
+    "RepTwoLocalThumbFullCILowPercent",
+    "RepTwoLostSlotVictimQueries",
+    "RepTwoLostSlots",
+    "RepTwoMatchedStrengthBoundary",
+    "RepTwoOutputN",
+    "RepTwoOutputsLocalFull",
+    "RepTwoOutputsMatchedStrength",
+    "RepTwoOutputsPublished",
+    "RepTwoOutputsThumb",
+    "RepTwoOutputsThumbFull",
+    "RepTwoPTwoPredictedMin",
+    "RepTwoRecovered",
+    "RepTwoVictimN",
+    "RepTwoVictimsLocalFull",
+    "RepTwoVictimsMatchedStrength",
+    "RepTwoVictimsPublished",
+    "RepTwoVictimsThumb",
+    "RepTwoVictimsThumbFull",
+    "RepTwoVictimsThumbFullCIHighPercent",
+    "RepTwoWorstCaseVictims",
+    "RepUndescribedPercent",
+    "RunFivePredictionsConfirmedCount",
+    "RunFivePredictionsNHonest",
+    "RunFivePredictionsNUnwatermarked",
+    "RunFivePredictionsPOneMGtOneTwoObserved",
+    "RunFivePredictionsPOneMGtOneTwoPredicted",
+    "RunFivePredictionsPOneMGtThreeObserved",
+    "RunFivePredictionsPOneMGtThreePredicted",
+    "RunFourFailedCThreshold",
+    "RunFourFailedCleanFraction",
+    "RunFourFailedCleanN",
+    "RunFourFailedMThreshold",
+    "RunFourFailedUnwatermarkedFraction",
+    "RunFourFailedUnwatermarkedN",
+    "RunSixNaturalnessAnswered",
+    "RunSixNaturalnessN",
+    "SealAloneFresh",
+    "SealAloneFreshCI",
+    "SealAloneFreshClean",
+    "SealAloneFreshJpeg",
+    "SealAloneHonest",
+    "SealAloneInclFresh",
+    "SealAloneInclFreshClean",
+    "SealAloneInclFreshJpeg",
+    "SealAloneInclHonest",
+    "SealAloneInclInit",
+    "SealAloneInclRunFourClean",
+    "SealAloneInclRunFourJpeg",
+    "SealAloneInit",
+    "SealAloneInitCI",
+    "SealAloneRunFourClean",
+    "SealAloneRunFourJpeg",
+    "SealCodeCommit",
+    "SealCodeCommitShort",
+    "SearchMaxRenderings",
+    "SearchMaxRounds",
+    "SearchProposalsPerRound",
+    "StandaloneStrengthCutoff",
+    "StrengthCalibrationPercentile",
+    "StrengthThreshold",
+    "TheoryCutoffHonestN",
+    "TheoryCutoffHonestPass",
+    "TheoryMatches",
+    "WatermarkSeed"
+  ]
+}

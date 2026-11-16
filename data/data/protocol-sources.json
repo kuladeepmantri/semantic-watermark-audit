@@ -1,0 +1,32 @@
+{
+  "author": "Kuladeep Mantri",
+  "note": "Design choices and descriptive context, not measurements. All observed counts use row data.",
+  "sources": {
+    "FrontierReleasedSpatialLowCutoff": "paper/build/frontier/frontier-results.json#grid.c_gates.released20[1]; audit paper/build/frontier/audit-AUDIT-FRONTIER.md",
+    "RepBandBadMin": "research/sprint/amend-o14/v2/EXP2-NUMBERS.json#b.band upper + 1 (derived)",
+    "RepBandGoodMax": "research/sprint/amend-o14/v2/EXP2-NUMBERS.json#a.band",
+    "RepBandInconclusiveMax": "research/sprint/amend-o14/v2/EXP2-NUMBERS.json#b.band",
+    "RepBandInconclusiveMin": "research/sprint/amend-o14/v2/EXP2-NUMBERS.json#b.band",
+    "RepGateJpegSanity": "research/sprint/amend-o14/v2/audit-O15-EXP2-RESULTS.md:95 (P6: JPEG sanity >=30/40)",
+    "RepGateStrongJpegMin": "research/sprint/amend-o14/v2/audit-O15-EXP2-RESULTS.md:95 (P6: strong JPEG >=12)",
+    "RepGateStrongJpegRejectMax": "research/sprint/amend-o14/v2/audit-O15-EXP2-RESULTS.md:95 (P6: added cost <=1)",
+    "RepMismatchCutoffPercent": "research/sprint/amend-o14/v2/audit-O15-EXP1B-RESULTS.md:44",
+    "RepNotConstructed": "research/sprint/amend-o14/v2/audit-O15-EXP1B-RESULTS.md:16,108",
+    "RepNotRegistered": "research/sprint/amend-o14/v2/audit-O15-EXP2-RESULTS.md:126",
+    "RepOldGateClean": "research/sprint/amend-o14/v2/audit-O15-EXP1B-RESULTS.md:112",
+    "RepOneBUtilityFloor": "research/sprint/amend-o14/v2/audit-O15-EXP1B-RESULTS.md:130",
+    "RepOneBUtilityTarget": "research/sprint/amend-o14/v2/audit-O15-EXP1B-RESULTS.md:130",
+    "RepOneDinoCutoffPercent": "paper/PAPER-MUST-SAY.md:137 (S2-18): mismatch <=0.12",
+    "RepPayloadPatches": "research/sprint/amend-o14/v2/audit-O15-EXP2-RESULTS.md:51",
+    "RepReadableFloor": "research/sprint/amend-o14/v2/audit-O15-EXP1B-RESULTS.md:44",
+    "RepReadableFloorSensitivity": "research/sprint/amend-o14/v2/audit-O15-EXP1B-RESULTS.md:112",
+    "RepTwoLocalNearCutoffMarginPoints": "research/sprint/amend-o14/v2/audit-O15-EXP2-RESULTS.md:124",
+    "RepTwoLocalNearCutoffUpperPercent": "research/sprint/amend-o14/v2/audit-O15-EXP2-RESULTS.md:37",
+    "RepTwoLocalSquarePixels": "research/sprint/amend-o14/v2/EXP2-NUMBERS.json#edit_size",
+    "RepTwoPTwoPredictedMin": "research/sprint/amend-o14/v2/audit-O15-EXP2-RESULTS.md:91",
+    "RepUndescribedPercent": "paper/PAPER-MUST-SAY.md:124",
+    "RunFourDevelopmentN": "experiments/seal-csi/run-004-clean-baseline/PROTOCOL.md:9,11 (indices 20..119 inclusive)",
+    "SealCodeCommitFull": "paper/build/numbers/identifiers.json#SealCodeCommit; paper/v1/overnight/round1/audit-SEAL-ALONE.md Code version",
+    "StandaloneStrengthCutoff": "research/audits/audit/independent_critique_recheck.json#matched421"
+  }
+}

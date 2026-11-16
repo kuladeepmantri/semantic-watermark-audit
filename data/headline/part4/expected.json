@@ -1,0 +1,122 @@
+{
+  "ConsequentialEnrollmentTarget": {
+    "value": 50.0,
+    "rendered": "50"
+  },
+  "GenerationGuidance": {
+    "value": 7.5,
+    "rendered": "7.5"
+  },
+  "GenerationSteps": {
+    "value": 50,
+    "rendered": "50"
+  },
+  "ImageHeight": {
+    "value": 512,
+    "rendered": "512"
+  },
+  "ImageWidth": {
+    "value": 512,
+    "rendered": "512"
+  },
+  "InversionGuidance": {
+    "value": 1,
+    "rendered": "1"
+  },
+  "InversionSteps": {
+    "value": 50,
+    "rendered": "50"
+  },
+  "SearchMaxRenderings": {
+    "value": 5,
+    "rendered": "5"
+  },
+  "SearchMaxRounds": {
+    "value": 60,
+    "rendered": "60"
+  },
+  "SearchProposalsPerRound": {
+    "value": 10,
+    "rendered": "10"
+  },
+  "WatermarkSeed": {
+    "value": 42,
+    "rendered": "42"
+  },
+  "RunFivePredictionsConfirmedCount": {
+    "value": 8,
+    "rendered": "8"
+  },
+  "RunFivePredictionsNHonest": {
+    "value": 200,
+    "rendered": "200"
+  },
+  "RunFivePredictionsNUnwatermarked": {
+    "value": 200,
+    "rendered": "200"
+  },
+  "RunFivePredictionsPOneMGtOneTwoObserved": {
+    "value": 139,
+    "rendered": "139"
+  },
+  "RunFivePredictionsPOneMGtOneTwoPredicted": {
+    "value": 141.20304686851824,
+    "rendered": "141.20304686851824"
+  },
+  "RunFivePredictionsPOneMGtThreeObserved": {
+    "value": 195,
+    "rendered": "195"
+  },
+  "RunFivePredictionsPOneMGtThreePredicted": {
+    "value": 191.5339985933224,
+    "rendered": "191.5339985933224"
+  },
+  "DatasetRevision": {
+    "value": "d816d4a05cb89bde39dd99284c459801e1e7e69a",
+    "rendered": "d816d4a05cb89bde39dd99284c459801e1e7e69a"
+  },
+  "DatasetRevisionShort": {
+    "value": "d816d4a05cb89bde39dd99284c459801e1e7e69a",
+    "rendered": "d816d4a0"
+  },
+  "ModelMirrorRevision": {
+    "value": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "rendered": "0094d483a120f3f33dafbd187ea4aa60d10de75c"
+  },
+  "ModelMirrorRevisionShort": {
+    "value": "0094d483a120f3f33dafbd187ea4aa60d10de75c",
+    "rendered": "0094d483"
+  },
+  "LegacyHashCandidateCallLine": {
+    "value": "118",
+    "rendered": "118"
+  },
+  "LegacyHashOriginalCallLine": {
+    "value": "113",
+    "rendered": "113"
+  },
+  "LegacyHashRandomCallLine": {
+    "value": "99",
+    "rendered": "99"
+  },
+  "CsiReleaseCommitShort": {
+    "value": "8723e362835a6a61efd11b61f677b3321face3fa",
+    "rendered": "8723e362"
+  },
+  "CsiReleaseVersion": {
+    "value": "1.0.0",
+    "rendered": "1.0.0"
+  },
+  "SealCodeCommit": {
+    "value": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
+    "rendered": "92d31b31b93a6e373fe88a584c640beafb68c6fa"
+  },
+  "SealCodeCommitShort": {
+    "value": "92d31b31b93a6e373fe88a584c640beafb68c6fa",
+    "rendered": "92d31b31"
+  },
+  "StrengthCalibrationPercentile": {
+    "value": 5.0,
+    "rendered": "5"
+  }
+}

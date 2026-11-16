@@ -1,0 +1,2210 @@
+{
+  "paired": {
+    "committed": [
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E089"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E020"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E078"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E064"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E080"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E003"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E037"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E002"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E093"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E071"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": true
+        },
+        "victim": "X2E014"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E034"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E019"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E066"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E053"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E011"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E090"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E087"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E051"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E069"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E000"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E072"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E068"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E006"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E067"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E091"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E088"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E029"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E018"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": true
+        },
+        "victim": "X2E055"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E076"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E084"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E032"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E036"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E065"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E021"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E097"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E045"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E075"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 3,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E061"
+      }
+    ],
+    "first_query": [
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E089"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E020"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E078"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E064"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E080"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E003"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E037"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E002"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E093"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E071"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": true
+        },
+        "victim": "X2E014"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E034"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E019"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E066"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E053"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E011"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E090"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E087"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E051"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E069"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E000"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E072"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E068"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E006"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E067"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E091"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E088"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": true,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E029"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E018"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": true
+        },
+        "victim": "X2E055"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E076"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E084"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E032"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E036"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E065"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E021"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E097"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "victim": "X2E045"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": false,
+          "count_strict": false,
+          "local_full": false
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": false
+        },
+        "victim": "X2E075"
+      },
+      {
+        "changed": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "missing_render": false,
+        "query": 1,
+        "regen": {
+          "P20": false,
+          "conjunction": false,
+          "count_inclusive": true,
+          "count_strict": true,
+          "local_full": true
+        },
+        "victim": "X2E061"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "C": 59.0,
+      "M": 3,
+      "N_any": 356,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.18412698412698414,
+      "mismatched_bits": 58,
+      "readable": 45,
+      "total_read_bits": 315,
+      "victim": "X2E089"
+    },
+    {
+      "C": 69.0,
+      "M": 8,
+      "N_any": 350,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.2077922077922078,
+      "mismatched_bits": 64,
+      "readable": 44,
+      "total_read_bits": 308,
+      "victim": "X2E020"
+    },
+    {
+      "C": 59.0,
+      "M": 3,
+      "N_any": 533,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.2857142857142857,
+      "mismatched_bits": 128,
+      "readable": 64,
+      "total_read_bits": 448,
+      "victim": "X2E078"
+    },
+    {
+      "C": 69.0,
+      "M": 0,
+      "N_any": 135,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.19254658385093168,
+      "mismatched_bits": 31,
+      "readable": 23,
+      "total_read_bits": 161,
+      "victim": "X2E064"
+    },
+    {
+      "C": 63.0,
+      "M": 4,
+      "N_any": 352,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.23249299719887956,
+      "mismatched_bits": 83,
+      "readable": 51,
+      "total_read_bits": 357,
+      "victim": "X2E080"
+    },
+    {
+      "C": 67.0,
+      "M": 4,
+      "N_any": 106,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.21428571428571427,
+      "mismatched_bits": 12,
+      "readable": 8,
+      "total_read_bits": 56,
+      "victim": "X2E003"
+    },
+    {
+      "C": 50.0,
+      "M": 14,
+      "N_any": 550,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": true
+      },
+      "mismatch": 0.1974025974025974,
+      "mismatched_bits": 76,
+      "readable": 55,
+      "total_read_bits": 385,
+      "victim": "X2E037"
+    },
+    {
+      "C": 63.0,
+      "M": 0,
+      "N_any": 29,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.5714285714285714,
+      "mismatched_bits": 12,
+      "readable": 3,
+      "total_read_bits": 21,
+      "victim": "X2E002"
+    },
+    {
+      "C": 78.0,
+      "M": 1,
+      "N_any": 58,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.21428571428571427,
+      "mismatched_bits": 12,
+      "readable": 8,
+      "total_read_bits": 56,
+      "victim": "X2E093"
+    },
+    {
+      "C": 60.0,
+      "M": 0,
+      "N_any": 40,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.4642857142857143,
+      "mismatched_bits": 13,
+      "readable": 4,
+      "total_read_bits": 28,
+      "victim": "X2E071"
+    },
+    {
+      "C": 53.0,
+      "M": 10,
+      "N_any": 486,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": true
+      },
+      "mismatch": 0.21428571428571427,
+      "mismatched_bits": 111,
+      "readable": 74,
+      "total_read_bits": 518,
+      "victim": "X2E014"
+    },
+    {
+      "C": 63.0,
+      "M": 248,
+      "N_any": 624,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": true
+      },
+      "mismatch": 0.17857142857142858,
+      "mismatched_bits": 90,
+      "readable": 72,
+      "total_read_bits": 504,
+      "victim": "X2E034"
+    },
+    {
+      "C": 63.0,
+      "M": 1,
+      "N_any": 157,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.31932773109243695,
+      "mismatched_bits": 38,
+      "readable": 17,
+      "total_read_bits": 119,
+      "victim": "X2E019"
+    },
+    {
+      "C": 49.0,
+      "M": 1,
+      "N_any": 60,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.42857142857142855,
+      "mismatched_bits": 15,
+      "readable": 5,
+      "total_read_bits": 35,
+      "victim": "X2E066"
+    },
+    {
+      "C": 53.0,
+      "M": 11,
+      "N_any": 137,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.2653061224489796,
+      "mismatched_bits": 26,
+      "readable": 14,
+      "total_read_bits": 98,
+      "victim": "X2E053"
+    },
+    {
+      "C": 65.0,
+      "M": 38,
+      "N_any": 260,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": false
+      },
+      "mismatch": 0.16917293233082706,
+      "mismatched_bits": 45,
+      "readable": 38,
+      "total_read_bits": 266,
+      "victim": "X2E011"
+    },
+    {
+      "C": 54.0,
+      "M": 51,
+      "N_any": 538,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": true
+      },
+      "mismatch": 0.16909620991253643,
+      "mismatched_bits": 58,
+      "readable": 49,
+      "total_read_bits": 343,
+      "victim": "X2E090"
+    },
+    {
+      "C": 62.0,
+      "M": 1,
+      "N_any": 151,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.18518518518518517,
+      "mismatched_bits": 35,
+      "readable": 27,
+      "total_read_bits": 189,
+      "victim": "X2E087"
+    },
+    {
+      "C": 66.0,
+      "M": 97,
+      "N_any": 730,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": true
+      },
+      "mismatch": 0.1794425087108014,
+      "mismatched_bits": 103,
+      "readable": 82,
+      "total_read_bits": 574,
+      "victim": "X2E051"
+    },
+    {
+      "C": 76.0,
+      "M": 3,
+      "N_any": 81,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.19047619047619047,
+      "mismatched_bits": 12,
+      "readable": 9,
+      "total_read_bits": 63,
+      "victim": "X2E069"
+    },
+    {
+      "C": 69.0,
+      "M": 59,
+      "N_any": 330,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": false
+      },
+      "mismatch": 0.28888888888888886,
+      "mismatched_bits": 91,
+      "readable": 45,
+      "total_read_bits": 315,
+      "victim": "X2E000"
+    },
+    {
+      "C": 59.0,
+      "M": 18,
+      "N_any": 286,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": false
+      },
+      "mismatch": 0.16071428571428573,
+      "mismatched_bits": 45,
+      "readable": 40,
+      "total_read_bits": 280,
+      "victim": "X2E072"
+    },
+    {
+      "C": 52.0,
+      "M": 15,
+      "N_any": 656,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": true
+      },
+      "mismatch": 0.1794871794871795,
+      "mismatched_bits": 98,
+      "readable": 78,
+      "total_read_bits": 546,
+      "victim": "X2E068"
+    },
+    {
+      "C": 68.0,
+      "M": 1,
+      "N_any": 362,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.2627551020408163,
+      "mismatched_bits": 103,
+      "readable": 56,
+      "total_read_bits": 392,
+      "victim": "X2E006"
+    },
+    {
+      "C": 59.0,
+      "M": 5,
+      "N_any": 130,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.26285714285714284,
+      "mismatched_bits": 46,
+      "readable": 25,
+      "total_read_bits": 175,
+      "victim": "X2E067"
+    },
+    {
+      "C": 60.0,
+      "M": 4,
+      "N_any": 42,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.32142857142857145,
+      "mismatched_bits": 9,
+      "readable": 4,
+      "total_read_bits": 28,
+      "victim": "X2E091"
+    },
+    {
+      "C": 71.0,
+      "M": 10,
+      "N_any": 206,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.22119815668202766,
+      "mismatched_bits": 48,
+      "readable": 31,
+      "total_read_bits": 217,
+      "victim": "X2E088"
+    },
+    {
+      "C": 67.0,
+      "M": 53,
+      "N_any": 362,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": false
+      },
+      "mismatch": 0.18598382749326145,
+      "mismatched_bits": 69,
+      "readable": 53,
+      "total_read_bits": 371,
+      "victim": "X2E029"
+    },
+    {
+      "C": 61.0,
+      "M": 1,
+      "N_any": 58,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.16666666666666666,
+      "mismatched_bits": 14,
+      "readable": 12,
+      "total_read_bits": 84,
+      "victim": "X2E018"
+    },
+    {
+      "C": 55.0,
+      "M": 5,
+      "N_any": 465,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": true
+      },
+      "mismatch": 0.226890756302521,
+      "mismatched_bits": 81,
+      "readable": 51,
+      "total_read_bits": 357,
+      "victim": "X2E055"
+    },
+    {
+      "C": 70.0,
+      "M": 86,
+      "N_any": 431,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": true
+      },
+      "mismatch": 0.16290726817042606,
+      "mismatched_bits": 65,
+      "readable": 57,
+      "total_read_bits": 399,
+      "victim": "X2E076"
+    },
+    {
+      "C": 57.0,
+      "M": 0,
+      "N_any": 96,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.3392857142857143,
+      "mismatched_bits": 19,
+      "readable": 8,
+      "total_read_bits": 56,
+      "victim": "X2E084"
+    },
+    {
+      "C": 49.0,
+      "M": 2,
+      "N_any": 107,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.19047619047619047,
+      "mismatched_bits": 16,
+      "readable": 12,
+      "total_read_bits": 84,
+      "victim": "X2E032"
+    },
+    {
+      "C": 79.0,
+      "M": 2,
+      "N_any": 104,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.2767857142857143,
+      "mismatched_bits": 31,
+      "readable": 16,
+      "total_read_bits": 112,
+      "victim": "X2E036"
+    },
+    {
+      "C": 49.0,
+      "M": 1,
+      "N_any": 139,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.2727272727272727,
+      "mismatched_bits": 42,
+      "readable": 22,
+      "total_read_bits": 154,
+      "victim": "X2E065"
+    },
+    {
+      "C": 62.0,
+      "M": 5,
+      "N_any": 112,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.35714285714285715,
+      "mismatched_bits": 35,
+      "readable": 14,
+      "total_read_bits": 98,
+      "victim": "X2E021"
+    },
+    {
+      "C": 67.0,
+      "M": 18,
+      "N_any": 196,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": false
+      },
+      "mismatch": 0.3241758241758242,
+      "mismatched_bits": 59,
+      "readable": 26,
+      "total_read_bits": 182,
+      "victim": "X2E097"
+    },
+    {
+      "C": 49.0,
+      "M": 0,
+      "N_any": 171,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": false,
+        "count_strict": false,
+        "local_full": false
+      },
+      "mismatch": 0.2534562211981567,
+      "mismatched_bits": 55,
+      "readable": 31,
+      "total_read_bits": 217,
+      "victim": "X2E045"
+    },
+    {
+      "C": 73.0,
+      "M": 16,
+      "N_any": 375,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": false
+      },
+      "mismatch": 0.2732919254658385,
+      "mismatched_bits": 88,
+      "readable": 46,
+      "total_read_bits": 322,
+      "victim": "X2E075"
+    },
+    {
+      "C": 62.0,
+      "M": 30,
+      "N_any": 594,
+      "decisions": {
+        "P20": false,
+        "conjunction": false,
+        "count_inclusive": true,
+        "count_strict": true,
+        "local_full": true
+      },
+      "mismatch": 0.289738430583501,
+      "mismatched_bits": 144,
+      "readable": 71,
+      "total_read_bits": 497,
+      "victim": "X2E061"
+    }
+  ]
+}

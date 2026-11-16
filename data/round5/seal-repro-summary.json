@@ -1,0 +1,178 @@
+{
+  "aucs": {
+    "C_corrected": {
+      "auc": 0.90875,
+      "negative_n": 20,
+      "positive_n": 20,
+      "score_direction": -1,
+      "source": "RESCORE-1.json#/rows; per-row paths identify frozen distance maps and inverse tensors"
+    },
+    "C_released": {
+      "auc": 0.35625,
+      "negative_n": 20,
+      "positive_n": 20,
+      "score_direction": -1,
+      "source": "RESCORE-1.json#/rows; per-row paths identify frozen distance maps and inverse tensors"
+    },
+    "M": {
+      "auc": 1.0,
+      "negative_n": 20,
+      "positive_n": 20,
+      "score_direction": 1,
+      "source": "RESCORE-1.json#/rows; per-row paths identify frozen distance maps and inverse tensors"
+    },
+    "N_any": {
+      "auc": 1.0,
+      "negative_n": 20,
+      "positive_n": 20,
+      "score_direction": 1,
+      "source": "RESCORE-1.json#/rows; per-row paths identify frozen distance maps and inverse tensors"
+    }
+  },
+  "author": "Kuladeep Mantri",
+  "data_reused": true,
+  "exact_published_reproduction": false,
+  "freeze": "research/sprint/round5-exps/seal-repro/FREEZE.json",
+  "limitations": [
+    "Historical selected-by-index 20-image cohort; not a new held-out experiment.",
+    "0.980 is not a verified M > 12 TPR, and the published endpoint is ambiguous.",
+    "Negative images use the same prompts; upstream script uses next prompts.",
+    "MPS and mirror weights differ in provenance/runtime from author CUDA setup; official tensor identity unresolved.",
+    "FP32 rerun promotes fp16 checkpoint values and fixes captions; it does not test full-precision generation or captioning.",
+    "AUC comparison is descriptive on 20 positive and 20 negative images; no equivalence test."
+  ],
+  "measured_proximate_causes": {
+    "changed_code_matches_on_failures": 0,
+    "fewer_than_13_retained_codes_n": 4,
+    "oracle_matches_max": 979,
+    "oracle_matches_min": 508,
+    "semantic_failures_n": 7,
+    "source": "RESCORE-1.json#/ablation; outputs/000 through 019/maps.npz",
+    "sufficient_codes_but_inversion_loss_n": 3
+  },
+  "model_generation_performed": false,
+  "paired_changes": {
+    "fresh_fp16_exact_inverse_n": 20,
+    "improved": [],
+    "norm_only_flips": [],
+    "source": "RESCORE-1.json#/ablation; outputs/000 through 019/maps.npz",
+    "worsened": []
+  },
+  "precision": {
+    "fresh_fp16": {
+      "exact_95_ci": [
+        0.40781146546717184,
+        0.8460907952154588
+      ],
+      "k": 13,
+      "n": 20,
+      "rate": 0.65,
+      "source": "RESCORE-1.json#/ablation; outputs/000 through 019/maps.npz"
+    },
+    "fresh_fp32": {
+      "exact_95_ci": [
+        0.40781146546717184,
+        0.8460907952154588
+      ],
+      "k": 13,
+      "n": 20,
+      "rate": 0.65,
+      "source": "RESCORE-1.json#/ablation; outputs/000 through 019/maps.npz"
+    },
+    "norm_fp32": {
+      "exact_95_ci": [
+        0.40781146546717184,
+        0.8460907952154588
+      ],
+      "k": 13,
+      "n": 20,
+      "rate": 0.65,
+      "source": "RESCORE-1.json#/ablation; outputs/000 through 019/maps.npz"
+    },
+    "oracle_original": {
+      "exact_95_ci": [
+        0.8315665290169146,
+        1.0
+      ],
+      "k": 20,
+      "n": 20,
+      "rate": 1.0,
+      "source": "RESCORE-1.json#/ablation; outputs/000 through 019/maps.npz"
+    },
+    "saved_fp16": {
+      "exact_95_ci": [
+        0.40781146546717184,
+        0.8460907952154588
+      ],
+      "k": 13,
+      "n": 20,
+      "rate": 0.65,
+      "source": "RESCORE-1.json#/ablation; outputs/000 through 019/maps.npz"
+    }
+  },
+  "publication": {
+    "M_greater_than_12_reported_TPR": null,
+    "actual_figure_sample_size": null,
+    "clean_reported": 0.98,
+    "default_source_positive_n": 1000,
+    "difference_is_same_endpoint": false,
+    "fraction_of_script_default": 0.02,
+    "later_caption": "research/literature/seal-csi/rendered/seal-v4-p12.png",
+    "local_positive_n": 20,
+    "metric": "ICCV caption: detection accuracy; archived later caption: spatial ROC-AUC",
+    "source": "research/literature/seal-csi/papers/seal-supp.pdf, Figure 6, p.1",
+    "source_default": "research/literature/seal-csi/code/SEAL/image_transformations.py --start 0 --end 1000",
+    "strict_descriptive_difference_pp": -32.99999999999999
+  },
+  "rates": {
+    "clean_inclusive": {
+      "exact_95_ci": [
+        0.45721081772371086,
+        0.8810684095942722
+      ],
+      "k": 14,
+      "n": 20,
+      "rate": 0.7,
+      "source": "RESCORE-1.json#/rows; per-row paths identify frozen distance maps and inverse tensors"
+    },
+    "clean_strict": {
+      "exact_95_ci": [
+        0.40781146546717184,
+        0.8460907952154588
+      ],
+      "k": 13,
+      "n": 20,
+      "rate": 0.65,
+      "source": "RESCORE-1.json#/rows; per-row paths identify frozen distance maps and inverse tensors"
+    },
+    "negative_inclusive": {
+      "exact_95_ci": [
+        0.0,
+        0.16843347098308528
+      ],
+      "k": 0,
+      "n": 20,
+      "rate": 0.0,
+      "source": "RESCORE-1.json#/rows; per-row paths identify frozen distance maps and inverse tensors"
+    },
+    "negative_strict": {
+      "exact_95_ci": [
+        0.0,
+        0.16843347098308528
+      ],
+      "k": 0,
+      "n": 20,
+      "rate": 0.0,
+      "source": "RESCORE-1.json#/rows; per-row paths identify frozen distance maps and inverse tensors"
+    }
+  },
+  "repeat": {
+    "byte_identical": true,
+    "sha256": "6d527521ef5300533a2937a28f48b6d038ccd19f462cc376818fa422668379ae",
+    "sources": [
+      "research/sprint/round5-exps/seal-repro/RESCORE-1.json",
+      "research/sprint/round5-exps/seal-repro/RESCORE-2.json"
+    ]
+  },
+  "status": "completed local partial reproduction; exact published-endpoint reproduction unresolved"
+}

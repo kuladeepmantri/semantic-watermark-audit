@@ -1,0 +1,60 @@
+{
+  "author": "Kuladeep Mantri",
+  "normal_passing": {
+    "paper_corrected": 4,
+    "paper_released": 6,
+    "primary": 17,
+    "primary_strength": 7
+  },
+  "rules": {
+    "paper_corrected": {
+      "C_corrected": [
+        "ge",
+        32
+      ],
+      "M": [
+        "gt",
+        12
+      ]
+    },
+    "paper_released": {
+      "C_released": [
+        "ge",
+        53
+      ],
+      "M": [
+        "gt",
+        12
+      ]
+    },
+    "primary": {
+      "C_corrected": [
+        "ge",
+        7
+      ],
+      "M": [
+        "gt",
+        3
+      ]
+    },
+    "primary_strength": {
+      "C_corrected": [
+        "ge",
+        7
+      ],
+      "M": [
+        "gt",
+        3
+      ],
+      "N_any": [
+        "ge",
+        388
+      ]
+    }
+  },
+  "run006_naturalness": {
+    "answered": 199,
+    "missing": 1,
+    "total": 200
+  }
+}
